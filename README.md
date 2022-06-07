@@ -13,4 +13,8 @@ Githubid: Diyaolu04
  [ ] remove contractions python-graphics.md
  
  [ ] python3.10.5 install documentation
+ 
+ ## TODO
+ 
+ [ ] Document about FastAPI
 
