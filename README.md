@@ -6,13 +6,13 @@ Lastname: Diyaolu
 Githubid: Diyaolu04
 ```
 ## Have Achieved
- [ ] updated install.md
+- [*] updated install.md
  
- [ ] updated bio.md
+- [*] updated bio.md
  
- [ ] remove contractions python-graphics.md
+- [*] remove contractions python-graphics.md
  
- [ ] python3.10.5 install documentation
+- [*] python3.10.5 install documentation
  
  ## TODO
  
