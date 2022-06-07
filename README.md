@@ -13,3 +13,5 @@ Githubid: Diyaolu04
  -[x] remove contractions python-graphics.md
  
  -[x] python3.10.5 install documentation
+
+[ ] added matplotlib barchart (10%)
