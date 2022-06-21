@@ -13,8 +13,20 @@ Githubid: Diyaolu04
 - [ ] remove contractions python-graphics.md
  
 - [ ] python3.10.5 install documentation
+
+- [ ] Document about FastAPI
  
  ## TODO
+ - [ ] Get computer temperature and hostname 
+
+
  
- - [ ] Document about FastAPI
+ ### Python Knowledge
+ 
+ #### Before reu2022
+- [ ] Basic python syntax e.g prompt, output,
+
+ #### During reu2022
+- [ ] Had some personal training on python concept
+- [ ] understand how functions, loops, and list works.
 
