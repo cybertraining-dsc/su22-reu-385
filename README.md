@@ -24,7 +24,7 @@ Githubid: Diyaolu04
  ### Python Knowledge
  
  #### Before reu2022
-- [ ] Basic python syntax e.g prompt, output,
+- [ ] Basic python syntax e.g prompt, output.
 
  #### During reu2022
 - [ ] Had some personal training on python concept
