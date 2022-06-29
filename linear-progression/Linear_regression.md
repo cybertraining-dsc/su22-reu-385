@@ -17,7 +17,7 @@ variable. the simple linear regression basically use the formular `y = mx +c`
 y is the dependent variable, m is the slop, x is the in dependent variable , and c is the intercept
 
 ##### Python example
-```
+``` python
 import seaborn as sns
 import matplotlib.pyplot as plt
 rainfall = [1, 3, 5, 7, 9, 11]
@@ -40,7 +40,7 @@ where y is the dependent variable, M is the slop, X is the in dependent variable
 
 #### python example
 
-```
+``` python
 import seaborn as sns
 import matplotlib.pyplot as plt
 rainfall = [1, 3, 5, 7, 9, 11]
@@ -71,7 +71,7 @@ variables.
 
 #### python example
 
-```
+``` python
 import numpy
 import seaborn as sns
 import matplotlib.pyplot as plt
