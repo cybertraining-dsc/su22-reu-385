@@ -6,9 +6,9 @@ It is divided into three categories:
 
 * Simple linear regression
 * Multiple linear regression
-* polynomial linear regression
+* Polynomial linear regression
 
-### Simple linear Regression
+### Simple Linear Regression
 
 Simple linear regression deals with only the dependent and independent variables. For example, linear
 regression can be used to predict the amount of food to be cultivated using only two variables: 
@@ -30,7 +30,7 @@ plt.ylabel("Crop yield ")
 plt.show()
 ```
 
-### Multiple linear Regression
+### Multiple Linear Regression
 
 The multiple linear regression, unlike the simple linear regression, requires more than two factors in the 
 example given above. which requires only the crop yield and the amount of rainfall, the multiple linear regressions 
@@ -63,7 +63,7 @@ plt.show()
 
 ```
 
-#### polynomial linear regression
+### Polynomial Linear Regression
 
 Unlike simple and multiple linear regression, which use straight lines to show the relationship between the dependent 
 and independent variables, polynomial linear regression uses a curved line to show the relationship between the two 
