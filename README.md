@@ -14,17 +14,21 @@ Githubid: Diyaolu04
  
 - [ ] python3.10.5 install documentation
 
-- [ ] Document about FastAPI
+- [ ]  Document about FastAPI
+
+- [ ]  Get computer temperature and hostname 
  
  ## TODO
- - [ ] Get computer temperature and hostname 
+ - [ ] Research on how linear Regression, TFT, and Arima. in predicting time series
 
 
  
- # Python Knowledge
+ # Programming Knowledge
  
  ### Before reu2022
-- [ ] python syntax e.g prompt, output, if statements.
+- [ ] C++ : I have the knowledge of the syntax and how it works e.g promput, output manipulation, Funstion, Loop, If & else statement.
+
+- [ ] Python: Have knowledge on how python syntax such as userprompt, if & else statement
 
  #### During reu2022
 - [ ] Had some personal training on python concept
