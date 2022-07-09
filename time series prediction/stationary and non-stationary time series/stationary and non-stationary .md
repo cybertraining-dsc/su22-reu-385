@@ -35,6 +35,24 @@ Second differencing gives: [-2-(-2), 6-(-2), 15-6] = [0, 8, 9]
 Data points are frequently non-stationary or have changing means, variances, and covariances. Trends,
 cycles, random walks, and combinations of the three are examples of non-stationary behaviors.
 
+While forecasting, it is recommended to convert a non-stationary series to a stationary series because 
+autoregressive forecasting models are essentially linear regression models that use the lag(s) of the 
+series itself as predictors.
+
+
+## How to test for stationary?
+
+A method for determining whether a given series is stationary. This is possible with statistical tests 
+known as 'Unit Root Tests.' There are several variants of this in which the tests determine whether a 
+time series is non-stationary and has a unit root.
+
+Unit Root tests are implemented in a variety of ways, which includes:
+
+* Augmented Dickey Fuller test (ADH Test)
+* Kwiatkowski-Phillips-Schmidt-Shin – KPSS test (trend stationary)
+* Philips Perron test (PP Test)
+
 
 Reference: https://www.machinelearningplus.com/time-series/time-series-analysis-python/
+
 Reference: https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.
