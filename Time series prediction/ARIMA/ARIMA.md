@@ -137,5 +137,7 @@ pyplot.show()
 ![img_5.png](img_5.png)
 
 Dataset: https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv
+
 Reference : https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
+
 Reference: https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.
