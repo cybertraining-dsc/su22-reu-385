@@ -149,6 +149,7 @@ plt.show()
 
 ```
 
+
 ### Polynomial Linear Regression
 
 Unlike simple and multiple linear regression, which use straight lines to show the relationship between the dependent 
