@@ -29,7 +29,9 @@ stationary. And d = 0 if the time series is already stationary.
 A pure Auto Regressive (AR only) model is one in which Yt is solely determined by its own
 lags. That is, Yt is a function of the 'Yt lags.'
 
-![img.png](img.png)
+```
+Yt = \alpha +\beta 1Yt-1 + \beta2 Yt-2+ ... +\beta p Yt-p + \epsilon 1
+```
 
 where $Yt-1$ is the series' lag1, $beta1$ is the lag1 coefficient estimated by the model, and $alpha$ is 
 the intercept term estimated by the model.
@@ -38,7 +40,9 @@ the intercept term estimated by the model.
 Similarly, a pure Moving Average (MA only) model is one in which Yt is determined solely by the lagged
 forecast errors.
 
-![img_1.png](img_1.png)
+``` 
+Yt = \alpha +\epsilon t+\Phi 1\epsilon t-1 + \Phi 2\epsilon t-2 ... +\Phi q\epsilon t-q
+```
 
 where the error terms are the errors of the autoregressive models of the respective lags The errors Et 
 and E(t-1) are the results of the following equations:
@@ -46,7 +50,9 @@ and E(t-1) are the results of the following equations:
 An ARIMA model is one in which the time series is different at least once to make it stationary and the
 AR and MA terms are combined. As a result, the equation is:
 
-![img_2.png](img_2.png)
+```
+Yt = \alpha +\beta 1Yt-1 + \beta 2Yt-2 + ... + \beta pYt-p\epsilon t + \phi 1\epsilon t-1+phi 2\epsilon t-2+...+\phi q \epsilon t-q
+```
 
 Predicted Yt = Constant + Linear combination Lags of Y (upto p lags) + Linear Combination of Lagged forecast errors (upto q lags)
 
