@@ -49,7 +49,7 @@
 #                                      14, 14, 14, 15, 16, 16, 17, 18,
 #                                      14, 13, 14, 14, 14, 15]})
 #
-# # Performing two-way ANOVA
+# # Performing two-way anova
 # model = ols('height ~ C(Fertilizer) + C(Watering) +\
 # C(Fertilizer):C(Watering)',
 #             data=dataframe).fit()
