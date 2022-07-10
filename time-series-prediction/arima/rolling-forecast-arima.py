@@ -14,7 +14,12 @@ def parser(x):
     return datetime.strptime('190' + x, '%Y-%m')
 
 
-series = read_csv('https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv', header=0, index_col=0, parse_dates=True, squeeze=True, date_parser=parser)
+series = read_csv('https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv',
+                  header=0,
+                  index_col=0,
+                  parse_dates=True,
+                  squeeze=True,
+                  date_parser=parser)
 series.index = series.index.to_period('M')
 # split into train and test sets
 X = series.values

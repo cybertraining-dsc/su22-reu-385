@@ -6,6 +6,7 @@ An extensive document of stationary and Non-Stationary Time Series is available 
 * <https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/>
 
 ### Stationary Time series
+
 A stationary time series has statistical properties or moments 
 that do not change over time (for example, mean and variance).
 
@@ -24,6 +25,7 @@ You can make series stationary by:
 * Combination of the above
 
 The most common and convenient method is Differencing the series
+
 ##### Differencing the Series (once or more)
 
 If Y_t is the value at time 't,' the first difference of Y equals
@@ -33,9 +35,9 @@ the next value from the current value.
 If the first difference does not make a series stationary, the second 
 differencing can be used. And so forth.
 
-Consider the following sequence: [8, 6, 4, 10, 25].
-First differencing gives: [6-8, 4-6, 10-4, 25-10] = [-2, -2, 6, 15]
-Second differencing gives: [-2-(-2), 6-(-2), 15-6] = [0, 8, 9]
+* Consider the following sequence: `[8, 6, 4, 10, 25]`.
+* First differencing gives: `[6-8, 4-6, 10-4, 25-10] = [-2, -2, 6, 15]`
+* Second differencing gives: `[-2-(-2), 6-(-2), 15-6] = [0, 8, 9]`
 
 ### Non-Stationary Time series
 
@@ -76,18 +78,27 @@ series are not constant over time, which is required for stationary time series.
 The following is a mathematical explanation:
 
 This Example is from [3]
+
+Suppose we have a time series
+
+
+todo: bug we maust not use utf-8 CHARS BUT USE LATEX EQUATIONS INSTEAD IN MARKDOWN.
+look up how to do that
+
 ```
-Suppose we have a time series :
-
 yt = a*yt-1 + ε t
+```
 
-where yt is the value at the time instant t and ε t is the error term. In order to
-calculate yt we need the value of yt-1, which is :
+where yt is the value at the time instant `t` and `ε t` is the error term. In order to
+calculate yt we need the value of `yt-1`, which is
 
+```
 yt-1 = a*yt-2 + ε t-1
+```
 
 If we do that for all observations, the value of yt will come out to be:
 
+```
 yt = an*yt-n + Σεt-i*ai
 ```
 
@@ -98,11 +109,10 @@ whether a series contains a unit root, and thus whether the series is stationary
 This test's null and alternate hypotheses are as follows:
 
 This Example is from [3]
-```
-Null Hypothesis: The series has a unit root (value of a =1)
 
-Alternate Hypothesis: The series has no unit root.
-```
+* Null Hypothesis: The series has a unit root (value of `a=1`)
+
+* Alternate Hypothesis: The series has no unit root.
 
 ### Kwiatkowski-Phillips-Schmidt-Shin – KPSS test 
 
@@ -142,7 +152,8 @@ ADF tests are also referred to as difference Stationary tests.
 
 
 
-### Reference
+### ReferenceS
+
 * [1] Time Series Analysis in Python <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
 * [2] Intro to Stationary and Non-Stationary Processes <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>

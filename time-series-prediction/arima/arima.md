@@ -116,6 +116,7 @@ Putting it all together, here's an example of a rolling forecast
 in Python using the ARIMA model.
 
 This example is copied from [1]
+
 ```python
 from pandas import read_csv
 from pandas import datetime
@@ -158,9 +159,11 @@ pyplot.show()
 ```
 ![img_5.png](img5.png)
 
-### Dataset:
+### Dataset
+
 * <https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv>
 
-### Reference
+### ReferenceS
+
 * [1]  Create an ARIMA Model for Time Series <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
 * [2] ARIMA Model – Complete Guide to Time Series Forecasting in Python <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>

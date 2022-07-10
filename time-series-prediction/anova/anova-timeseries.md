@@ -119,10 +119,7 @@ This is an example of the of a time series prediction which
 predict the result of a tree grown after
 
 
-
-
-
-### Reference:
+### ReferenceS
 
 * [1] <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
 * [2] <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
