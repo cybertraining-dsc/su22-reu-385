@@ -1,6 +1,7 @@
 ##  Stationary and Non-Stationary Time Series
 
 An extensive document of stationary and Non-Stationary Time Series is available at
+
 * <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 * <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
 * <https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/>
@@ -120,11 +121,10 @@ The KPSS test's authors defined the null hypothesis as the process being trend s
 as opposed to an alternate hypothesis of a unit root series.
 
 This Example is from [3]
-```
-Null Hypothesis: The process is trend stationary.
 
-Alternate Hypothesis: The series has a unit root (series is not stationary).
-```
+* Null Hypothesis: The process is trend stationary.
+
+* Alternate Hypothesis: The series has a unit root (series is not stationary).
 
 ## Types of Stationary
 
