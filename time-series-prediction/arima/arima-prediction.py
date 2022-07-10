@@ -1,4 +1,4 @@
-# This code was copied from:
+# This example was copied from:
 # https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
 # Published By : Jason BrownLee
 from pandas import read_csv

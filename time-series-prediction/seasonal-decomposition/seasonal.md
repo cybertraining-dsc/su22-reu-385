@@ -1,10 +1,15 @@
 ## Seasonal decomposition from stats model
 
+An extensive documentation on seasonal decomposition of stat model is
+available At
+
+* <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
+
+
+
 Decomposing a time series entails viewing it as a collection of
 level, trend, seasonality, and noise components.
-
 There are methods for decomposing a time series automatically.
-
 In a function called `seasonal_decompose()`, the statsmodels library 
 implements the naive, or classical, decomposition method. You must 
 specify whether the model is additive or multiplicative.
@@ -24,7 +29,7 @@ by the same amount.
 We can decompose a time series made up of a linearly increasing trend from
 1 to 99 and random noise as an additive model.
 
-This code was copied from [1]
+This example was copied from [1]
 
 ```python
 from random import randrange
@@ -53,7 +58,7 @@ over time.
 We can create a quadratic time series by taking the square of the time step from 
 1 to 99 and decomposing it using a multiplicative model.
 
-This code was copied from [1]
+This example was copied from [1]
 
 ```python
 from matplotlib import pyplot

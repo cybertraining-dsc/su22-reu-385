@@ -22,3 +22,6 @@ The TFT also makes use of specialized components for the
 
 ``` python
 ```
+
+### Reference
+* [1] Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting <https://arxiv.org/abs/1912.09363>

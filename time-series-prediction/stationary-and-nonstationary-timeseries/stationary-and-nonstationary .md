@@ -1,5 +1,10 @@
 ##  Stationary and Non-Stationary Time Series
 
+An extensive document of stationary and Non-Stationary Time Series is available at
+* <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+* <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
+
+
 ### Stationary Time series
 A stationary time series has statistical properties or moments 
 that do not change over time (for example, mean and variance).
@@ -18,7 +23,7 @@ You can make series stationary by:
 * Take the nth root of the series
 * Combination of the above
 
-The most common and convenient method 
+The most common and convenient method is Differencing the series
 ##### Differencing the Series (once or more)
 
 If Y_t is the value at time 't,' the first difference of Y equals
@@ -54,9 +59,10 @@ Unit Root tests are implemented in a variety of ways, which includes:
 
 * Augmented Dickey Fuller test (ADH Test)
 * Kwiatkowski-Phillips-Schmidt-Shin – KPSS test (trend stationary)
-* Philips Perron test (PP Test)
+* Philips Perron test (PP Test)<https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
 
 
-Reference: <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+Reference:
+* [1] Time Series Analysis in Python <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
-Reference: <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
+* [2] Intro to Stationary and Non-Stationary Processes 

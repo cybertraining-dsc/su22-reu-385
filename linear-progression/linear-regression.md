@@ -18,6 +18,7 @@ regression basically use the formular `y = mx +c`y is the dependent variable, m 
 the slop, x is the in dependent variable , and c is the intercept
 
 ##### Python example
+
 ``` python
 
 import seaborn as sns
@@ -179,9 +180,8 @@ plt.xlabel("Rain Fall")
 plt.ylabel("Crop yield ")
 plt.show()
 
-
 ```
 
 Reference :
-* <https://www.w3schools.com/python/python_ml_linear_regression.asp>
-* <https://www.youtube.com/watch?v=NUXdtN1W1FE>
+* [1] Machine Learning - Linear Regression <https://www.w3schools.com/python/python_ml_linear_regression.asp>
+* [2] <https://www.youtube.com/watch?v=NUXdtN1W1FE>

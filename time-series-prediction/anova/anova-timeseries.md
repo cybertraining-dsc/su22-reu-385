@@ -1,7 +1,10 @@
+## ANOVA Time Series Prediction
 
-# Time Series Prediction
-
-## ANOVA
+An extensive documentation on ANOVA Time series prediction is Available at
+*  <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
+*  <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
+*  <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
+*  <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>
 
 An ANOVA test is used to determine whether survey or 
 experiment results are significant. In other words, they 
@@ -25,6 +28,7 @@ completing different tasks. For example, you might be studying
 the effects of tea on weight loss and form three groups: green tea, 
 black tea, and no tea.
 
+This example is copied from[4]
 ``` python
 from scipy.stats import f_oneway
 
@@ -43,10 +47,11 @@ A Two Way ANOVA is an extension of the One Way ANOVA. With a
 One Way, you have one independent variable affecting a dependent 
 variable. With a Two Way ANOVA, there are two independents. Use a 
 Two way ANOVA when you have one measurement variable  and two nominal 
-variables. In other words, if your experiment has a quantitative outcome 
-and you have two categorical explanatory variables, a two way ANOVA is
+variables. In other words, if your experiment has a quantitative outcome, 
+and you have two categorical explanatory variables, a two-way ANOVA is
 appropriate.
 
+This example is copied from[3]
 ``` python
 import numpy as np
 import pandas as pd
@@ -85,6 +90,7 @@ mean of the occurrence of past to predict the output of what
 the probable output will be in the future. the example below 
 predict of a plant in a TWO way ANOVA.
 
+This example is copied from[3]
 ``` python
 import numpy as np
 import pandas as pd
@@ -118,6 +124,7 @@ predict the result of a tree grown after
 
 ### Reference:
 
-* <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
-* <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
-* <https://arxiv.org/abs/1912.09363>
+* [1] <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
+* [2] <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
+* [3] <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
+* [4] <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>

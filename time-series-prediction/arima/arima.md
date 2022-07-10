@@ -1,6 +1,11 @@
 ## ARIMA Time Series Prediction
 
-ARIMA is a forecasting algorithm that stands for 'AutoRrgressive 
+An extensive documents on ARIMA Time series prediction is available at
+* <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
+* <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
+
+
+ARIMA is a forecasting algorithm that stands for 'AutoRegressive 
 Integrated Moving Average'. It is the Idea that past values of a 
 time series is relevant while predicting future values. The ARIMA
 model is defined by three Values namely: p, d, and q.
@@ -33,9 +38,9 @@ determined by its own lags. That is, Yt is a function of the 'Yt lags.'
 Yt = \alpha +\beta 1Yt-1 + \beta2 Yt-2+ ... +\beta p Yt-p + \epsilon 1
 ```
 
-where $Yt-1$ is the series' lag1, $beta1$ is the lag1 coefficient 
+'where $Yt-1$ is the series' lag1, $beta1$ is the lag1 coefficient 
 estimated by the model, and $alpha$ is the intercept term estimated 
-by the model.
+by the model.'
 
 
 Similarly, a pure Moving Average (MA only) model is one in which Yt 
@@ -57,10 +62,12 @@ result, the equation is:
 Yt = \alpha +\beta 1Yt-1 + \beta 2Yt-2 + ... + \beta pYt-p\epsilon t + \phi 1\epsilon t-1+phi 2\epsilon t-2+...+\phi q \epsilon t-q
 ```
 
-Predicted Yt = Constant + Linear combination Lags of Y (upto p lags) + 
-Linear Combination of Lagged forecast errors (upto q lags)
+'Predicted Yt = Constant + Linear combination Lags of Y (upto p lags) + 
+Linear Combination of Lagged forecast errors (upto q lags)'
 
 ### ARIMA Python Implementation
+
+This example is copied from [1]
 ``` python
 from pandas import read_csv
 from pandas import DataFrame
@@ -108,6 +115,7 @@ and to which new observations are appended.
 Putting it all together, here's an example of a rolling forecast
 in Python using the ARIMA model.
 
+This example is copied from [1]
 ```python
 from pandas import read_csv
 from pandas import datetime
@@ -154,5 +162,5 @@ pyplot.show()
 * <https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv>
 
 ### Reference
-* <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
-* <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
+* [1]  Create an ARIMA Model for Time Series <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
+* [2] ARIMA Model – Complete Guide to Time Series Forecasting in Python <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
