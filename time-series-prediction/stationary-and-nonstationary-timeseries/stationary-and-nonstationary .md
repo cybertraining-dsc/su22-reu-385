@@ -81,26 +81,23 @@ This Example is from [3]
 
 Suppose we have a time series
 
+TODO: The formulas are all wrong copied note superscript and subsscript
 
-todo: bug we maust not use utf-8 CHARS BUT USE LATEX EQUATIONS INSTEAD IN MARKDOWN.
+TODO: bug we maust not use utf-8 CHARS BUT USE LATEX EQUATIONS INSTEAD IN MARKDOWN.
 look up how to do that
 
-```
-yt = a*yt-1 + ε t
-```
+$$yt = a*yt-1 + ε t$$
 
 where yt is the value at the time instant `t` and `ε t` is the error term. In order to
 calculate yt we need the value of `yt-1`, which is
 
-```
-yt-1 = a*yt-2 + ε t-1
-```
+$$yt-1 = a*yt-2 + \epsilon t-1$$
 
 If we do that for all observations, the value of yt will come out to be:
 
-```
-yt = an*yt-n + Σεt-i*ai
-```
+
+
+$$yt = an \times yt-n + \sum \epsilon t-i \times ai$$
 
 ##### Augmented Dickey Fuller test (ADH Test)
 
