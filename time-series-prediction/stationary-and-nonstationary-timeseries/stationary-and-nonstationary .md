@@ -3,7 +3,7 @@
 An extensive document of stationary and Non-Stationary Time Series is available at
 * <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 * <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
-
+* <https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/>
 
 ### Stationary Time series
 A stationary time series has statistical properties or moments 
@@ -57,12 +57,94 @@ time series is non-stationary and has a unit root.
 
 Unit Root tests are implemented in a variety of ways, which includes:
 
-* Augmented Dickey Fuller test (ADH Test)
+* Visual Test
+* Statistical test
 * Kwiatkowski-Phillips-Schmidt-Shin – KPSS test (trend stationary)
-* Philips Perron test (PP Test)<https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
 
 
-Reference:
+### Visual Test
+
+simply by looking at each plot, being able to identify the series in which 
+the mean and variance changed over time Similarly, we can plot the data to 
+see if the properties of the series change over time.
+
+### Statistical test
+
+Statistical tests such as the unit root stationary tests can be used. The 
+presence of a unit root indicates that the statistical properties of a given
+series are not constant over time, which is required for stationary time series.
+The following is a mathematical explanation:
+
+This Example is from [3]
+```
+Suppose we have a time series :
+
+yt = a*yt-1 + ε t
+
+where yt is the value at the time instant t and ε t is the error term. In order to
+calculate yt we need the value of yt-1, which is :
+
+yt-1 = a*yt-2 + ε t-1
+
+If we do that for all observations, the value of yt will come out to be:
+
+yt = an*yt-n + Σεt-i*ai
+```
+
+##### Augmented Dickey Fuller test (ADH Test)
+
+The Dickey-Fuller test is a well-known statistical test. It can be used to determine 
+whether a series contains a unit root, and thus whether the series is stationary.
+This test's null and alternate hypotheses are as follows:
+
+This Example is from [3]
+```
+Null Hypothesis: The series has a unit root (value of a =1)
+
+Alternate Hypothesis: The series has no unit root.
+```
+
+### Kwiatkowski-Phillips-Schmidt-Shin – KPSS test 
+
+KPSS is yet another test for determining a time series' stationarity (slightly less 
+popular than the Dickey-Fuller test). The null and alternate hypotheses for the KPSS 
+test are the inverse of those for the ADF test, which frequently leads to confusion.
+The KPSS test's authors defined the null hypothesis as the process being trend stationary,
+as opposed to an alternate hypothesis of a unit root series.
+
+This Example is from [3]
+```
+Null Hypothesis: The process is trend stationary.
+
+Alternate Hypothesis: The series has a unit root (series is not stationary).
+```
+
+## Types of Stationary
+
+### Strict Stationary
+
+A series that has no unit root but exhibits a trend is referred to as a trend stationary 
+series. Once the trend is removed, the resulting series will be strict stationary. The KPSS 
+test classifies a series as stationary on the absence of unit root. This means that the 
+series can be strict stationary or trend stationary.
+
+### Trend Stationary
+
+A trend stationary series is one that does not have a unit root but exhibits a trend. The
+resulting series will be strictly stationary once the trend is removed. The KPSS test determines
+whether a series is stationary based on the absence of a unit root. As a result, the series can be
+either strict stationary or trend stationary.
+
+### Difference Stationary
+
+A difference stationary time series is one that can be made strict stationary by differencing.
+ADF tests are also referred to as difference Stationary tests.
+
+
+
+### Reference
 * [1] Time Series Analysis in Python <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
-* [2] Intro to Stationary and Non-Stationary Processes 
+* [2] Intro to Stationary and Non-Stationary Processes <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
+
+* [3] Methods to Check Stationary <https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/>
