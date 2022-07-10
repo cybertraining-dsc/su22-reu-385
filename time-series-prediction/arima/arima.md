@@ -1,19 +1,17 @@
 ## ARIMA Time Series Prediction
 
-ARIMA, which stands for 'AutoRegressive Integrated Moving Average,' is a forecasting algorithm 
-that is based on the idea that past values of a time series can be used to predict future values.
-The ARIMA model is defined by three terms: p, d, and q.
+ARIMA is a forecasting algorithm that stands for 'AutoRrgressive Integrated Moving Average'. It is the 
+Idea that past values of a time series is relevant while predicting future values. The ARIMA model is 
+defined by three Values namely: p, d, and q.
 
-where,
+where:
 
 The order of the AR term is denoted by p.
 
 The order of the MA term is denoted by q.
 
-The number of differencing required to make the time series stationary is denoted by d.
+The differencing required to make the time series stationary is denoted by d.
 
-If a time series exhibits seasonal patterns, seasonal terms must be added, and the time 
-series becomes SARIMA, short for 'Seasonal ARIMA.'
 
 ### So, how do you make a series stationary?
 
