@@ -1,3 +1,6 @@
+# This code was copied from:
+# https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
+# Published By : Jason BrownLee
 from pandas import read_csv
 from pandas import datetime
 from matplotlib import pyplot

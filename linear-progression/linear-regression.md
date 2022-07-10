@@ -178,5 +178,6 @@ plt.show()
 
 ```
 
-Reference : https://www.w3schools.com/python/python_ml_linear_regression.asp
-            https://www.youtube.com/watch?v=NUXdtN1W1FE
+Reference :
+* <https://www.w3schools.com/python/python_ml_linear_regression.asp>
+* <https://www.youtube.com/watch?v=NUXdtN1W1FE>
