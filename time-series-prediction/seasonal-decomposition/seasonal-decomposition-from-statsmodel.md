@@ -61,6 +61,6 @@ result = seasonal_decompose(series, model='multiplicative', period=1)
 result.plot()
 pyplot.show()
 ```
-![img_1.png](img_1.png)
+![img_1.png](img1.png)
 
 Reference: https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.

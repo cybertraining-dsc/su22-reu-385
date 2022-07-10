@@ -86,8 +86,8 @@ pyplot.show()
 # summary stats of residuals
 print(residuals.describe())
 ```
-![img_3.png](img_3.png)
-![img_4.png](img_4.png)
+![img_3.png](img3.png)
+![img_4.png](img4.png)
 
 
 ### Rolling Forecast ARIMA Model
@@ -140,7 +140,7 @@ pyplot.plot(test)
 pyplot.plot(predictions, color='red')
 pyplot.show()
 ```
-![img_5.png](img_5.png)
+![img_5.png](img5.png)
 
 Dataset: https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv
 
