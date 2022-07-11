@@ -116,10 +116,7 @@ using two independent variables the users shared posts and comments and like,
 and it predicts how these activities can affect user social media growth.
 
 
-
-
-
-### Reference:
+### ReferenceS
 
 * [1] <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
 * [2] <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>

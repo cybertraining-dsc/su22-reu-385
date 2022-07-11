@@ -6,6 +6,7 @@ Lastname: Diyaolu
 Githubid: Diyaolu04
 ```
 ## Have Achieved
+
 - [ ] updated install.md
  
 - [ ] updated bio.md
@@ -19,6 +20,7 @@ Githubid: Diyaolu04
 - [ ]  Get computer temperature and hostname 
  
  ## TODO
+ - 
  - [ ] Research on how linear Regression, TFT, and Arima. in predicting time series
 
 
@@ -26,11 +28,13 @@ Githubid: Diyaolu04
  # Programming Knowledge
  
  ### Before reu2022
+- 
 - [ ] C++ : I have the knowledge of the syntax and how it works e.g promput, output manipulation, Funstion, Loop, If & else statement.
 
 - [ ] Python: Have knowledge on how python syntax such as userprompt, if & else statement
 
  #### During reu2022
+- 
 - [ ] Had some personal training on python concept
 - [ ] understand how functions, loops, and list works.
 

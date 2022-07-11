@@ -20,8 +20,7 @@ local processing and interpretable self-attention layers for learning
 long-term dependencies to learn temporal relationships at various scales.
 The TFT also makes use of specialized components for the
 
-``` python
-```
 
-### Reference
+### References
+
 * [1] Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting <https://arxiv.org/abs/1912.09363>
