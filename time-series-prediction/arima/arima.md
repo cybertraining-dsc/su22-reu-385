@@ -1,8 +1,8 @@
+# ARIMA Time Series Prediction
+
 An extensive documents on ARIMA Time series prediction is available at
 * <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
 * <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
-
-## ARIMA Time Series Prediction
 
 ARIMA is a forecasting algorithm that stands for 'AutoRegressive 
 Integrated Moving Average'. It is the Idea that past values of a 
@@ -18,7 +18,7 @@ The order of the MA term is denoted by q.
 The differencing required to make the time series stationary is denoted by d.
 
 
-### So, how do you make a series stationary?
+## So, how do you make a series stationary?
 
 The most common method is to differentiate it. To put it another way,
 subtract the previous value from the current value. Depending on the 
@@ -28,14 +28,12 @@ As a result, the value of d is the smallest number of differencing
 required to make the series stationary. And d = 0 if the time series
 is already stationary.
 
-### What exactly are AR and MA models?
+## What exactly are AR and MA models?
 
 A pure Auto Regressive (AR only) model is one in which Yt is solely 
 determined by its own lags. That is, Yt is a function of the 'Yt lags.'
 
-```
-Yt = \alpha +\beta 1Yt-1 + \beta2 Yt-2+ ... +\beta p Yt-p + \epsilon 1
-```
+$$Yt = \alpha +\beta 1Yt-1 + \beta2 Yt-2+ ... +\beta p Yt-p + \epsilon 1$$
 
 'where $Yt-1$ is the series' lag1, $beta1$ is the lag1 coefficient 
 estimated by the model, and $alpha$ is the intercept term estimated 
@@ -45,9 +43,7 @@ by the model.'
 Similarly, a pure Moving Average (MA only) model is one in which Yt 
 is determined solely by the lagged forecast errors.
 
-``` 
-Yt = \alpha +\epsilon t+\Phi 1\epsilon t-1 + \Phi 2\epsilon t-2 ... +\Phi q\epsilon t-q
-```
+$$Yt = \alpha +\epsilon t+\Phi 1\epsilon t-1 + \Phi 2\epsilon t-2 ... +\Phi q\epsilon t-q$$
 
 where the error terms are the errors of the autoregressive models of 
 the respective lags The errors Et and E(t-1) are the results of the 
@@ -57,12 +53,10 @@ An ARIMA model is one in which the time series is different at least
 once to make it stationary and the AR and MA terms are combined. As a 
 result, the equation is:
 
-```
-Yt = \alpha +\beta 1Yt-1 + \beta 2Yt-2 + ... + \beta pYt-p\epsilon t + \phi 1\epsilon t-1+phi 2\epsilon t-2+...+\phi q \epsilon t-q
-```
+$$Yt = \alpha +\beta 1Yt-1 + \beta 2Yt-2 + ... + \beta pYt-p\epsilon t + \phi 1\epsilon t-1+phi 2\epsilon t-2+...+\phi q \epsilon t-q$$
 
-'Predicted Yt = Constant + Linear combination Lags of Y (upto p lags) + 
-Linear Combination of Lagged forecast errors (upto q lags)'
+$$Predicted Yt = Constant + Linear combination Lags of Y (upto p lags) + 
+Linear Combination of Lagged forecast errors (upto q lags)$$
 
 ### ARIMA Python Implementation
 
@@ -85,7 +79,7 @@ series.index = series.index.to_period('M')
 # fit model
 model = ARIMA(series, order=(5, 1, 0))
 model_fit = model.fit()
-# summary of fit model
+ summary of fit model
 print(model_fit.summary())
 # line plot of residuals
 residuals = DataFrame(model_fit.resid)
@@ -102,7 +96,7 @@ print(residuals.describe())
 ![img_3.png](img_3.png)
 
 
-### Rolling Forecast ARIMA Model
+## Rolling Forecast ARIMA Model
 
 Given the reliance on observations in previous time steps for 
 differencing and the AR model, a rolling forecast is required.
@@ -157,13 +151,16 @@ pyplot.plot(test)
 pyplot.plot(predictions, color='purple')
 pyplot.show()
 ```
+
 ![img_1.png](img_1.png)
 
-### Dataset
+TODO: BUG figures have captions and muse be refernced in text .
+
+## Dataset
 
 * <https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv>
 
-### Reference
+## References
 
 * [1]  Create an ARIMA Model for Time Series <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
 * [2] ARIMA Model – Complete Guide to Time Series Forecasting in Python <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
