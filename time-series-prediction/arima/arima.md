@@ -43,7 +43,7 @@ by the model.'
 Similarly, a pure Moving Average (MA only) model is one in which Yt 
 is determined solely by the lagged forecast errors.
 
-$$Yt = \alpha +\epsilon t+\Phi 1\epsilon t-1 + \Phi 2\epsilon t-2 ... +\Phi q\epsilon t-q$$
+$$Yt = \alpha +\epsilon t+\phi 1\epsilon t-1 + \phi 2\epsilon t-2 ... +\phi q\epsilon t-q$$
 
 where the error terms are the errors of the autoregressive models of 
 the respective lags The errors Et and E(t-1) are the results of the 
@@ -53,7 +53,7 @@ An ARIMA model is one in which the time series is different at least
 once to make it stationary and the AR and MA terms are combined. As a 
 result, the equation is:
 
-$$Y_t = \alpha +\beta 1Yt-1 + \beta 2Yt-2 + ... + \beta pYt-p\epsilon t + \phi 1\epsilon t-1+phi 2\epsilon t-2+...+\phi q \epsilon t-q$$
+$$Y_t = \alpha +\beta 1Yt-1 + \beta 2Yt-2 + ... + \beta pYt-p\epsilon t + \phi 1\epsilon t-1+\phi 2\epsilon t-2+...+\phi q \epsilon t-q$$
 
 $$Predicted Yt = Constant + Linear combination Lags of Y (upto p lags) + 
 Linear Combination of Lagged forecast errors (upto q lags)$$
