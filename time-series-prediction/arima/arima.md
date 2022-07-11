@@ -33,7 +33,7 @@ is already stationary.
 A pure Auto Regressive (AR only) model is one in which Yt is solely 
 determined by its own lags. That is, Yt is a function of the 'Yt lags.'
 
-$$Yt = \alpha +\beta_1 Y_{t-1} + \beta_2 Y_{t-2}+ ... +\beta_p Y_{t-p} + \epsilon_1$$
+$$Y_t = \alpha +\beta_1 Y_{t-1} + \beta_2 Y_{t-2}+ ... +\beta_p Y_{t-p} + \epsilon_1$$
 
 'where $Yt-1$ is the series' lag1, $beta1$ is the lag1 coefficient 
 estimated by the model, and $alpha$ is the intercept term estimated 
@@ -43,7 +43,7 @@ by the model.'
 Similarly, a pure Moving Average (MA only) model is one in which Yt 
 is determined solely by the lagged forecast errors.
 
-$$Yt = \alpha +\epsilon t+\phi 1\epsilon t-1 + \phi 2\epsilon t-2 ... +\phi q\epsilon t-q$$
+$$Y_t = \alpha +\epsilon_t + \phi_1 \epsilon_{t-1} + \phi_2 \epsilon_{t-2} ... + \phi_q \epsilon_{t-q}$$
 
 where the error terms are the errors of the autoregressive models of 
 the respective lags The errors Et and E(t-1) are the results of the 

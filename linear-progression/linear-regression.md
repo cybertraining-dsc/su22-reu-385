@@ -1,4 +1,4 @@
-## Regression in python
+# Regression in python
  
 In machine learning, linear regression is classified as supervised data. 
 It is a statistical model that is used to forecast the relationship between
@@ -8,16 +8,20 @@ independent and dependent variables. It is divided into three categories:
 * Multiple linear regression
 * Polynomial linear regression
 
-### Simple Linear Regression
+## Simple Linear Regression
 
 Simple linear regression deals with only the dependent and independent variables.
 For example, linear regression can be used to predict the amount of food to be 
 cultivated using only two variables:crop yield and rainfall, where rainfall is the 
 independent variable and crop yield is the dependent variable. the simple linear 
-regression basically use the formular `y = mx +c`y is the dependent variable, m is 
-the slop, x is the in dependent variable , and c is the intercept
+regression basically use the formular 
 
-##### Python example
+$$y = mx + c$$
+
+where, $y$ is the dependent variable, $m$ is 
+the slop, $x$ is the in dependent variable , and $c$ is the intercept
+
+### Python Example
 
 ``` python
 
@@ -67,18 +71,22 @@ plt.show()
 
 ```
 
-### Multiple Linear Regression
+## Multiple Linear Regression
 
 The multiple linear regression, unlike the simple linear regression, requires 
 more than two factors in the example given above. which requires only the crop
 yield and the amount of rainfall, the multiple linear regressions require more 
 than that, such as pest infestation, animals perking around the crops, and soil 
 fertility where all these factors are independent variable to the crop yield. The 
-multiple linear regression use formular `y = M1X1 + M2X2 +M3X3 ..... + C` where y 
+multiple linear regression use formular 
+
+$$y = M1X1 + M2X2 +M3X3 ..... + C$$
+
+where y 
 is the dependent variable, M is the slop, X is the in dependent variable , and C
 is the intercept.
 
-#### python example
+### Python Example
 
 ``` python
 
@@ -155,13 +163,13 @@ plt.show()
 ```
 
 
-### Polynomial Linear Regression
+## Polynomial Linear Regression
 
 Unlike simple and multiple linear regression, which use straight lines to 
 show the relationship between the dependent and independent variables, polynomial
 linear regression uses a curved line to show the relationship between the two variables.
 
-#### python example
+### Python Example
 
 ``` python
 import numpy
@@ -182,6 +190,7 @@ plt.show()
 
 ```
 
-Reference :
+## References
+
 * [1] Machine Learning - Linear Regression <https://www.w3schools.com/python/python_ml_linear_regression.asp>
 * [2] <https://www.youtube.com/watch?v=NUXdtN1W1FE>
