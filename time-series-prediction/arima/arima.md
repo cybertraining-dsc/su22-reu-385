@@ -4,7 +4,6 @@ An extensive documents on ARIMA Time series prediction is available at
 * <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
 * <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
 
-
 ARIMA is a forecasting algorithm that stands for 'AutoRegressive 
 Integrated Moving Average'. It is the Idea that past values of a 
 time series is relevant while predicting future values. The ARIMA
@@ -109,7 +108,7 @@ and to which new observations are appended.
 Putting it all together, here's an example of a rolling forecast
 in Python using the ARIMA model.
 
-This example is copied from [1]
+This example is gotten from [1]
 
 ```python
 from pandas import read_csv
@@ -125,7 +124,7 @@ def parser(x):
     return datetime.strptime('190' + x, '%Y-%m')
 
 
-series = read_csv('https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv', header=0, index_col=0, parse_dates=True, squeeze=True, date_parser=parser)
+series = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv', header=0, index_col=0, parse_dates=True, squeeze=True, date_parser=parser)
 series.index = series.index.to_period('M')
 # split into train and test sets
 X = series.values
@@ -134,28 +133,30 @@ train, test = X[0:size], X[size:len(X)]
 history = [x for x in train]
 predictions = list()
 # walk-forward validation
-for t in range(len(test)):
-    model = ARIMA(history, order=(5, 1, 0))
+for tes in range(len(test)):
+    model = ARIMA(history, order=(6, 2, 0))
     model_fit = model.fit()
     output = model_fit.forecast()
-    yhat = output[0]
-    predictions.append(yhat)
-    obs = test[t]
+    predictions.append(output[0])
+    obs = test[tes]
     history.append(obs)
-    print('predicted=%f, expected=%f' % (yhat, obs))
+    print('predicted=%f, expected=%f' % (output[0], obs))
 # evaluate forecasts
 rmse = sqrt(mean_squared_error(test, predictions))
 print('Test RMSE: %.3f' % rmse)
 # plot forecasts against actual outcomes
 pyplot.plot(test)
-pyplot.plot(predictions, color='red')
+pyplot.plot(predictions, color='purple')
 pyplot.show()
 ```
-![img_5.png](img5.png)
+
+![img_1.png](img_1.png)
+
+TODO: BUG figures have captions and muse be refernced in text .
 
 ## Dataset
 
-* <https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv>
+* <https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv>
 
 ## References
 

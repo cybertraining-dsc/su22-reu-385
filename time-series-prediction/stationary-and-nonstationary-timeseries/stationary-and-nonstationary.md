@@ -1,10 +1,11 @@
-##  Stationary and Non-Stationary Time Series
-
 An extensive document of stationary and Non-Stationary Time Series is available at
 
 * <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 * <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
 * <https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/>
+
+##  Stationary and Non-Stationary Time Series
+
 
 ### Stationary Time series
 
