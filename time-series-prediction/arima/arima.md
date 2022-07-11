@@ -62,6 +62,7 @@ Linear Combination of Lagged forecast errors (upto q lags)$$
 
 This example is copied from [1]
 ``` python
+from datetime import datetime
 from pandas import read_csv
 from pandas import DataFrame
 from statsmodels.tsa.arima.model import ARIMA
@@ -70,10 +71,10 @@ from matplotlib import pyplot
 
 # load dataset
 def parser(x):
-    return datetime.strptime('190' + x, '%Y-%m')
+    return datetime.strptime('200' + x, '%Y-%m')
 
 
-series = read_csv('https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv', header=0, index_col=0, parse_dates=True, squeeze=True, date_parser=parser)
+series = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv', header=0, index_col=0, parse_dates=True, squeeze=True, date_parser=parser)
 series.index = series.index.to_period('M')
 # fit model
 model = ARIMA(series, order=(5, 1, 0))
@@ -89,9 +90,10 @@ residuals.plot(kind='kde')
 pyplot.show()
 # summary stats of residuals
 print(residuals.describe())
+
 ```
-![img_3.png](img3.png)
-![img_4.png](img4.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
 
 
 ## Rolling Forecast ARIMA Model
