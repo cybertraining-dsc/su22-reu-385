@@ -16,9 +16,7 @@ specify whether the model is additive or multiplicative.
 An additive model deals with components being added together as 
 follows:
 
-```
-y(t) = Level + Trend + Seasonality + Noise
-```
+$$ y(t) = Level + Trend + Seasonality + Noise $$
 
 We can decompose a time series that are made up of a linearly increasing trend from
 1 to 99,and random noise as an additive model.
@@ -40,9 +38,9 @@ pyplot.show()
 
 A multiplicative model deals with components being multiplied together as 
 follows:
-```
-y(t) = Level * Trend * Seasonality * Noise
-```
+
+$$ y(t) = Level * Trend * Seasonality * Noise $$
+
 Nonlinear models, include are quadratic or exponential, are multiplicative. 
 Changes grow or shrink over time. A curved line represents a nonlinear trend.
 The frequency and/or amplitude of a non-linear seasonality increase or decrease
