@@ -33,7 +33,7 @@ is already stationary.
 A pure Auto Regressive (AR only) model is one in which Yt is solely 
 determined by its own lags. That is, Yt is a function of the 'Yt lags.'
 
-$$Yt = \alpha +\beta 1Yt-1 + \beta2 Yt-2+ ... +\beta p Yt-p + \epsilon 1$$
+$$Yt = \alpha +\beta_1 Y_{t-1} + \beta_2 Y_{t-2}+ ... +\beta_p Y_{t-p} + \epsilon_1$$
 
 'where $Yt-1$ is the series' lag1, $beta1$ is the lag1 coefficient 
 estimated by the model, and $alpha$ is the intercept term estimated 
@@ -53,7 +53,7 @@ An ARIMA model is one in which the time series is different at least
 once to make it stationary and the AR and MA terms are combined. As a 
 result, the equation is:
 
-$$Yt = \alpha +\beta 1Yt-1 + \beta 2Yt-2 + ... + \beta pYt-p\epsilon t + \phi 1\epsilon t-1+\phi 2\epsilon t-2+...+\phi q \epsilon t-q$$
+$$Y_t = \alpha +\beta 1Yt-1 + \beta 2Yt-2 + ... + \beta pYt-p\epsilon t + \phi 1\epsilon t-1+phi 2\epsilon t-2+...+\phi q \epsilon t-q$$
 
 $$Predicted Yt = Constant + Linear combination Lags of Y (upto p lags) + 
 Linear Combination of Lagged forecast errors (upto q lags)$$
