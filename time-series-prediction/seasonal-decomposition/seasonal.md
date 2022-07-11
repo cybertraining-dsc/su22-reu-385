@@ -29,19 +29,18 @@ by the same amount.
 We can decompose a time series made up of a linearly increasing trend from
 1 to 99 and random noise as an additive model.
 
-This example was copied from [1]
+This example was edited from [1]
 
 ```python
 from random import randrange
 from matplotlib import pyplot
 from statsmodels.tsa.seasonal import seasonal_decompose
-series = [i+randrange(10) for i in range(1,100)]
-result = seasonal_decompose(series, model='additive', period=1)
+serie = [i+randrange(15) for i in range(5,90)]
+result = seasonal_decompose(serie, model='additive', period=3)
 result.plot()
 pyplot.show()
 ```
-
-![img.png](img.png)
+![img_2.png](img_2.png)
 
 ### Multiplicative Decomposition
 
@@ -58,17 +57,19 @@ over time.
 We can create a quadratic time series by taking the square of the time step from 
 1 to 99 and decomposing it using a multiplicative model.
 
-This example was copied from [1]
+This example was edited from [1]
 
 ```python
 from matplotlib import pyplot
 from statsmodels.tsa.seasonal import seasonal_decompose
-series = [i**2.0 for i in range(1,100)]
-result = seasonal_decompose(series, model='multiplicative', period=1)
+
+series = [i ** 4.0 for i in range(10, 150)]
+result = seasonal_decompose(series, model='multiplicative', period=2)
 result.plot()
 pyplot.show()
+
 ```
-![img_1.png](img1.png)
+![img_1.png](img_1.png)
 
 ### References
  * [1] How to Decompose Time Series Data into Trend and Seasonality  <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>

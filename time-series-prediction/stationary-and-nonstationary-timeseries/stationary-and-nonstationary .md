@@ -119,7 +119,7 @@ Null Hypothesis: The process is trend stationary.
 Alternate Hypothesis: The series has a unit root (series is not stationary).
 ```
 
-## Types of Stationary
+## Types of Stationary Time series
 
 ### Strict Stationary
 

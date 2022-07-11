@@ -28,15 +28,15 @@ completing different tasks. For example, you might be studying
 the effects of tea on weight loss and form three groups: green tea, 
 black tea, and no tea.
 
-This example is copied from[4]
+This example idea gotten from[4]
 ``` python
 from scipy.stats import f_oneway
 
 # test scores
-score1 = [89, 89, 88, 78, 79]
-score2 = [93, 92, 94, 89, 88]
-score3 = [89, 88, 89, 93, 90]
-score4 = [81, 78, 81, 92, 82]
+score1 = [84, 86, 68, 98, 49]
+score2 = [83, 29, 64, 89, 88]
+score3 = [69, 88, 69, 73, 40]
+score4 = [81, 70, 81, 92, 82]
 
 print(f_oneway(score1, score2, score3, score4))
 ```
@@ -51,7 +51,7 @@ variables. In other words, if your experiment has a quantitative outcome,
 and you have two categorical explanatory variables, a two-way ANOVA is
 appropriate.
 
-This example is copied from[3]
+This example idea gotten from[3]
 ``` python
 import numpy as np
 import pandas as pd
@@ -59,18 +59,16 @@ import statsmodels.api as sm
 from statsmodels.formula.api import ols
 
 # Create a dataframe
-dataframe = pd.DataFrame({'Fertilizer': np.repeat(['daily', 'weekly'], 15),
-                          'Watering': np.repeat(['daily', 'weekly'], 15),
-                          'height': [14, 16, 15, 15, 16, 13, 12, 11,
-                                     14, 15, 16, 16, 17, 18, 14, 13,
-                                     14, 14, 14, 15, 16, 16, 17, 18,
-                                     14, 13, 14, 14, 14, 15]})
+dataframe = pd.DataFrame({'shared_post': np.repeat(['daily', 'weekly'], 15),
+                          'comments_likes': np.repeat(['daily', 'weekly'], 15),
+                          'SocialMedia_growth': [10, 18, 16, 14, 19, 16, 18, 14,
+                                                 17, 18, 17, 17, 18, 17, 19, 11,
+                                                 16, 15, 15, 16, 17, 15, 16, 15,
+                                                 19, 11, 18, 15, 15, 12]})
 
 # Performing two-way ANOVA
-model = ols('height ~ C(Fertilizer) + C(Watering) +\
-C(Fertilizer):C(Watering)',
-            data=dataframe).fit()
-result = sm.stats.anova_lm(model, type=2)
+result = sm.stats.anova_lm(ols('SocialMedia_growth ~ C(shared_post) + C(comments_likes) +\
+C(shared_post):C(comments_likes)', data=dataframe).fit(), type=2)
 
 # Print the result
 print(result)
@@ -98,25 +96,24 @@ import statsmodels.api as sm
 from statsmodels.formula.api import ols
 
 # Create a dataframe
-dataframe = pd.DataFrame({'Fertilizer': np.repeat(['daily', 'weekly'], 15),
-                          'Watering': np.repeat(['daily', 'weekly'], 15),
-                          'height': [14, 16, 15, 15, 16, 13, 12, 11,
-                                     14, 15, 16, 16, 17, 18, 14, 13,
-                                     14, 14, 14, 15, 16, 16, 17, 18,
-                                     14, 13, 14, 14, 14, 15]})
+dataframe = pd.DataFrame({'shared_post': np.repeat(['daily', 'weekly'], 15),
+                          'comments_likes': np.repeat(['daily', 'weekly'], 15),
+                          'SocialMedia_growth': [10, 18, 16, 14, 19, 16, 18, 14,
+                                                 17, 18, 17, 17, 18, 17, 19, 11,
+                                                 16, 15, 15, 16, 17, 15, 16, 15,
+                                                 19, 11, 18, 15, 15, 12]})
 
 # Performing two-way ANOVA
-model = ols('height ~ C(Fertilizer) + C(Watering) +\
-C(Fertilizer):C(Watering)',
-            data=dataframe).fit()
-result = sm.stats.anova_lm(model, type=2)
+result = sm.stats.anova_lm(ols('SocialMedia_growth ~ C(shared_post) + C(comments_likes) +\
+C(shared_post):C(comments_likes)', data=dataframe).fit(), type=2)
 
 # Print the result
 print(result)
 ```
 
-This is an example of the of a time series prediction which
-predict the result of a tree grown after
+The example above gives a prediction of a person social media growth 
+using two independent variables the users shared posts and comments and like,
+and it predicts how these activities can affect user social media growth.
 
 
 
