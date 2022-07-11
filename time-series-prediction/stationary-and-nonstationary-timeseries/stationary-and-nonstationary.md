@@ -17,6 +17,15 @@ auto correlation, remain constant over time. The auto correlation
 of a series is simply the correlation of the series with its 
 previous values.
 
+``` python
+from pandas import read_csv
+from matplotlib import pyplot
+series = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv', header=0, index_col=0)
+series.plot()
+pyplot.show()
+```
+![img.png](img.png)
+
 #### How to make a time series stationary?
 
 You can make series stationary by:

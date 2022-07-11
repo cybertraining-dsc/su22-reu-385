@@ -53,7 +53,7 @@ An ARIMA model is one in which the time series is different at least
 once to make it stationary and the AR and MA terms are combined. As a 
 result, the equation is:
 
-$$Y_t = \alpha +\beta 1Yt-1 + \beta 2Yt-2 + ... + \beta pYt-p\epsilon t + \phi 1\epsilon t-1+\phi 2\epsilon t-2+...+\phi q \epsilon t-q$$
+$$Y_t = \alpha +\beta 1Y_{t-1} + \beta 2Y_{t-2} + ... + \beta pY_{t-p}\epsilon t + \phi 1\epsilon t-1+\phi 2\epsilon t-2+...+\phi q \epsilon t-q$$
 
 $$Predicted Yt = Constant + Linear combination Lags of Y (upto p lags) + 
 Linear Combination of Lagged forecast errors (upto q lags)$$
