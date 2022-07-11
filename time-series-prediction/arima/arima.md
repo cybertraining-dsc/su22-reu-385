@@ -92,8 +92,8 @@ pyplot.show()
 print(residuals.describe())
 
 ```
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
+![img_2.png](img2.png)
+![img_3.png](img3.png)
 
 
 ## Rolling Forecast ARIMA Model
@@ -152,7 +152,7 @@ pyplot.plot(predictions, color='purple')
 pyplot.show()
 ```
 
-![img_1.png](img_1.png)
+![img_1.png](img1.png)
 
 TODO: BUG figures have captions and muse be refernced in text .
 

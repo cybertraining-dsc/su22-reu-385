@@ -32,7 +32,7 @@ result = seasonal_decompose(serie, model='additive', period=3)
 result.plot()
 pyplot.show()
 ```
-![img_2.png](img_2.png)
+![img_2.png](img2.png)
 
 ### Multiplicative Decomposition
 
@@ -61,7 +61,7 @@ result.plot()
 pyplot.show()
 
 ```
-![img_1.png](img_1.png)
+![img_1.png](img1.png)
 
 ### References
 
