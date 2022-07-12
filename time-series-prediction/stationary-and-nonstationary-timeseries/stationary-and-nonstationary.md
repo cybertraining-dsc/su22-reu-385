@@ -1,14 +1,19 @@
 An extensive document of stationary and Non-Stationary Time Series is available at
 
 * <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+
 * <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
+
 * <https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/>
 
-##  Stationary and Non-Stationary Time Series
+* <https://www.geeksforgeeks.org/how-to-check-if-time-series-data-is-stationary-with-python/>
+
+* <https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html>
+
+# Stationary and Non-Stationary Time Series
 
 
-### Stationary Time series
-
+## Stationary Time series
 A stationary time series has statistical properties or moments 
 that do not change over time (for example, mean and variance).
 
@@ -17,16 +22,8 @@ auto correlation, remain constant over time. The auto correlation
 of a series is simply the correlation of the series with its 
 previous values.
 
-``` python
-from pandas import read_csv
-from matplotlib import pyplot
-series = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv', header=0, index_col=0)
-series.plot()
-pyplot.show()
-```
-![img.png](img.png)
 
-#### How to make a time series stationary?
+### How to make a time series stationary?
 
 You can make series stationary by:
 
@@ -39,8 +36,8 @@ The most common and convenient method is Differencing the series
 
 ##### Differencing the Series (once or more)
 
-If Y_t is the value at time 't,' the first difference of Y equals
-Yt - Yt-1. To put it simply, differencing the series is simply subtracting
+If $$y_t$$ is the value at time '$$t$$,' the first difference of $$y$$ equals
+$$y_t - y_{t-1}$$. To put it simply, differencing the series is simply subtracting
 the next value from the current value.
 
 If the first difference does not make a series stationary, the second 
@@ -50,7 +47,7 @@ differencing can be used. And so forth.
 * First differencing gives: `[6-8, 4-6, 10-4, 25-10] = [-2, -2, 6, 15]`
 * Second differencing gives: `[-2-(-2), 6-(-2), 15-6] = [0, 8, 9]`
 
-### Non-Stationary Time series
+## Non-Stationary Time series
 
 Data points are frequently non-stationary or have changing means,
 variances, and covariances. Trends, cycles, random walks, and combinations 
@@ -81,6 +78,15 @@ simply by looking at each plot, being able to identify the series in which
 the mean and variance changed over time Similarly, we can plot the data to 
 see if the properties of the series change over time.
 
+``` python
+from pandas import read_csv
+from matplotlib import pyplot
+series = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv', header=0, index_col=0)
+series.plot()
+pyplot.show()
+```
+![img.png](img.png)
+
 ### Statistical test
 
 Statistical tests such as the unit root stationary tests can be used. The 
@@ -88,27 +94,19 @@ presence of a unit root indicates that the statistical properties of a given
 series are not constant over time, which is required for stationary time series.
 The following is a mathematical explanation:
 
-This Example is from [3]
-
 Suppose we have a time series
 
-TODO: The formulas are all wrong copied note superscript and subsscript
+$$y_t = a*y_{t-1} + \epsilon_t$$
 
-TODO: bug we maust not use utf-8 CHARS BUT USE LATEX EQUATIONS INSTEAD IN MARKDOWN.
-look up how to do that
+where yt is the value at the time instant $$t$$ and $$\epsilon_t$$ is the error term. In order to
+calculate yt we need the value of $$y_{t-1}$$, which is
 
-$$yt = a*yt-1 + ε t$$
+$$y_{t-1} = a*y_{t-2} + \epsilon_{t-1}$$
 
-where yt is the value at the time instant `t` and `ε t` is the error term. In order to
-calculate yt we need the value of `yt-1`, which is
-
-$$yt-1 = a*yt-2 + \epsilon t-1$$
-
-If we do that for all observations, the value of yt will come out to be:
+If we do that for all observations, the value of y_t will come out to be:
 
 
-
-$$yt = an \times yt-n + \sum \epsilon t-i \times ai$$
+$$y_t = a^n \times y_{t-n} + \sum \epsilon_t-i \times a^i$$
 
 ##### Augmented Dickey Fuller test (ADH Test)
 
@@ -116,7 +114,37 @@ The Dickey-Fuller test is a well-known statistical test. It can be used to deter
 whether a series contains a unit root, and thus whether the series is stationary.
 This test's null and alternate hypotheses are as follows:
 
-This Example is from [3]
+This Example is from [4]
+
+```python
+# import python pandas package
+import pandas as pd
+
+# import the adfuller function from statsmodel
+# package to perform ADF test
+from statsmodels.tsa.stattools import adfuller
+
+# read the dataset using pandas read_csv() function
+data = pd.read_csv(
+    "https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv",
+    header=0, index_col=0)
+
+# extracting only the passengers count using values function
+value = data.values
+
+# passing the extracted passengers count to adfuller function.
+# result of adfuller function is stored in a res variable
+res = adfuller(value)
+
+# Printing the statistical result of the adfuller test
+print('Augmneted Dickey_fuller Statistic: %f' % res[0])
+print('p-value: %f' % res[1])
+
+# printing the critical values at different alpha levels.
+print('critical values at different levels:')
+for l, m in res[4].items():
+    print('\t%s: %.3f' % (l, m))
+```
 
 * Null Hypothesis: The series has a unit root (value of `a=1`)
 
@@ -130,7 +158,24 @@ test are the inverse of those for the ADF test, which frequently leads to confus
 The KPSS test's authors defined the null hypothesis as the process being trend stationary,
 as opposed to an alternate hypothesis of a unit root series.
 
-This Example is from [3]
+This Example is from [5]
+```python
+import pandas as pd
+from statsmodels.tsa.stattools import kpss
+
+data = pd.read_csv(
+    "https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv",
+    header=0, index_col=0)
+print("Results of KPSS Test:")
+kpsstest = kpss(data, regression="c", nlags="auto")
+kpss_output = pd.Series(
+    kpsstest[0:3], index=["Test Statistic", "p-value", "Lags Used"]
+)
+for num, test in kpsstest[3].items():
+    kpss_output["Critical Value (%s)" % num] = test
+print(kpss_output)
+
+```
 
 * Null Hypothesis: The process is trend stationary.
 
@@ -166,3 +211,6 @@ ADF tests are also referred to as difference Stationary tests.
 * [2] Intro to Stationary and Non-Stationary Processes <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
 
 * [3] Methods to Check Stationary <https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/>
+
+* [4] How to Check if Time Series Data is Stationary with Python? <https://www.geeksforgeeks.org/how-to-check-if-time-series-data-is-stationary-with-python/>
+* [5] Stationarity and detrending (ADF/KPSS) <https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html>
