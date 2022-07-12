@@ -1,6 +1,8 @@
-# This example was copied from:
+# This example was formatted from:
 # https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
 # Published By : Jason BrownLee
+
+from datetime import datetime
 from pandas import read_csv
 from pandas import DataFrame
 from statsmodels.tsa.arima.model import ARIMA
@@ -9,15 +11,10 @@ from matplotlib import pyplot
 
 # load dataset
 def parser(x):
-    return datetime.strptime('190' + x, '%Y-%m')
+    return datetime.strptime('200' + x, '%Y-%m')
 
 
-series = read_csv('https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv',
-                  header=0,
-                  index_col=0,
-                  parse_dates=True,
-                  squeeze=True,
-                  date_parser=parser)
+series = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv', header=0, index_col=0, parse_dates=True, squeeze=True, date_parser=parser)
 series.index = series.index.to_period('M')
 # fit model
 model = ARIMA(series, order=(5, 1, 0))

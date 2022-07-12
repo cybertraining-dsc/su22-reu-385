@@ -27,8 +27,8 @@ This example was edited from [1]
 from random import randrange
 from matplotlib import pyplot
 from statsmodels.tsa.seasonal import seasonal_decompose
-serie = [i+randrange(15) for i in range(5,90)]
-result = seasonal_decompose(serie, model='additive', period=3)
+data = [i+randrange(15) for i in range(5,90)]
+result = seasonal_decompose(data, model='additive', period=3)
 result.plot()
 pyplot.show()
 ```
@@ -55,8 +55,8 @@ This example was edited from [1]
 from matplotlib import pyplot
 from statsmodels.tsa.seasonal import seasonal_decompose
 
-series = [i ** 4.0 for i in range(10, 150)]
-result = seasonal_decompose(series, model='multiplicative', period=2)
+data = [i ** 4.0 for i in range(10, 150)]
+result = seasonal_decompose(data, model='multiplicative', period=2)
 result.plot()
 pyplot.show()
 

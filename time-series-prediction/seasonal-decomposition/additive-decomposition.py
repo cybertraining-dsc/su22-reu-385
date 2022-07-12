@@ -3,11 +3,9 @@
 # Published By : Jason BrownLee
 
 from random import randrange
-from pandas import Series
 from matplotlib import pyplot
 from statsmodels.tsa.seasonal import seasonal_decompose
-
-series = [i+randrange(10) for i in range(1,100)]
-result = seasonal_decompose(series, model='additive', period=1)
+data = [i+randrange(15) for i in range(5,90)]
+result = seasonal_decompose(data, model='additive', period=3)
 result.plot()
 pyplot.show()

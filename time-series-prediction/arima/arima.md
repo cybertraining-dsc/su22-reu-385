@@ -62,6 +62,7 @@ Linear Combination of Lagged forecast errors (upto q lags)$$
 ### ARIMA Python Implementation
 
 This example is copied from [1]
+
 ``` python
 from datetime import datetime
 from pandas import read_csv

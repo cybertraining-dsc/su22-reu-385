@@ -29,7 +29,9 @@ the effects of tea on weight loss and form three groups: green tea,
 black tea, and no tea.
 
 This example idea gotten from[4]
+
 ``` python
+
 from scipy.stats import f_oneway
 
 # test scores
@@ -52,7 +54,9 @@ and you have two categorical explanatory variables, a two-way ANOVA is
 appropriate.
 
 This example idea gotten from[3]
+
 ``` python
+
 import numpy as np
 import pandas as pd
 import statsmodels.api as sm
@@ -75,6 +79,7 @@ print(result)
 ```
 
 ### Time series prediction
+
 Time series prediction is basically the machine learning 
 modeling for Time Series data (years, days, hours…etc.)
 for predicting future values using Time Series modeling .
@@ -88,7 +93,8 @@ mean of the occurrence of past to predict the output of what
 the probable output will be in the future. the example below 
 predict of a plant in a TWO way ANOVA.
 
-This example is copied from[3]
+This example is formatted from[3]
+
 ``` python
 import numpy as np
 import pandas as pd
