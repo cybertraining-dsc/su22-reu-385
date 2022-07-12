@@ -1,4 +1,4 @@
-An extensive document of stationary and Non-Stationary Time Series is available at
+Extensive documents on stationary and Non-Stationary Time Series are available at
 
 * <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
@@ -78,11 +78,13 @@ simply by looking at each plot, being able to identify the series in which
 the mean and variance changed over time Similarly, we can plot the data to 
 see if the properties of the series change over time.
 
+
+
 ``` python
 from pandas import read_csv
 from matplotlib import pyplot
-series = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv', header=0, index_col=0)
-series.plot()
+data = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv', header=0, index_col=0)
+data.plot()
 pyplot.show()
 ```
 ![img.png](img.png)
@@ -159,6 +161,7 @@ The KPSS test's authors defined the null hypothesis as the process being trend s
 as opposed to an alternate hypothesis of a unit root series.
 
 This Example is from [5]
+
 ```python
 import pandas as pd
 from statsmodels.tsa.stattools import kpss
@@ -203,8 +206,7 @@ A difference stationary time series is one that can be made strict stationary by
 ADF tests are also referred to as difference Stationary tests.
 
 
-
-### ReferenceS
+## References
 
 * [1] Time Series Analysis in Python <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
@@ -213,4 +215,5 @@ ADF tests are also referred to as difference Stationary tests.
 * [3] Methods to Check Stationary <https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/>
 
 * [4] How to Check if Time Series Data is Stationary with Python? <https://www.geeksforgeeks.org/how-to-check-if-time-series-data-is-stationary-with-python/>
+
 * [5] Stationarity and detrending (ADF/KPSS) <https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html>
