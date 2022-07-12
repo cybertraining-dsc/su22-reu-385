@@ -1,3 +1,9 @@
+Extensive documents on Linear Regression is available at
+
+*  <https://www.w3schools.com/python/python_ml_linear_regression.asp>
+
+*  <https://www.youtube.com/watch?v=NUXdtN1W1FE>
+
 # Regression in python
  
 In machine learning, linear regression is classified as supervised data. 
@@ -80,10 +86,10 @@ than that, such as pest infestation, animals perking around the crops, and soil
 fertility where all these factors are independent variable to the crop yield. The 
 multiple linear regression use formular 
 
-$$y = M1X1 + M2X2 +M3X3 ..... + C$$
+$$y = m_1x_1 + m_2x_2 +m_3x_3 ..... + c$$
 
-where y 
-is the dependent variable, M is the slop, X is the in dependent variable , and C
+where $$y$$
+is the dependent variable, $$m$$ is the slop, $$x$$ is the in dependent variable , and $$c$$
 is the intercept.
 
 ### Python Example
@@ -171,7 +177,9 @@ linear regression uses a curved line to show the relationship between the two va
 
 ### Python Example
 
-``` python
+``` python* [1] Machine Learning - Linear Regression <https://www.w3schools.com/python/python_ml_linear_regression.asp>
+
+* [2] <https://www.youtube.com/watch?v=NUXdtN1W1FE>
 import numpy
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -192,5 +200,3 @@ plt.show()
 
 ## References
 
-* [1] Machine Learning - Linear Regression <https://www.w3schools.com/python/python_ml_linear_regression.asp>
-* [2] <https://www.youtube.com/watch?v=NUXdtN1W1FE>

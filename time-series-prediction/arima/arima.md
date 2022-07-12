@@ -1,5 +1,6 @@
-An extensive documents on ARIMA Time series prediction is available at
+Extensive documents on ARIMA Time series prediction are available at
 * <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
+
 * <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
 
 # ARIMA Time Series Prediction
