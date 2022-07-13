@@ -65,7 +65,7 @@ pyplot.show()
 ```
 ![img_1.png](img1.png)
 
-# Desasonalising of Time Series
+## Desasonalising of Time Series
 
 This is process of removing seasonality from time series 
 
@@ -98,7 +98,7 @@ plt.show()
 ```
 ![img.png](img.png)
 
-# References
+## References
 
 * [1] How to Decompose Time Series Data into Trend and Seasonality  <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
 

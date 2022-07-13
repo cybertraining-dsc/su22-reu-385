@@ -4,7 +4,7 @@ An extensive documentation on ANOVA Time series prediction is Available at
 *  <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
 *  <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>
 
-## ANOVA Time Series Prediction
+# ANOVA Time Series Prediction
 
 An ANOVA test is used to determine whether survey or 
 experiment results are significant. In other words, they 
@@ -16,7 +16,7 @@ is categories into two namely:
 * Two Way ANOVA
 
 
-#### One Way ANOVA 
+## One Way ANOVA 
 
 A one way ANOVA is used to compare two means from two 
 independent (unrelated) groups using the F-distribution. 
@@ -43,7 +43,7 @@ score4 = [81, 70, 81, 92, 82]
 print(f_oneway(score1, score2, score3, score4))
 ```
 
-#### Two Way ANOVA
+## Two Way ANOVA
 
 A Two Way ANOVA is an extension of the One Way ANOVA. With a 
 One Way, you have one independent variable affecting a dependent 
@@ -78,7 +78,7 @@ C(shared_post):C(comments_likes)', data=dataframe).fit(), type=2)
 print(result)
 ```
 
-### Time series prediction
+## Time series prediction
 
 Time series prediction is basically the machine learning 
 modeling for Time Series data (years, days, hours…etc.)
@@ -122,7 +122,7 @@ using two independent variables the users shared posts and comments and like,
 and it predicts how these activities can affect user social media growth.
 
 
-### ReferenceS
+## ReferenceS
 
 * [1] <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
 * [2] <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>

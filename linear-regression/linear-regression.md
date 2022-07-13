@@ -177,9 +177,7 @@ linear regression uses a curved line to show the relationship between the two va
 
 ### Python Example
 
-``` python* [1] Machine Learning - Linear Regression <https://www.w3schools.com/python/python_ml_linear_regression.asp>
-
-* [2] <https://www.youtube.com/watch?v=NUXdtN1W1FE>
+``` python* 
 import numpy
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -199,4 +197,9 @@ plt.show()
 ```
 
 ## References
+* [1] Machine Learning - Linear Regression <https://www.w3schools.com/python/python_ml_linear_regression.asp>
+
+* [2] <https://www.youtube.com/watch?v=NUXdtN1W1FE>
+
+
 

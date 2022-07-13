@@ -46,4 +46,4 @@ detrend_dataset = [1, -1, -2, -5, -4, -4]
 
 ## Reference
 
-* <https://www.statology.org/detrend-data/>
+* [1]<https://www.statology.org/detrend-data/>

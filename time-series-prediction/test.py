@@ -19,7 +19,7 @@ from sampen import sampen2
 series_data = []
 
 # open the file and read each line into the list
-with open('temp3.txt', 'r') as file:
+with open('SampleEntropy/temp3.txt', 'r') as file:
     for row in file:
         series_data.append(float(row.strip(' \t\n\r')))
 

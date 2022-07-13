@@ -14,6 +14,7 @@ Extensive documents on stationary and Non-Stationary Time Series are available a
 
 
 ## Stationary Time series
+
 A stationary time series has statistical properties or moments 
 that do not change over time (for example, mean and variance).
 
@@ -34,7 +35,7 @@ You can make series stationary by:
 
 The most common and convenient method is Differencing the series
 
-##### Differencing the Series (once or more)
+#### Differencing the Series (once or more)
 
 If $$y_t$$ is the value at time '$$t$$,' the first difference of $$y$$ equals
 $$y_t - y_{t-1}$$. To put it simply, differencing the series is simply subtracting
@@ -110,7 +111,7 @@ If we do that for all observations, the value of y_t will come out to be:
 
 $$y_t = a^n \times y_{t-n} + \sum \epsilon_t-i \times a^i$$
 
-##### Augmented Dickey Fuller test (ADH Test)
+### Augmented Dickey Fuller test (ADH Test)
 
 The Dickey-Fuller test is a well-known statistical test. It can be used to determine 
 whether a series contains a unit root, and thus whether the series is stationary.
