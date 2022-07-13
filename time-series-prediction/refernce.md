@@ -38,3 +38,14 @@ These are extensive set of links
 * <https://www.geeksforgeeks.org/how-to-check-if-time-series-data-is-stationary-with-python/>
 
 * <https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html>
+
+## AutoCorrelation
+
+* <https://www.influxdata.com/blog/autocorrelation-in-time-series-data/#:~:text=The%20term%20autocorrelation%20refers%20to,you%20may%20have%20access%20to.>
+
+* <https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/>
+
+## Lag Plot
+
+* <https://www.geeksforgeeks.org/lag-plots/>
+

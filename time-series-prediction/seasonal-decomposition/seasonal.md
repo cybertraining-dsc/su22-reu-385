@@ -1,9 +1,11 @@
-An extensive documentation on seasonal decomposition of stat model is
-available At
+An extensive documentation on seasonal decomposition and deseasonalising of stat model is
+available at
+
+* <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
 * <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
 
-## Seasonal decomposition from stats model
+# Seasonal decomposition from stats model
 
 Decomposing a time series entails viewing it as a collection of
 level, trend, seasonality, and noise components. it uses
@@ -11,7 +13,7 @@ a function called `seasonal_decompose()`, the statsmodels library
 implements the naive, or classical, decomposition method. You must 
 specify whether the model is additive or multiplicative.
 
-### Additive Decomposition
+## Additive Decomposition
 
 An additive model deals with components being added together as 
 follows:
@@ -34,7 +36,7 @@ pyplot.show()
 ```
 ![img_2.png](img2.png)
 
-### Multiplicative Decomposition
+## Multiplicative Decomposition
 
 A multiplicative model deals with components being multiplied together as 
 follows:
@@ -63,6 +65,43 @@ pyplot.show()
 ```
 ![img_1.png](img1.png)
 
-### References
+# Desasonalising of Time Series
 
- * [1] How to Decompose Time Series Data into Trend and Seasonality  <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
+This is process of removing seasonality from time series 
+
+There are several methods for deseasonalising a time series. Here are a few :
+
+* Take a moving average with length as the seasonal window. This will smoothen in series in the process.
+
+* Seasonal difference the series (subtract the value of previous season from the current value)
+
+* Divide the series by the seasonal index obtained from STL decomposition
+
+Example edited from [1],[2]
+
+```python
+from matplotlib import pyplot as plt
+from statsmodels.tsa.seasonal import seasonal_decompose
+
+df = [i ** 4.0 for i in range(10, 1000)]
+
+# Time Series Decomposition
+result_mul = seasonal_decompose(df, model='multiplicative', period=60)
+
+# Deseasonalize
+deseasonalized = df / result_mul.seasonal
+
+# Plot
+plt.plot(deseasonalized)
+plt.title('Data Deseasonalized', fontsize=15)
+plt.show()
+```
+![img.png](img.png)
+
+# References
+
+* [1] How to Decompose Time Series Data into Trend and Seasonality  <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
+
+* [2] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+
+
