@@ -49,3 +49,14 @@ These are extensive set of links
 
 * <https://www.geeksforgeeks.org/lag-plots/>
 
+## Smoothen
+
+* <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+
+* <https://machinelearningmastery.com/moving-average-smoothing-for-time-series-forecasting-python/#:~:text=Smoothing%20is%20a%20technique%20applied,of%20the%20underlying%20causal%20processes.>
+
+## Granger casualty test
+
+* <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+
+

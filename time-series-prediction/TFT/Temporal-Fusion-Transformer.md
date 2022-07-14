@@ -5,7 +5,7 @@ optimized for performance and interpretability.
 
 ### TFT Time Series Prediction
 
-Multi-horizon forecasting problems frequently contain a complex 
+"Multi-horizon forecasting problems frequently contain a complex 
 mix of inputs, including static (i.e. time-invariant) covariances,
 known future inputs, and other exogenous time series that can only 
 be observed historically, with no prior knowledge of how they 
@@ -18,7 +18,7 @@ combines high-performance multi-horizon forecasting with interpretable
 insights into temporal dynamics. The TFT employs recurrent layers for 
 local processing and interpretable self-attention layers for learning 
 long-term dependencies to learn temporal relationships at various scales.
-The TFT also makes use of specialized components for the
+The TFT also makes use of specialized components for the"
 
 
 ### References
