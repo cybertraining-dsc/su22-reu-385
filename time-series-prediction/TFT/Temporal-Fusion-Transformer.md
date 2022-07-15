@@ -1,26 +1,60 @@
-## Temporal Fusion Transformer(TFT)
+An extensive documentation on Temporal Fusion Transformer are Available at
+
+* <https://arxiv.org/abs/1912.09363>
+
+* <https://towardsdatascience.com/temporal-fusion-transformer-googles-model-for-interpretable-time-series-forecasting-5aa17beb621>
+
+# Temporal Fusion Transformer(TFT)
 
 TFT is an attention-based Deep Neural Network that has been 
-optimized for performance and interpretability.
+optimized for performance and interpretability. To learn 
+temporal dependencies, the TFT employs recurrent layers for 
+local processing and interpretable self-attention layers.
+relationships at different scales TFT also employs specialized 
+components.
 
-### TFT Time Series Prediction
+## Advantages of Temporal Fusion Transformer
 
-"Multi-horizon forecasting problems frequently contain a complex 
-mix of inputs, including static (i.e. time-invariant) covariances,
-known future inputs, and other exogenous time series that can only 
-be observed historically, with no prior knowledge of how they 
-interact with the target. While several deep learning models for 
-multistep prediction have been proposed, they typically consist of 
-black-box models that do not account for the full range of inputs
-present in common scenarios. In this paper, we introduce the Temporal
-Fusion Transformer (TFT), a novel attention-based architecture that 
-combines high-performance multi-horizon forecasting with interpretable 
-insights into temporal dynamics. The TFT employs recurrent layers for 
-local processing and interpretable self-attention layers for learning 
-long-term dependencies to learn temporal relationships at various scales.
-The TFT also makes use of specialized components for the"
+### Rich features
 
+The Temporal Fusion Transformer support 3 feature which includes:
+temporal data with known inputs into the future,temporal data
+known only up to the present, and the time-invariant features
+
+### Heterogeneous time series
+
+The TFT architecture split processing into two part: Local processing
+focuses on specific event characteristics, whereas global processing 
+captures the collective characteristics of all time series.
+
+### Multi-horizon forecasting
+
+TFT produces prediction intervals in addition to the actual prediction 
+by utilizing the quantile loss function.
+
+### Interpretability
+
+The TFT a transformers based architecture. This model presents a novel Muti 
+Head attention mechanism that, when analyzed, provides additional insight on
+feature importance by utilizing self-attention.
+
+### High Performance
+
+TFT outperformed traditional statistical models (ARIMA) as well as DeepAR, 
+MQRNN, and Deep Space-State Models (DSSM)
+
+### Documentation
+
+There are already open source TFT implementations in Tensorflow and Python.
+
+Example from [2]
+
+The Figure below shows the Top level Architecture of Temporal Fusion Transformer 
+![img.png](img.png)
 
 ### References
 
 * [1] Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting <https://arxiv.org/abs/1912.09363>
+
+
+* [2] <https://towardsdatascience.com/temporal-fusion-transformer-googles-model-for-interpretable-time-series-forecasting-5aa17beb621>
