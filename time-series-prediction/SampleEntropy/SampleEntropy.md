@@ -8,9 +8,12 @@ Extensive documents on Sample Entropy are available at
 
 # Sample Entropy
 
-"Sample Entropy is similar to approximate entropy but is more consistent in estimating 
-the complexity even for smaller time series. For example, a random time series with fewer
-data points can have a lower ‘approximate entropy’ than a more ‘regular’ time series, 
+Approximate entropy a technique for quantifying the amount of 
+regularity and unpredictability in time-series data. so what is 
+sample Entropy ?"Sample Entropy is similar to approximate entropy 
+but is more consistent in estimating the complexity even for smaller
+time series. For example, a random time series with fewer data points
+can have a lower ‘approximate entropy’ than a more ‘regular’ time series, 
 whereas, a longer random time series will have a higher ‘approximate entropy’."
 
 to use the library you will install using `pip`

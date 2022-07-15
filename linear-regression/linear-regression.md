@@ -1,10 +1,10 @@
-Extensive documents on Linear Regression is available at
+Extensive documents on Linear Regression are available at
 
 *  <https://www.w3schools.com/python/python_ml_linear_regression.asp>
 
 *  <https://www.youtube.com/watch?v=NUXdtN1W1FE>
 
-# Regression in python
+# Regression In Python
  
 In machine learning, linear regression is classified as supervised data. 
 It is a statistical model that is used to forecast the relationship between
@@ -25,7 +25,7 @@ regression basically use the formular
 $$y = mx + c$$
 
 where, $y$ is the dependent variable, $m$ is 
-the slop, $x$ is the in dependent variable , and $c$ is the intercept
+the slope, $x$ is the in dependent variable , and $c$ is the intercept
 
 ### Python Example
 
@@ -89,7 +89,7 @@ multiple linear regression use formular
 $$y = m_1x_1 + m_2x_2 +m_3x_3 ..... + c$$
 
 where $$y$$
-is the dependent variable, $$m$$ is the slop, $$x$$ is the in dependent variable , and $$c$$
+is the dependent variable, $$m$$ is the slope, $$x$$ is the in dependent variable , and $$c$$
 is the intercept.
 
 ### Python Example

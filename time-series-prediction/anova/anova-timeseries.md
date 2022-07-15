@@ -1,8 +1,12 @@
-An extensive documentation on ANOVA Time series prediction is Available at
-*  <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
-*  <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
-*  <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
-*  <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>
+An extensive documentation on ANOVA Time series prediction are Available at
+
+* <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
+
+* <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
+
+* <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
+
+* <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>
 
 # ANOVA Time Series Prediction
 
@@ -25,8 +29,7 @@ equal. Therefore, a significant result means that the two
 means are unequal. a situation when these can be used is when 
 a group of individuals randomly split into smaller groups and 
 completing different tasks. For example, you might be studying 
-the effects of tea on weight loss and form three groups: green tea, 
-black tea, and no tea.
+students test scores.
 
 This example idea gotten from[4]
 
@@ -78,14 +81,6 @@ C(shared_post):C(comments_likes)', data=dataframe).fit(), type=2)
 print(result)
 ```
 
-## Time series prediction
-
-Time series prediction is basically the machine learning 
-modeling for Time Series data (years, days, hours…etc.)
-for predicting future values using Time Series modeling .
-This helps if your data in serially correlated.
-
-
 ### ANOVA Time series prediction
 
 The ANOVA time series prediction deals with using the grand 
@@ -125,6 +120,9 @@ and it predicts how these activities can affect user social media growth.
 ## ReferenceS
 
 * [1] <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
+
 * [2] <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
+
 * [3] <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
+
 * [4] <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>

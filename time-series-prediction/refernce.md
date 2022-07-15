@@ -16,6 +16,8 @@ These are extensive set of links
 ## TFT
 * <https://arxiv.org/abs/1912.09363>
 
+* <https://towardsdatascience.com/temporal-fusion-transformer-googles-model-for-interpretable-time-series-forecasting-5aa17beb621>
+
 
 ## ARIMA Time series
 
