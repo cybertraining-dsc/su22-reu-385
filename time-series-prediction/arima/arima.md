@@ -1,4 +1,5 @@
 Extensive documents on ARIMA Time series prediction are available at
+
 * <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
 
 * <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
@@ -61,7 +62,7 @@ Linear Combination of Lagged forecast errors (upto q lags)$$
 
 ### ARIMA Python Implementation
 
-This example is copied from [1]
+Example is Formatted from [1]
 
 ``` python
 from datetime import datetime
@@ -112,7 +113,7 @@ and to which new observations are appended.
 Putting it all together, here's an example of a rolling forecast
 in Python using the ARIMA model.
 
-This example is gotten from [1]
+Example is Formatted from [1]
 
 ```python
 from pandas import read_csv
@@ -153,10 +154,10 @@ pyplot.plot(test)
 pyplot.plot(predictions, color='purple')
 pyplot.show()
 ```
+above is a line plot is created showing the expected values (blue) 
+compared to the rolling forecast predictions (purple)
 
 ![img_1.png](img1.png)
-
-TODO: BUG figures have captions and muse be refernced in text .
 
 ## Dataset
 
@@ -165,4 +166,5 @@ TODO: BUG figures have captions and muse be refernced in text .
 ## References
 
 * [1]  Create an ARIMA Model for Time Series <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
+
 * [2] ARIMA Model – Complete Guide to Time Series Forecasting in Python <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>

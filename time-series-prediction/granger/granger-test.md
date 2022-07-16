@@ -13,24 +13,46 @@ if a signal X1 "Granger-causes" (or "G-causes") a signal X2, then past values of
 X1 should contain information that helps predict X2 above and beyond the 
 information contained in past values of X2 alone."
 
-## How Granger causality test works
-
-It is predicated on the idea that if X causes Y, then forecasting Y based 
-on previous values of Y AND previous values of X should outperform forecasting
-Y based on previous values of Y alone. "Granger causality should not be used to 
-test if a lag of Y causes Y. Instead, it is generally used on exogenous (not Y lag) 
-variables only."
+Example formatted From [1]
 
 ``` python
+# Import Libaries 
 import pandas as pd
 from statsmodels.tsa.stattools import grangercausalitytests
+
+# Read the CSV file
 df = pd.read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temp.csv', parse_dates=['date'])
 df['month'] = df.date.dt.month
 grangercausalitytests(df[['temperature', 'month']], maxlag=2)
 ```
 
+The Max lag value give the granger causality test for the time 
+period apart which in these case its (2). so the code above check 
+if the previous time period which is (1)then use it to predict the 
+next time period which is (2) it keeps going like that depending on 
+the  max lag value.
+
+## Output
+```
+Granger Causality
+number of lags (no zero) 1
+ssr based F test:         F=2.7089  , p=0.1237  , df_denom=13, df_num=1
+ssr based chi2 test:   chi2=3.3340  , p=0.0679  , df=1
+likelihood ratio test: chi2=3.0285  , p=0.0818  , df=1
+parameter F test:         F=2.7089  , p=0.1237  , df_denom=13, df_num=1
+
+Granger Causality
+number of lags (no zero) 2
+ssr based F test:         F=1.4529  , p=0.2793  , df_denom=10, df_num=2
+ssr based chi2 test:   chi2=4.3588  , p=0.1131  , df=2
+likelihood ratio test: chi2=3.8265  , p=0.1476  , df=2
+parameter F test:         F=1.4529  , p=0.2793  , df_denom=10, df_num=2
+```
+
+
+
 ## Reference
 
-* <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+* [1] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
-* <http://www.scholarpedia.org/article/Granger_causality#:~:text=Granger%20causality%20is%20a%20statistical,values%20of%20X2%20alone.>
+* [2] <http://www.scholarpedia.org/article/Granger_causality#:~:text=Granger%20causality%20is%20a%20statistical,values%20of%20X2%20alone.>

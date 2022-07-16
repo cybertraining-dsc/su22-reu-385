@@ -23,7 +23,7 @@ $$ y(t) = Level + Trend + Seasonality + Noise $$
 We can decompose a time series that are made up of a linearly increasing trend from
 1 to 99,and random noise as an additive model.
 
-This example was edited from [1]
+Example Formatted from [1]
 
 ```python
 from random import randrange
@@ -51,7 +51,7 @@ over time.
 We can create a quadratic time series by using the square of the time step from 
 1 to 99 and decomposing it using a multiplicative model.
 
-This example was edited from [1]
+Example Formatted from [1]
 
 ```python
 from matplotlib import pyplot
@@ -77,7 +77,7 @@ There are several methods for deseasonalising a time series. Here are a few :
 
 * Divide the series by the seasonal index obtained from STL decomposition
 
-Example edited from [1],[2]
+Example Formatted from [1],[2]
 
 ```python
 from matplotlib import pyplot as plt

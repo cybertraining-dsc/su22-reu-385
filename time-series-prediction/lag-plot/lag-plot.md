@@ -11,39 +11,38 @@ lagged, and it is represented by the symbol k.
 
 The following axes are included in the lag plot:
 
-Vertical axis: $$y-i$$ for all i
-Horizontal axis: $$y-{i-k}$$ for all i where k represents the lag value.
+Vertical axis: $$y_i$$ for all i
+Horizontal axis: $$y_{i-k}$$ for all i where k represents the lag value.
 
 The lag plot can be used in answering the following questions:
 
 ## Model Distribution
 
-"Distribution of model here means deciding what is the shape of data on 
-the basis of the lag plot"
+Model Distribution means deciding the shape of the data on 
+the lag plot.
 
 ## Outliers
 
-"Outliers are a set of data points that represent the extreme values 
-in the distribution"
+Outliers are data points that can be regarded as the extreme value 
+in the distribution of the lag plot
 
 ## Randomness in data
 
-"The lag plot is also useful for checking whether the given dataset is random 
-or not. If there is randomness in the data then it will be reflected in the 
-lag plot, if there is no pattern in the lag plot."
+lag plot also shows the randomness of data if the plot seems random 
+it will reflect in the lag plot.
 
 ## Seasonality
 
-if there is seasonality present in the lag-plot, it will give a periodic lag
+If there is seasonality present in the lag-plot, it will give a periodic lag
 plot.
 
 ## Autocorrelation
 
-If the lag plot produces a linear plot, it indicates that autocorrelation exists 
+When the lag plot produces a linear plot, it indicates that autocorrelation exists 
 in the data; whether it is positive or negative depends on the slope of the dataset's
 line.
 
-Example gotten from
+Example Formatted from [1]
 
 ``` python
 # Import Libraries
@@ -84,4 +83,4 @@ plt.show()
 
 ## Reference
 
-* [1]<https://www.geeksforgeeks.org/lag-plots/>
+* [1] <https://www.geeksforgeeks.org/lag-plots/>

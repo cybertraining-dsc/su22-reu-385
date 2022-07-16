@@ -11,7 +11,7 @@ itself over successive time intervals is referred to as autocorrelation. In
 other words, autocorrelation is used to assess the relationship between a 
 variable's current value and any previous values to which you have access.
 
-Example idea gotten from [2]
+Example Formatted from [2]
 
 ```python
 from pandas import read_csv
@@ -27,9 +27,12 @@ pyplot.show()
 
 partial correlation unlike autocorrelation the partial auto correlation
 deals with the relationship between an observation presently and a previous 
-observation not taking into consideration the intervening observation.
+observation not taking into consideration the middle observation. the middle 
+observation depends on the lag value it the value tell us the amount of time period 
+to be delayed.
 
-Example idea gotten from [2]
+Example Formatted from [2]
+
 ```python
 from pandas import read_csv
 from matplotlib import pyplot

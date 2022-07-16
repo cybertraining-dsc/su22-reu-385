@@ -28,6 +28,8 @@ LOESS, which stands for 'LOcalized regrESSion,' fits multiple regressions
 in each point's local neighborhood. It is implemented in the `statsmodels`
 package, and the degree of smoothing can be controlled using the `frac` argument.
 
+Example Formatted from [2]
+
 ```python
 import numpy as np
 import pandas as pd
@@ -61,6 +63,6 @@ plt.show()
 
 ## Reference
 
-* <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+* [1] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
-* <https://machinelearningmastery.com/moving-average-smoothing-for-time-series-forecasting-python/#:~:text=Smoothing%20is%20a%20technique%20applied,of%20the%20underlying%20causal%20processes.>
+* [2] <https://machinelearningmastery.com/moving-average-smoothing-for-time-series-forecasting-python/#:~:text=Smoothing%20is%20a%20technique%20applied,of%20the%20underlying%20causal%20processes.>

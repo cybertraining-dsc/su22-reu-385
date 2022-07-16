@@ -12,7 +12,6 @@ Extensive documents on stationary and Non-Stationary Time Series are available a
 
 # Stationary and Non-Stationary Time Series
 
-
 ## Stationary Time series
 
 A stationary time series has statistical properties or moments 
@@ -117,7 +116,7 @@ The Dickey-Fuller test is a well-known statistical test. It can be used to deter
 whether a series contains a unit root, and thus whether the series is stationary.
 This test's null and alternate hypotheses are as follows:
 
-This Example is from [4]
+Example Formatted from [4]
 
 ```python
 # import python pandas package
@@ -161,7 +160,7 @@ test are the inverse of those for the ADF test, which frequently leads to confus
 The KPSS test's authors defined the null hypothesis as the process being trend stationary,
 as opposed to an alternate hypothesis of a unit root series.
 
-This Example is from [5]
+Example Formatted from [5]
 
 ```python
 import pandas as pd

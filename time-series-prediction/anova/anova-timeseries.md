@@ -32,7 +32,7 @@ completing different tasks. For example, you might be studying
 the amount of task for all the individual and given them a score
 per how efficient they performed the task as shown below.
 
-This example idea gotten from[4]
+Example formatted from [4]
 
 ``` python
 
@@ -77,7 +77,7 @@ using `pip` below
 pip3 install numpy pandas
 ```
 
-This example idea gotten from[3]
+Example Formatted from [3]
 
 ``` python
 
@@ -133,8 +133,8 @@ The ANOVA time series prediction deals with using the grand
 mean of the occurrence of past to predict the output of what 
 the probable output will be in the future. the example below 
 predict of a plant in a TWO way ANOVA.
-
-This example is formatted from[3]
+ 
+Example  formatted from [3]
 
 ``` python
 import numpy as np
