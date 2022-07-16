@@ -23,13 +23,14 @@ is categories into two namely:
 ## One Way ANOVA 
 
 A one way ANOVA is used to compare two means from two 
-independent (unrelated) groups using the F-distribution. 
+independent groups using the F-distribution. 
 The null hypothesis for the test is that the two means are 
 equal. Therefore, a significant result means that the two 
 means are unequal. a situation when these can be used is when 
 a group of individuals randomly split into smaller groups and 
 completing different tasks. For example, you might be studying 
-students test scores.
+the amount of task for all the individual and given them a score
+per how efficient they performed the task as shown below.
 
 This example idea gotten from[4]
 
@@ -37,14 +38,28 @@ This example idea gotten from[4]
 
 from scipy.stats import f_oneway
 
-# test scores
+# rated scores
 score1 = [84, 86, 68, 98, 49]
 score2 = [83, 29, 64, 89, 88]
 score3 = [69, 88, 69, 73, 40]
 score4 = [81, 70, 81, 92, 82]
 
-print(f_oneway(score1, score2, score3, score4))
+scores_ave=  f_oneway(score1, score2, score3, score4)
+
+print(scores_ave)
 ```
+
+### Output
+
+```
+F_onewayResult(statistic=0.5410224469358347, pvalue=0.6610639388335927)
+```
+#### Output Explanation
+
+The statistic and p-value turn out to be equal to 0.5410 and 0.661063.
+Since the p-value is greater than 0.05 hence we would accept the null 
+hypothesis. This implies that we have sufficient proof to say that the
+performance of the students are similar
 
 ## Two Way ANOVA
 
@@ -54,7 +69,13 @@ variable. With a Two Way ANOVA, there are two independents. Use a
 Two way ANOVA when you have one measurement variable  and two nominal 
 variables. In other words, if your experiment has a quantitative outcome, 
 and you have two categorical explanatory variables, a two-way ANOVA is
-appropriate.
+appropriate. To perform the Two way ANOVA the installation of two python
+libraries which are the numpy and panda library are needed. installation
+using `pip` below
+
+```
+pip3 install numpy pandas
+```
 
 This example idea gotten from[3]
 
@@ -80,6 +101,31 @@ C(shared_post):C(comments_likes)', data=dataframe).fit(), type=2)
 # Print the result
 print(result)
 ```
+
+### Output
+
+```
+                                    df      sum_sq  ...         F    PR(>F)
+C(shared_post)                     1.0   16.133333  ...  2.998230  0.094362
+C(comments_likes)                  1.0    0.049552  ...  0.009209  0.924234
+C(shared_post):C(comments_likes)   1.0    0.012326  ...  0.002291  0.962168
+Residual                          28.0  150.666667  ...       NaN       NaN
+```
+
+### Output Explanation
+
+Following are the p-values for each of the factors in the output:
+
+The shared_post p-value is equal to 0.94362
+The comments_likes p-value is equal to 0.924234
+The shared_post * comments_likes: p-value is equal to 0.962168
+
+The p-values for shared_post and comments_likes turn out 
+to be greater than 0.05 which implies that the means of 
+both the factors possess a similar effect on the user 
+SocialMedia_growth. The p-value for the interaction effect 
+(0.962168) is greater than 0.05 which shows the interaction 
+effect between shared_post frequency and comments_likes frequency.
 
 ### ANOVA Time series prediction
 
@@ -117,7 +163,7 @@ using two independent variables the users shared posts and comments and like,
 and it predicts how these activities can affect user social media growth.
 
 
-## ReferenceS
+## Reference
 
 * [1] <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
 
