@@ -3,6 +3,10 @@
 A large number of work had been done on time series in python. 
 These are extensive set of links
 
+## Time Series prediction
+
+* <https://www.tessellationtech.io/3-advantages-to-time-series-analysis-and-forecasting/>
+
 ## Anova Time series
 
 * <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>

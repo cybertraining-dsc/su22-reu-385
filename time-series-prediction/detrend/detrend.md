@@ -8,7 +8,7 @@ Detrending time series data means removing an underlying trend
 from the data. The main reason for doing so is to make seasonal
 or cyclical sub trends in the data more visible.
 
-Time series data can be de trended using two methods:
+Time series data can be detrended using two methods:
 
 * Detrend by Differencing
 
@@ -17,7 +17,7 @@ Time series data can be de trended using two methods:
 ## Detrend by Differencing
 
 This method of Detrend time series deals with finding the 
-difference between the observation the inputting it into a 
+difference between the observations the inputting it into a 
 new data set.
 
 Example:
