@@ -52,6 +52,8 @@ Example from [2]
 The Figure below shows the Top level Architecture of Temporal Fusion Transformer 
 ![img.png](img.png)
 
+## How Does Temporal Fusion Transformer Works  
+
 ### References
 
 * [1] Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting <https://arxiv.org/abs/1912.09363>
