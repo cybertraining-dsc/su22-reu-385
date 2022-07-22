@@ -63,7 +63,8 @@ which is used to check if a date can be predicted or not. lag-plot
 is a type of scatter plot in which the x and y-axis are lagged,
 SampleEntropy, which is a technique for quantifying the amount of
 regularity and unpredictability of small time series, and Smoothen
-To remove fine-grained variation between time steps, time series techniques are used.
+To remove fine-grained variation between time steps, time series 
+techniques are used.
 
 ## References
 

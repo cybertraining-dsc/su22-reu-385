@@ -43,6 +43,12 @@ pyplot.show()
 ```
 ![img1.png](img1.png)
 
+Test the following codes below:
+
+* AutoCorrelation <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/autocorrelation/autocorrelation.py>
+
+* Partial AutoCorrelation <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/autocorrelation/partialautocorrelation.py>
+
 ## Reference
 * [1] <https://www.influxdata.com/blog/autocorrelation-in-time-series-data/#:~:text=The%20term%20autocorrelation%20refers%20to,you%20may%20have%20access%20to.>
 

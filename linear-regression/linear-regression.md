@@ -6,7 +6,7 @@ Extensive documents on Linear Regression are available at
 
 # Regression In Python
  
-In machine learning, linear regression is classified as supervised data. 
+linear regression is classified as supervised data. 
 It is a statistical model that is used to forecast the relationship between
 independent and dependent variables. It is divided into three categories:
 

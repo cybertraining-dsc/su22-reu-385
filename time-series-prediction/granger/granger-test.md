@@ -49,7 +49,9 @@ likelihood ratio test: chi2=3.8265  , p=0.1476  , df=2
 parameter F test:         F=1.4529  , p=0.2793  , df_denom=10, df_num=2
 ```
 
+Test the following codes below:
 
+* <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/granger/granger.py>
 
 ## Reference
 

@@ -81,6 +81,10 @@ plt.show()
 ```
 ![img.png](img.png)
 
+To test the following code:
+
+* <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/lag-plot/lag-plot.py>
+
 ## Reference
 
 * [1] <https://www.geeksforgeeks.org/lag-plots/>
