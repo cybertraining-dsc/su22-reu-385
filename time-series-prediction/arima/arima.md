@@ -26,30 +26,26 @@ The most common method is to differentiate it. To put it another way,
 subtract the previous value from the current value. Depending on the 
 complexity of the series, more than one differencing may be required at times.
 
-As a result, the value of d is the smallest number of differencing 
+As a result, the value of d is the smallest number of differences 
 required to make the series stationary. And d = 0 if the time series
 is already stationary.
 
 ## What exactly are AR and MA models?
 
 A pure Auto Regressive (AR only) model is one in which Yt is solely 
-determined by its own lags. That is, Yt is a function of the 'Yt lags.'
+determined by its lags. That is, Yt is a function of the 'Yt lags.'
 
 $$Y_t = \alpha +\beta_1 Y_{t-1} + \beta_2 Y_{t-2}+ ... +\beta_p Y_{t-p} + \epsilon_1$$
 
 'where $Yt-1$ is the series' lag1, $beta1$ is the lag1 coefficient 
-estimated by the model, and $alpha$ is the intercept term estimated 
-by the model.'
+estimated by the model, and $alpha$ is the intercept term 
+estimated by the model.'
 
 
 Similarly, a pure Moving Average (MA only) model is one in which Yt 
 is determined solely by the lagged forecast errors.
 
 $$Y_t = \alpha +\epsilon_t + \phi_1 \epsilon_{t-1} + \phi_2 \epsilon_{t-2} ... + \phi_q \epsilon_{t-q}$$
-
-where the error terms are the errors of the autoregressive models of 
-the respective lags The errors Et and E(t-1) are the results of the 
-following equations:
 
 An ARIMA model is one in which the time series is different at least 
 once to make it stationary and the AR and MA terms are combined. As a 
@@ -159,6 +155,11 @@ compared to the rolling forecast predictions (purple)
 
 ![img_1.png](img1.png)
 
+Test the following codes below:
+
+* <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/arima/arima-prediction.py>
+
+* <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/arima/rolling-forecast-arima.py>
 ## Dataset
 
 * <https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv>
