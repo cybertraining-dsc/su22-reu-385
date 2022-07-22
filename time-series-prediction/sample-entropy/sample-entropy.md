@@ -67,7 +67,9 @@ print(sampen_of_series)
   0.007540128072706757
 
 ```
+To test the following code:
 
+* <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/sample-entropy/sample-entropy.py>
 
 ## Reference
 
