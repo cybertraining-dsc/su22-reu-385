@@ -13,8 +13,8 @@ An extensive documentation on ANOVA Time series prediction are Available at
 An ANOVA test is used to determine whether survey or 
 experiment results are significant. In other words, they 
 assist you in determining whether you should reject the 
-null hypothesis or accept the alternate hypothesis. it 
-is categories into two namely:
+null hypothesis or accept the alternative hypothesis. it's 
+categories into two namely: 
 
 * One Way ANOVA
 * Two Way ANOVA
@@ -64,17 +64,26 @@ performance of the students are similar
 ## Two Way ANOVA
 
 A Two Way ANOVA is an extension of the One Way ANOVA. With a 
-One Way, you have one independent variable affecting a dependent 
+One Way ANOVA, you have one independent variable affecting a dependent 
 variable. With a Two Way ANOVA, there are two independents. Use a 
-Two way ANOVA when you have one measurement variable  and two nominal 
+Two way ANOVA when you have one dependent variable and two independent 
 variables. In other words, if your experiment has a quantitative outcome, 
-and you have two categorical explanatory variables, a two-way ANOVA is
-appropriate. To perform the Two way ANOVA the installation of two python
-libraries which are the numpy and panda library are needed. installation
-using `pip` below
+and you have two independent variables, a two-way ANOVA is appropriate.
+To manage a Two Way ANOVA data set two python libraries are required which 
+are the numpy and panda are needed. to perform the Two Way ANOVA the
+statistical model is needed, known as the statsmodel. statsmodels is a
+Python package that provides descriptive statistics and estimation and 
+inference for statistical models. to install the python
+libraries using `pip` below
 
+Dataset Management Libraries
 ```
 pip3 install numpy pandas
+```
+
+Statistical models Library
+```
+pip install statsmodels
 ```
 
 Example Formatted from [3]
@@ -127,40 +136,21 @@ SocialMedia_growth. The p-value for the interaction effect
 (0.962168) is greater than 0.05 which shows the interaction 
 effect between shared_post frequency and comments_likes frequency.
 
-### ANOVA Time series prediction
+Test the following codes below:
+
+* One Way ANOVA <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/anova/anova-test.py>
+
+* Two Way ANOVA <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/anova/anovatest2.py>
+
+## ANOVA Time series prediction
 
 The ANOVA time series prediction deals with using the grand 
 mean of the occurrence of past to predict the output of what 
-the probable output will be in the future. the example below 
-predict of a plant in a TWO way ANOVA.
- 
-Example  formatted from [3]
+the probable output will be in the future. the example in the TWO Way ANOVA
+section that predicts a user social media growth is a perfect example of 
+the predicting time series with ANOVA.
 
-``` python
-import numpy as np
-import pandas as pd
-import statsmodels.api as sm
-from statsmodels.formula.api import ols
 
-# Create a dataframe
-dataframe = pd.DataFrame({'shared_post': np.repeat(['daily', 'weekly'], 15),
-                          'comments_likes': np.repeat(['daily', 'weekly'], 15),
-                          'SocialMedia_growth': [10, 18, 16, 14, 19, 16, 18, 14,
-                                                 17, 18, 17, 17, 18, 17, 19, 11,
-                                                 16, 15, 15, 16, 17, 15, 16, 15,
-                                                 19, 11, 18, 15, 15, 12]})
-
-# Performing two-way ANOVA
-result = sm.stats.anova_lm(ols('SocialMedia_growth ~ C(shared_post) + C(comments_likes) +\
-C(shared_post):C(comments_likes)', data=dataframe).fit(), type=2)
-
-# Print the result
-print(result)
-```
-
-The example above gives a prediction of a person social media growth 
-using two independent variables the users shared posts and comments and like,
-and it predicts how these activities can affect user social media growth.
 
 
 ## Reference
