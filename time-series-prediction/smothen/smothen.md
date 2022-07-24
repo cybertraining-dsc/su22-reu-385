@@ -61,9 +61,10 @@ plt.show()
 ```
 ![img.png](img.png)
 
-Test the following codes below:
+Test the following code below:
 
-*
+* <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/smothen/smothen.py>
+
 ## Reference
 
 * [1] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>

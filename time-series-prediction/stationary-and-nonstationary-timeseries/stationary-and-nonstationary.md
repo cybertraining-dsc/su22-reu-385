@@ -205,6 +205,13 @@ either strict stationary or trend stationary.
 A difference stationary time series is one that can be made strict stationary by differencing.
 ADF tests are also referred to as difference Stationary tests.
 
+Test the following code below:
+
+* Augmented Dickey Fuller test (ADH Test) <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/stationary-and-nonstationary-timeseries/adh-test.py>
+
+* Visual Test <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/stationary-and-nonstationary-timeseries/visual.py>
+
+* Kwiatkowski-Phillips-Schmidt-Shin – KPSS test <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/stationary-and-nonstationary-timeseries/kpss.py>
 
 ## References
 
