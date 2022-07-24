@@ -107,7 +107,6 @@ $$y_{t-1} = a*y_{t-2} + \epsilon_{t-1}$$
 
 If we do that for all observations, the value of y_t will come out to be:
 
-
 $$y_t = a^n \times y_{t-n} + \sum \epsilon_t-i \times a^i$$
 
 ### Augmented Dickey Fuller test (ADH Test)
