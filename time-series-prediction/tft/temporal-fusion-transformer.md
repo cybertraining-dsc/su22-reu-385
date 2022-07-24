@@ -52,7 +52,15 @@ Example from [2]
 The Figure below shows the Top level Architecture of Temporal Fusion Transformer 
 ![img.png](img.png)
 
-## How Does Temporal Fusion Transformer Works  
+UnderStanding the figure above:
+
+"For a given timestep t , a look back window k , and a `τmax` step ahead window,
+where `t⋹ [t-k..t+τmax]`, the model takes as input: i) Observed past inputs x in 
+the time period `[t-k..t]`, future known inputs x in the time period `[t+1..t+τmax]`
+and a set of static variables s (if exist). The target variable y also spans the time
+window `[t+1..t+τmax]`".
+
+
 
 ### References
 
