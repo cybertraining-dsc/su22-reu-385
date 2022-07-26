@@ -60,7 +60,7 @@ Linear Combination of Lagged forecast errors (upto q lags)$$
 
 Example is Formatted from [1]
 
-``` python
+```python
 from datetime import datetime
 from pandas import read_csv
 from pandas import DataFrame
