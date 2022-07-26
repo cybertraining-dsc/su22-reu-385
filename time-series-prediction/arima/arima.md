@@ -79,7 +79,7 @@ series.index = series.index.to_period('M')
 # fit model
 model = ARIMA(series, order=(5, 1, 0))
 model_fit = model.fit()
- summary of fit model
+# summary of fit model
 print(model_fit.summary())
 # line plot of residuals
 residuals = DataFrame(model_fit.resid)
