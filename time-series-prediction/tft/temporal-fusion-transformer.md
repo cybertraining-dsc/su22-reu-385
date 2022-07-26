@@ -1,10 +1,11 @@
+# Temporal Fusion Transformer(TFT)
+
 An extensive documentation on Temporal Fusion Transformer are Available at
 
 * <https://arxiv.org/abs/1912.09363>
 
 * <https://towardsdatascience.com/temporal-fusion-transformer-googles-model-for-interpretable-time-series-forecasting-5aa17beb621>
 
-# Temporal Fusion Transformer(TFT)
 
 TFT is an attention-based Deep Neural Network that has been 
 optimized for performance and interpretability. To learn 

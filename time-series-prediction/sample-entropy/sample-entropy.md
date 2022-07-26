@@ -1,3 +1,5 @@
+# Sample Entropy
+
 Extensive documents on Sample Entropy are available at
 
 * <https://pythonmana.com/2022/130/202205101057060253.html>
@@ -6,7 +8,6 @@ Extensive documents on Sample Entropy are available at
 
 * <https://sampen.readthedocs.io/en/stable/>
 
-# Sample Entropy
 
 Approximate entropy a technique for quantifying the amount of 
 regularity and unpredictability in time-series data. so what is 

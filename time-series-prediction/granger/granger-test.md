@@ -1,10 +1,11 @@
+# Granger casualty test
+
 Extensive documents on granger casualty test are available at
 
 * <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
 * <http://www.scholarpedia.org/article/Granger_causality#:~:text=Granger%20causality%20is%20a%20statistical,values%20of%20X2%20alone.>
 
-# Granger casualty test
 
 The Granger causality test is used to determine whether one time 
 series can be used to predict another. "Granger causality is a statistical

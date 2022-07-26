@@ -1,3 +1,5 @@
+# Seasonal decomposition from stats model
+
 An extensive documentation on seasonal decomposition and deseasonalising of stat model is
 available at
 
@@ -5,7 +7,6 @@ available at
 
 * <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
 
-# Seasonal decomposition from stats model
 
 Decomposing a time series entails viewing it as a collection of
 level, trend, seasonality, and noise components. it uses

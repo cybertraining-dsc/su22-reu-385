@@ -1,10 +1,11 @@
+# Regression In Python
+
 Extensive documents on Linear Regression are available at
 
 *  <https://www.w3schools.com/python/python_ml_linear_regression.asp>
 
 *  <https://www.youtube.com/watch?v=NUXdtN1W1FE>
 
-# Regression In Python
  
 linear regression is classified as supervised data. 
 It is a statistical model that is used to forecast the relationship between

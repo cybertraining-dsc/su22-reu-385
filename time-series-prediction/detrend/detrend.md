@@ -1,8 +1,9 @@
+# Detrend a Time Series
+
 Extensive documents on Detrend of Time Series are available at
 
 * <https://www.statology.org/detrend-data/>
 
-# Detrend a Time Series
 
 Detrending time series data means removing an underlying trend 
 from the data. The main reason for doing so is to make seasonal

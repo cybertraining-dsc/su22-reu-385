@@ -1,3 +1,5 @@
+# Stationary and Non-Stationary Time Series
+
 Extensive documents on stationary and Non-Stationary Time Series are available at
 
 * <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
@@ -10,7 +12,6 @@ Extensive documents on stationary and Non-Stationary Time Series are available a
 
 * <https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html>
 
-# Stationary and Non-Stationary Time Series
 
 ## Stationary Time series
 
