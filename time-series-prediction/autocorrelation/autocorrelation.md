@@ -1,10 +1,11 @@
+# Autocorrelation in images/Time Series
+
 Extensive documents on autocorrelation of Time Series are available at
 
 * <https://www.influxdata.com/blog/autocorrelation-in-time-series-data/#:~:text=The%20term%20autocorrelation%20refers%20to,you%20may%20have%20access%20to.>
 
 * <https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/>
 
-# Autocorrelation in images/Time Series
 
 The degree of similarity between a given time series and a lagged version of 
 itself over successive time intervals is referred to as autocorrelation. In 

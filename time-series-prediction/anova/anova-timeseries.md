@@ -1,3 +1,5 @@
+# ANOVA Time Series Prediction
+
 An extensive documentation on ANOVA Time series prediction are Available at
 
 * <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
@@ -8,7 +10,6 @@ An extensive documentation on ANOVA Time series prediction are Available at
 
 * <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>
 
-# ANOVA Time Series Prediction
 
 An ANOVA test is used to determine whether survey or 
 experiment results are significant. In other words, they 
@@ -92,7 +93,6 @@ pip install statsmodels
 Example Formatted from [3]
 
 ``` python
-
 import numpy as np
 import pandas as pd
 import statsmodels.api as sm
@@ -152,9 +152,6 @@ mean of the occurrence of past to predict the output of what
 the probable output will be in the future. the example in the TWO Way ANOVA
 section that predicts a user social media growth is a perfect example of 
 the predicting time series with ANOVA.
-
-
-
 
 ## Reference
 

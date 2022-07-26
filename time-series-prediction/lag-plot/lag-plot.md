@@ -12,8 +12,10 @@ lagged, and it is represented by the symbol k.
 
 The following axes are included in the lag plot:
 
-Vertical axis: $$y_i$$ for all i
-Horizontal axis: $$y_{i-k}$$ for all i where k represents the lag value.
+
+Vertical axis: $$y_i$$  for all i
+
+Horizontal axis: $$y_{i-k}$$  for all i where k represents the lag value.
 
 The lag plot can be used in answering the following questions:
 
@@ -44,6 +46,7 @@ in the data; whether it is positive or negative depends on the slope of the data
 line.
 
 Example Formatted from [1]
+
 
 ``` python
 # Import Libraries
@@ -81,7 +84,12 @@ pd.plotting.lag_plot(temp_data['Adj Close'], lag=1, ax=ax[1])
 plt.show()
 ```
 
-![img.png](images/img.png)
+![CAPTION MISSING](images/lag-plot.png){#fig:lag-plot}
+
+Figure @fig:lag-plot shows ... A SENTENCE IS MISSING THAT REFERS TO THIS 
+IMAGE AND EXPLAINES WHT IT SHOWS. 
+ALL IMAGES INCLUDED IN PAPER MUST HAVE SUCH A SENTENCE.
+
 
 To test the following code:
 
@@ -89,4 +97,4 @@ To test the following code:
 
 ## Reference
 
-* [1] <https://www.geeksforgeeks.org/lag-plots/>
+* [1] <https://www.geeksforgeeks.org/lag-plots>
