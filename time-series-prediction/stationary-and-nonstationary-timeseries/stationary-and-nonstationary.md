@@ -87,7 +87,7 @@ data = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-38
 data.plot()
 pyplot.show()
 ```
-![img.png](img.png)
+![img.png](images/img.png)
 
 ### Statistical test
 

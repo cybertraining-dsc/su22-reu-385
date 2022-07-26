@@ -79,7 +79,7 @@ ax[0].plot(temp_data['Adj Close'], temp_data['index'])
 pd.plotting.lag_plot(temp_data['Adj Close'], lag=1, ax=ax[1])
 plt.show()
 ```
-![img.png](img.png)
+![img.png](images/img.png)
 
 To test the following code:
 
