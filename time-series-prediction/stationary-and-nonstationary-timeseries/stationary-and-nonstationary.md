@@ -88,7 +88,7 @@ data.plot()
 
 pyplot.show()
 ```
-![img.png](img.png)
+![img.png](images/img.png)
 
 ### Statistical test
 

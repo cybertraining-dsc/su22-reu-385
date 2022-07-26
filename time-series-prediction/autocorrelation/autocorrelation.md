@@ -4,7 +4,7 @@ Extensive documents on autocorrelation of Time Series are available at
 
 * <https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/>
 
-# Autocorrelation in Time Series
+# Autocorrelation in images/Time Series
 
 The degree of similarity between a given time series and a lagged version of 
 itself over successive time intervals is referred to as autocorrelation. In 
@@ -21,7 +21,7 @@ series = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-
 plot_acf(series)
 pyplot.show()
 ```
-![img.png](img.png)
+![img.png](images/img.png)
 
 ## Partial Autocorrelation Function
 
@@ -41,7 +41,7 @@ temp = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-38
 plot_pacf(temp, lags=10)
 pyplot.show()
 ```
-![img1.png](img1.png)
+![img1.png](images/img1.png)
 
 Test the following codes below:
 
