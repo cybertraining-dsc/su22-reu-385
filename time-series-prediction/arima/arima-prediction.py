@@ -6,7 +6,7 @@ from datetime import datetime
 from pandas import read_csv
 from pandas import DataFrame
 from statsmodels.tsa.arima.model import ARIMA
-from matplotlib import pyplot
+from matplotlib import pyplot, pyplot as plt
 
 
 # load dataset
@@ -27,6 +27,7 @@ residuals.plot()
 pyplot.show()
 # density plot of residuals
 residuals.plot(kind='kde')
+plt.savefig("model.svg")
 pyplot.show()
 # summary stats of residuals
 print(residuals.describe())
