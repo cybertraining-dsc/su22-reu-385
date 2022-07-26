@@ -152,7 +152,7 @@ pyplot.show()
 above is a line plot is created showing the expected values (blue) 
 compared to the rolling forecast predictions (purple)
 
-![img1.png](img1.png)
+![img1.png](images/img1.png)
 
 Test the following codes below:
 
