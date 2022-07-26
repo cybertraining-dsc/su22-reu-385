@@ -35,7 +35,7 @@ result = seasonal_decompose(data, model='additive', period=3)
 result.plot()
 pyplot.show()
 ```
-![img_2.png](images/img2.png)
+![TPODP: CAPTION MISSING](images/ses-img2.png)
 
 ## Multiplicative Decomposition
 
@@ -64,7 +64,7 @@ result.plot()
 pyplot.show()
 
 ```
-![img_1.png](images/img1.png)
+![TPODP: CAPTION MISSING](images/ses-img1.png)
 
 ## Desasonalising of Time Series
 
@@ -97,7 +97,7 @@ plt.plot(deseasonalized)
 plt.title('Data Deseasonalized', fontsize=15)
 plt.show()
 ```
-![img.png](images/img.png)
+![TPODP: CAPTION MISSING](images/ses-img.png)
 
 Test the following codes below:
 

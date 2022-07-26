@@ -47,7 +47,6 @@ differencing can be used. And so forth.
 * Consider the following sequence: `[8, 6, 4, 10, 25]`.
 * First differencing gives: `[6-8, 4-6, 10-4, 25-10] = [-2, -2, 6, 15]`
 * Second differencing gives: `[-2-(-2), 6-(-2), 15-6] = [0, 8, 9]`
-
 ## Non-Stationary Time series
 
 Data points are frequently non-stationary or have changing means,
@@ -89,7 +88,8 @@ data.plot()
 
 pyplot.show()
 ```
-![img.png](images/img.png)
+
+![TODO CAPTION MISSING](images/stationary-img.png)
 
 ### Statistical test
 

@@ -59,7 +59,7 @@ df_ma.plot(ax=axes[2], title='Moving Average (3)')
 fig.suptitle('How to Smoothen a Time Series', y=0.95, fontsize=14)
 plt.show()
 ```
-![img.png](images/img.png)
+![TPODP: CAPTION MISSING](images/smooth-img.png)
 
 Test the following code below:
 

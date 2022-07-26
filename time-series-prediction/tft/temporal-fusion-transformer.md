@@ -51,7 +51,7 @@ There are already open source TFT implementations in Tensorflow and Python.
 Example from [2]
 
 The Figure below shows the Top level Architecture of Temporal Fusion Transformer 
-![img.png](images/img.png)
+![TPODP: CAPTION MISSING](images/tft-img.png)
 
 UnderStanding the figure above:
 
