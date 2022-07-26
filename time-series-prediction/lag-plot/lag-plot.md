@@ -84,10 +84,9 @@ pd.plotting.lag_plot(temp_data['Adj Close'], lag=1, ax=ax[1])
 plt.show()
 ```
 
+![CAPTION MISSING](images/lag-plot.png){#fig:lag-plot}
 
-![CAPTION MISSING](images/lag-plot.png){fig:lag-plot}
-
-Figure #fig:lag-plot shows ... A SENTENCE IS MISSING THAT REFERS TO THIS 
+Figure @fig:lag-plot shows ... A SENTENCE IS MISSING THAT REFERS TO THIS 
 IMAGE AND EXPLAINES WHT IT SHOWS. 
 ALL IMAGES INCLUDED IN PAPER MUST HAVE SUCH A SENTENCE.
 
