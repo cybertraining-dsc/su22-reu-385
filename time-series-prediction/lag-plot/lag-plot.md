@@ -1,8 +1,9 @@
+# Lag Plot
+
 Extensive Documents on lag plot can be found 
 
-* <https://www.geeksforgeeks.org/lag-plots/>
+* <https://www.geeksforgeeks.org/lag-plots>
 
-# Lag Plot
 
 A lag plot is a type of scatter plot in which the X-axis 
 represents the dataset behind or ahead of the Y-axis by some
@@ -79,6 +80,7 @@ ax[0].plot(temp_data['Adj Close'], temp_data['index'])
 pd.plotting.lag_plot(temp_data['Adj Close'], lag=1, ax=ax[1])
 plt.show()
 ```
+
 ![img.png](images/img.png)
 
 To test the following code:

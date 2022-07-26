@@ -1,10 +1,11 @@
+# ARIMA Time Series Prediction
+
 Extensive documents on ARIMA Time series prediction are available at
 
 * <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
 
 * <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
 
-# ARIMA Time Series Prediction
 
 ARIMA is a forecasting algorithm that stands for 'AutoRegressive 
 Integrated Moving Average'. it is a class of statistical models for 
@@ -60,7 +61,7 @@ Linear Combination of Lagged forecast errors (upto q lags)$$
 
 Example is Formatted from [1]
 
-``` python
+```python
 from datetime import datetime
 from pandas import read_csv
 from pandas import DataFrame
@@ -79,7 +80,7 @@ series.index = series.index.to_period('M')
 # fit model
 model = ARIMA(series, order=(5, 1, 0))
 model_fit = model.fit()
- summary of fit model
+# summary of fit model
 print(model_fit.summary())
 # line plot of residuals
 residuals = DataFrame(model_fit.resid)
@@ -93,6 +94,7 @@ print(residuals.describe())
 ```
 
 ![img2.png](images/img2.png)
+
 ![img3.png](images/img3.png)
 
 ## Rolling Forecast ARIMA Model
