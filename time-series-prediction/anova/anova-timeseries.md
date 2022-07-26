@@ -52,8 +52,11 @@ print(scores_ave)
 ### Output
 
 ```
+
 F_onewayResult(statistic=0.5410224469358347, pvalue=0.6610639388335927)
+
 ```
+
 #### Output Explanation
 
 The statistic and p-value turn out to be equal to 0.5410 and 0.661063.

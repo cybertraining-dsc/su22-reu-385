@@ -91,9 +91,8 @@ pyplot.show()
 print(residuals.describe())
 
 ```
-![img_2.png](img2.png)
-![img_3.png](img3.png)
-
+![img2.png](img2.png)
+![img3.png](img3.png)
 
 ## Rolling Forecast ARIMA Model
 
@@ -153,7 +152,7 @@ pyplot.show()
 above is a line plot is created showing the expected values (blue) 
 compared to the rolling forecast predictions (purple)
 
-![img_1.png](img1.png)
+![img1.png](img1.png)
 
 Test the following codes below:
 
