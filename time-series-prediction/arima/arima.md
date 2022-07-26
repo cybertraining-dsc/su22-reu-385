@@ -93,6 +93,7 @@ print(residuals.describe())
 ```
 
 ![img2.png](images/img2.png)
+
 ![img3.png](images/img3.png)
 
 ## Rolling Forecast ARIMA Model
