@@ -28,6 +28,7 @@ Time series can be done in different form be it the AI or
 non AI methods the table below classify each of the time 
 series predicting algorithm in their method.
 
+```
 * Time-series-prediction
   * AI
     * Temporal Fusion Transformer
@@ -44,7 +45,7 @@ series predicting algorithm in their method.
     * Augmented Dickey-Fuller test
     * Granger Casualty Test
       * Lag plot
-
+```
 
 This talks about the different forms of time series prediction.
 such as the ANOVA model used to determine whether a survey or
