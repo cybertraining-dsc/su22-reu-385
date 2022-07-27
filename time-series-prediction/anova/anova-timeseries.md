@@ -1,6 +1,6 @@
 # ANOVA Time Series Prediction
 
-An extensive documentation on ANOVA Time series prediction are Available at
+An extensive documentation on ANOVA Time series prediction are available at
 
 * <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
 
@@ -57,7 +57,7 @@ print(scores_ave)
 F_onewayResult(statistic=0.5410224469358347, pvalue=0.6610639388335927)
 
 ```
-Note: With a P value less than 0.05, you reject the null hypothesis 
+Note: With a P value less than 0.05, you reject the null hypothesis,
       With a P value greater than 0.05, you accept the null hypothesis 
 
 #### Output Explanation
