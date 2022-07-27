@@ -92,10 +92,12 @@ pyplot.show()
 # summary stats of residuals
 print(residuals.describe())
 ```
+![Graph Showing the Implementation of the Arima model](images/arimapre.png){fig:Arima Model}
 
-![img2.png](images/img2.png)
+![Graph Showing the Implementation of the Arima model](images/arimaprediction.png) {fig:Arima Model}
 
-![img3.png](images/img3.png)
+Figure @fig:Arima Model shows two graphs that give a visual explanation of the ARIMA models.
+
 
 ## Rolling Forecast ARIMA Model
 
@@ -156,7 +158,11 @@ pyplot.show()
 above is a line plot is created showing the expected values (blue) 
 compared to the rolling forecast predictions (purple)
 
-![img1.png](images/img1.png)
+![Rolling Forcasting Models](images/rolling.png){fig:Rolling Forecasting}
+
+Figure @fig:Rolling Forecasting shows two graphs that give a visual explanation of the rolling forecasting ARIMA models.
+
+
 
 Test the following codes below:
 

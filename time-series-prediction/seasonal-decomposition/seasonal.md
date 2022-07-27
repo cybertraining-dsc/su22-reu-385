@@ -36,6 +36,7 @@ result.plot()
 pyplot.show()
 ```
 ![TPODP: CAPTION MISSING](images/ses-img2.png)
+![img.png](img.png)
 
 ## Multiplicative Decomposition
 
@@ -98,6 +99,7 @@ plt.title('Data Deseasonalized', fontsize=15)
 plt.show()
 ```
 ![TPODP: CAPTION MISSING](images/ses-img.png)
+![img_1.png](img_1.png)
 
 Test the following codes below:
 

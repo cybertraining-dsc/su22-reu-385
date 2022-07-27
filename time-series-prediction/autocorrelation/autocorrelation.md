@@ -22,7 +22,9 @@ series = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-
 plot_acf(series)
 pyplot.show()
 ```
-![img.png](images/img.png)
+![Auto Correlation](images/autocorellation.png){fig:autocorrelation}
+
+Figure @fig:Arima Model shows a graphs that give a visual explanation of the autocorellation of a time series
 
 ## Partial Autocorrelation Function
 
@@ -42,7 +44,9 @@ temp = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-38
 plot_pacf(temp, lags=10)
 pyplot.show()
 ```
-![img1.png](images/img1.png)
+![partial Auto Correlation](images/partial.png){fig:partial}
+
+Figure @fig:partial shows a graphs that give a visual explanation of the partial auto correlation.
 
 Test the following codes below:
 

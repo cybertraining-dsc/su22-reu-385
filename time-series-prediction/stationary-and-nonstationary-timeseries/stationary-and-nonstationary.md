@@ -88,8 +88,11 @@ data.plot()
 
 pyplot.show()
 ```
+![visual test for stationarity](images/visual.png){fig:visual}
 
-![TODO CAPTION MISSING](images/stationary-img.png)
+Figure @fig:visual shows a graphs that give a visual explanation on the visual test for stationary.
+
+
 
 ### Statistical test
 

@@ -59,7 +59,9 @@ df_ma.plot(ax=axes[2], title='Moving Average (3)')
 fig.suptitle('How to Smoothen a Time Series', y=0.95, fontsize=14)
 plt.show()
 ```
-![TODO CAPTION MISSING](images/smooth-img.png)
+![Smothen a Time series](images/smoothen.png){fig:smoothen}
+
+Figure @fig:smoothen shows a graphs that give a visual explanation on smoothen a time series.
 
 Test the following code below:
 

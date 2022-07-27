@@ -84,13 +84,11 @@ pd.plotting.lag_plot(temp_data['Adj Close'], lag=1, ax=ax[1])
 plt.show()
 ```
 
-<img src="images/lag-plot.png" width="500">
-
-![Two Graphs showing lag plot](images/lag-plot.png){#fig:lag-plot}
+![Two Graphs showing lag plot](images/lag-plot.png){fig:lag-plot}
 
 
 
-Figure @fig:lag-plot shows two graphs with
+Figure @fig:lag-plot shows two graphs with tath visualize the lag plot
 
 
 To test the following code:
