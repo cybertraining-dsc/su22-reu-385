@@ -8,7 +8,7 @@ An extensive document on time series prediction is located in
 
 
 Time series prediction is the modeling for Time Series data 
-(years, days, hours…etc.)for predicting future values using 
+(years, days, hours, etc.) for predicting future values using 
 Time Series modeling. This helps if your data is serially
 correlated.
 
@@ -43,7 +43,7 @@ series predicting algorithm in their method.
     * Regression
     * Augmented Dickey-Fuller test
     * Granger Casualty Test
-      * lag plot
+      * Lag plot
 
 
 This talks about the different forms of time series prediction.
