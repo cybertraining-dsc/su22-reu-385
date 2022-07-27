@@ -13,7 +13,7 @@ These are extensive set of links
 
 * <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
 
-* <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-pyt>
+* <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
 
 * <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
 
