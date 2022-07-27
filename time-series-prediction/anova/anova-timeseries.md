@@ -17,21 +17,21 @@ assist you in determining whether you should reject the
 null hypothesis or accept the alternative hypothesis. it's 
 categories into two namely: 
 
+Note: A null hypothesis test predicts that there is 
+no relationship between variables, whereas the alternative 
+hypothesis states that your research predictions are related.
+
 * One Way ANOVA
 * Two Way ANOVA
 
 
 ## One Way ANOVA 
 
-A one way ANOVA is used to compare two means from two 
-independent groups using the F-distribution. 
-The null hypothesis for the test is that the two means are 
-equal. Therefore, a significant result means that the two 
-means are unequal. a situation when these can be used is when 
-a group of individuals randomly split into smaller groups and 
-completing different tasks. For example, you might be studying 
-the amount of task for all the individual and given them a score
-per how efficient they performed the task as shown below.
+The one-way ANOVA method is used to determine whether there is 
+a statistically significant difference between the mean values
+of multiple groups. For example, you might be studying the 
+amount of task for all the individual and given them a score
+per how efficient they performed the task as shown.
 
 Example formatted from [4]
 
@@ -57,6 +57,8 @@ print(scores_ave)
 F_onewayResult(statistic=0.5410224469358347, pvalue=0.6610639388335927)
 
 ```
+Note: With a P value less than 0.05, you reject the null hypothesis 
+      With a P value greater than 0.05, you accept the null hypothesis 
 
 #### Output Explanation
 
@@ -73,16 +75,16 @@ variable. With a Two Way ANOVA, there are two independents. Use a
 Two way ANOVA when you have one dependent variable and two independent 
 variables. In other words, if your experiment has a quantitative outcome, 
 and you have two independent variables, a two-way ANOVA is appropriate.
-To manage a Two Way ANOVA data set two python libraries are required which 
-are the numpy and panda are needed. to perform the Two Way ANOVA the
-statistical model is needed, known as the statsmodel. statsmodels is a
+To manage a Two Way ANOVA data set two python libraries are helpful which 
+are NumPy and panda. to perform the Two Way ANOVA the
+statistical model is needed, known as the stats model. stats models is a
 Python package that provides descriptive statistics and estimation and 
 inference for statistical models. to install the python
-libraries using `pip` below
+libraries using `pip` 
 
 Dataset Management Libraries
 ```
-pip3 install numpy pandas
+pip install numpy pandas
 ```
 
 Statistical models Library
@@ -128,7 +130,7 @@ Residual                          28.0  150.666667  ...       NaN       NaN
 
 Following are the p-values for each of the factors in the output:
 
-The shared_post p-value is equal to 0.94362
+The shared_post p-value is equal to 0.094362
 The comments_likes p-value is equal to 0.924234
 The shared_post * comments_likes: p-value is equal to 0.962168
 
