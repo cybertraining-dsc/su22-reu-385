@@ -55,11 +55,14 @@ The Figure below shows the Top level Architecture of Temporal Fusion Transformer
 
 UnderStanding the figure above:
 
-"For a given timestep t , a look back window k , and a `τmax` step ahead window,
-where `t⋹ [t-k..t+τmax]`, the model takes as input: i) Observed past inputs x in 
-the time period `[t-k..t]`, future known inputs x in the time period `[t+1..t+τmax]`
+TODO: verify the equations and use latex to write them
+
+"For a given timestep t , a look back window k , and a $\tau max$ step ahead window,
+where $t_\epsilon [t-k..t+\tau max]$, the model takes as input: i) Observed past inputs x in 
+the time period $[t-k..t]$, future known inputs x in the time period $[t+1..t+\tau max]$
 and a set of static variables s (if exist). The target variable y also spans the time
-window `[t+1..t+τmax]`".
+window $[t+1..t+\tau max]$".
+
 
 
 
