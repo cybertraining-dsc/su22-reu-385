@@ -18,12 +18,9 @@ Githubid: Diyaolu04
 - [ ]  Document about FastAPI
 
 - [ ]  Get computer temperature and hostname 
+
+- [ ] Research on how linear Regression, TFT, and Arima. in predicting time series
  
- ## TODO
- - 
- - [ ] Research on how linear Regression, TFT, and Arima. in predicting time series
-
-
  
  # Programming Knowledge
  
