@@ -45,7 +45,7 @@ When the lag plot produces a linear plot, it indicates that autocorrelation exis
 in the data; whether it is positive or negative depends on the slope of the dataset's
 line.
 
-Example Formatted from [1]
+Example Formatted from [1] @lag-geeksforgeeks
 
 
 ``` python

@@ -26,7 +26,7 @@ $ pip install sampen
 
 ## Python Example
 
-Example Formatted from [3]
+Example Formatted from [3] @BibEntry2021Jan
 
 ``` python
 from sampen import sampen2, normalize_data

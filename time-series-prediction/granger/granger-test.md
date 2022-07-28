@@ -16,7 +16,7 @@ $X_2$, then past values of $X_1$ should contain
 information that helps predict $X_2$ above and beyond 
 the information contained in past values of $X_2$ alone."
 
-Example formatted From [1]
+Example formatted From [1] @time-series-analysis-guide
 
 ``` python
 # Import Libaries 

@@ -33,7 +33,7 @@ of multiple groups. For example, you might be studying the
 amount of task for all the individual and given them a score
 per how efficient they performed the task as shown.
 
-Example formatted from [4]
+Example formatted from [4] @www-BibEntry2022Jul
 
 ``` python
 
@@ -92,7 +92,7 @@ Statistical models Library
 pip install statsmodels
 ```
 
-Example Formatted from [3]
+Example Formatted from [3]  @BibEntry2022Feb
 
 ``` python
 import numpy as np

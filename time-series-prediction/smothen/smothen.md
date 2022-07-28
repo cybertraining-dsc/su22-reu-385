@@ -28,7 +28,7 @@ LOESS, which stands for 'LOcalized regrESSion,' fits multiple regressions
 in each point's local neighborhood. It is implemented in the `statsmodels`
 package, and the degree of smoothing can be controlled using the `frac` argument.
 
-Example Formatted from [2]
+Example Formatted from [2] Brownlee2020Aug
 
 ```python
 import numpy as np

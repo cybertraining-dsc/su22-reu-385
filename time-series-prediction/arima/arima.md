@@ -59,7 +59,7 @@ Linear Combination of Lagged forecast errors (upto q lags)$$
 
 ### ARIMA Python Implementation
 
-Example is Formatted from [1]
+Example is Formatted from [1] @time-series-analysis-guide
 
 ```python
 from datetime import datetime
@@ -113,7 +113,7 @@ and to which new observations are appended.
 Putting it all together, here's an example of a rolling forecast
 in Python using the ARIMA model.
 
-Example is Formatted from [1]
+Example is Formatted from [1] @time-series-analysis-guide
 
 ```python
 from pandas import read_csv

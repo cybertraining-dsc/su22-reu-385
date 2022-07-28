@@ -12,7 +12,7 @@ itself over successive time intervals is referred to as autocorrelation. In
 other words, autocorrelation is used to assess the relationship between a 
 variable's current value and any previous values to which you have access.
 
-Example Formatted from [2]
+Example Formatted from [2] @Brownlee202
 
 ```python
 from pandas import read_csv
@@ -34,7 +34,7 @@ observation not taking into consideration the middle observation. the middle
 observation depends on the lag value it the value tell us the amount of time period 
 to be delayed.
 
-Example Formatted from [2]
+Example Formatted from [2] @Brownlee202
 
 ```python
 from pandas import read_csv

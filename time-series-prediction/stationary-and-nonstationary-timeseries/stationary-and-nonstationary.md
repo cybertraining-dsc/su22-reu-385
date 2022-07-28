@@ -120,7 +120,7 @@ The Dickey-Fuller test is a well-known statistical test. It can be used to deter
 whether a series contains a unit root, and thus whether the series is stationary.
 This test's null and alternate hypotheses are as follows:
 
-Example Formatted from [4]
+Example Formatted from [4] @BibEntry2022Jan
 
 ```python
 # import python pandas package
@@ -164,7 +164,7 @@ test are the inverse of those for the ADF test, which frequently leads to confus
 The KPSS test's authors defined the null hypothesis as the process being trend stationary,
 as opposed to an alternate hypothesis of a unit root series.
 
-Example Formatted from [5]
+Example Formatted from [5] @BibEntry2022Jul
 
 ```python
 import pandas as pd
