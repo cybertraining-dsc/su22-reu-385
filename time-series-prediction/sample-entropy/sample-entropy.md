@@ -26,7 +26,7 @@ $ pip install sampen
 
 ## Python Example
 
-Example Formatted from [3] @BibEntry2021Jan
+Example from [3] @sampen
 
 ``` python
 from sampen import sampen2, normalize_data
@@ -74,11 +74,11 @@ To test the following code:
 
 ## Reference
 
-* [1] <https://pythonmana.com/2022/130/202205101057060253.html>
+* [1] @sample-entropy <https://pythonmana.com/2022/130/202205101057060253.html>
 
-* [2] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+* [2] @time-series-analysis-guide <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
-* [3] <https://sampen.readthedocs.io/en/stable/>
+* [3] @sampen <https://sampen.readthedocs.io/en/stable/>
 
 ### Dataset:
 

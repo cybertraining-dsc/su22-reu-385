@@ -12,7 +12,7 @@ itself over successive time intervals is referred to as autocorrelation. In
 other words, autocorrelation is used to assess the relationship between a 
 variable's current value and any previous values to which you have access.
 
-Example Formatted from [2] @Brownlee202
+Example from [2] @autocorrelation-partial
 
 ```python
 from pandas import read_csv
@@ -34,7 +34,7 @@ observation not taking into consideration the middle observation. the middle
 observation depends on the lag value it the value tell us the amount of time period 
 to be delayed.
 
-Example Formatted from [2] @Brownlee202
+Example from [2] @autocorrelation-partial
 
 ```python
 from pandas import read_csv
@@ -55,6 +55,6 @@ Test the following codes below:
 * Partial AutoCorrelation <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/autocorrelation/partialautocorrelation.py>
 
 ## Reference
-* [1] <https://www.influxdata.com/blog/autocorrelation-in-time-series-data/#:~:text=The%20term%20autocorrelation%20refers%20to,you%20may%20have%20access%20to.>
+* [1] @autocorrelation <https://www.influxdata.com/blog/autocorrelation-in-time-series-data/#:~:text=The%20term%20autocorrelation%20refers%20to,you%20may%20have%20access%20to.>
 
-* [2] <https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/>
+* [2] @autocorrelation-partial <https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/>
