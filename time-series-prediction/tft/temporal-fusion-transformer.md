@@ -47,16 +47,7 @@ MQRNN, and Deep Space-State Models (DSSM)
 
 ### Documentation
 
-There are already open source TFT implementations in Tensorflow and Python.
-
-Example from [2]
-
-The Figure below shows the Top level Architecture of Temporal Fusion Transformer 
-![TPODP: CAPTION MISSING](images/tft-img.png)
-
-UnderStanding the figure above:
-
-TODO: verify the equations and use latex to write them
+There are already open source TFT implementations in Tensorflow and Python
 
 "For a given timestep t , a look back window k , and a $\tau max$ step ahead window,
 where $t_\epsilon [t-k..t+\tau max]$, the model takes as input: i) Observed past inputs x in 
@@ -72,4 +63,4 @@ window $[t+1..t+\tau max]$".
 * [1] @arxiv-tft-19 Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting <https://arxiv.org/abs/1912.09363> 
 
 
-* [2] <https://towardsdatascience.com/temporal-fusion-transformer-googles-model-for-interpretable-time-series-forecasting-5aa17beb621>
+* [2] @tft <https://towardsdatascience.com/temporal-fusion-transformer-googles-model-for-interpretable-time-series-forecasting-5aa17beb621>

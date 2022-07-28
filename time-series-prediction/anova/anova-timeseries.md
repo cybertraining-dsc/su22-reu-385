@@ -33,7 +33,7 @@ of multiple groups. For example, you might be studying the
 amount of task for all the individual and given them a score
 per how efficient they performed the task as shown.
 
-Example formatted from [4] @www-BibEntry2022Jul
+Example from [4] @one-way-anova
 
 ``` python
 
@@ -92,7 +92,7 @@ Statistical models Library
 pip install statsmodels
 ```
 
-Example Formatted from [3]  @BibEntry2022Feb
+Example from [3]  @two-way-anova
 
 ``` python
 import numpy as np
@@ -157,10 +157,10 @@ the predicting time series with ANOVA.
 
 ## Reference
 
-* [1] <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
+* [1] anova-test <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
 
-* [2] <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
+* [2] @time-series <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
 
-* [3] <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
+* [3] @two-way-anova <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
 
-* [4] <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>
+* [4] @one-way-anova <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>

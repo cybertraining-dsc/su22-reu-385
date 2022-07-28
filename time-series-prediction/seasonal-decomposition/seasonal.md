@@ -24,7 +24,7 @@ $$ y(t) = Level + Trend + Seasonality + Noise $$
 We can decompose a time series that are made up of a linearly increasing trend from
 1 to 99,and random noise as an additive model.
 
-Example Formatted from [1] @Brownlee2020Dec
+Example from [1] @decompose
 
 ```python
 from random import randrange
@@ -53,7 +53,7 @@ over time.
 We can create a quadratic time series by using the square of the time step from 
 1 to 99 and decomposing it using a multiplicative model.
 
-Example Formatted from [1] @Brownlee2020Dec
+Example from [1] @decompose
 
 ```python
 from matplotlib import pyplot
@@ -79,7 +79,7 @@ There are several methods for deseasonalising a time series. Here are a few :
 
 * Divide the series by the seasonal index obtained from STL decomposition
 
-Example Formatted from [1],[2] @Brownlee2020Dec
+Example from [1],[2] @decompose @time-series-analysis-guide
 
 ```python
 from matplotlib import pyplot as plt
@@ -111,8 +111,8 @@ Test the following codes below:
 
 ## References
 
-* [1] How to Decompose Time Series Data into Trend and Seasonality  <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
+* [1] How to Decompose Time Series Data into Trend and Seasonality  @decompose <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
 
-* [2] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+* [2] @time-series-analysis-guide <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
 

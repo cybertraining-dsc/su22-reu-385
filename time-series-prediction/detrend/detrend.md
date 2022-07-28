@@ -5,7 +5,7 @@ Extensive documents on Detrend of Time Series are available at
 * <https://www.statology.org/detrend-data/>
 
 
-Detrending time series data means removing an underlying trend 
+Detrending @detrend time series data means removing an underlying trend 
 from the data. The main reason for doing so is to make seasonal
 or cyclical sub trends in the data more visible.
 
@@ -52,4 +52,4 @@ detrend_dataset = [1, -1, -2, -5, -4, -4]
 
 ## Reference
 
-* [1] <https://www.statology.org/detrend-data/>
+* [1] @detrend <https://www.statology.org/detrend-data/>
