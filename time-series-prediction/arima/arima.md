@@ -1,16 +1,16 @@
 # ARIMA Time Series Prediction
 
+ARIMA is a forecasting algorithm that stands for 'AutoRegressive 
+Integrated Moving Average'. it is a class of statistical models for 
+analyzing and forecasting time series data. The ARIMA
+model is defined by three Values namely: p, d, and q.
+
 Extensive documents on ARIMA Time series prediction are available at
 
 * <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
 
 * <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
 
-
-ARIMA is a forecasting algorithm that stands for 'AutoRegressive 
-Integrated Moving Average'. it is a class of statistical models for 
-analyzing and forecasting time series data. The ARIMA
-model is defined by three Values namely: p, d, and q.
 
 where:
 

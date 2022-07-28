@@ -1,14 +1,13 @@
 # Lag Plot
 
-Extensive Documents on lag plot can be found 
-
-* <https://www.geeksforgeeks.org/lag-plots>
-
-
 A lag plot is a type of scatter plot in which the X-axis 
 represents the dataset behind or ahead of the Y-axis by some
 time units. The difference in time units is known as lag or
 lagged, and it is represented by the symbol k.
+
+Extensive Documents on lag plot can be found 
+
+* <https://www.geeksforgeeks.org/lag-plots>
 
 The following axes are included in the lag plot:
 

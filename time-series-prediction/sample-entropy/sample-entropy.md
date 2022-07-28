@@ -1,14 +1,5 @@
 # Sample Entropy
 
-Extensive documents on Sample Entropy are available at
-
-* <https://pythonmana.com/2022/130/202205101057060253.html>
-
-* <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
-
-* <https://sampen.readthedocs.io/en/stable/>
-
-
 Approximate entropy a technique for quantifying the amount of 
 regularity and unpredictability in time-series data. so what is 
 sample Entropy? "Sample Entropy is similar to approximate entropy 
@@ -17,6 +8,14 @@ time series. For example, a random time series with fewer data
 points can have a lower ‘approximate entropy’ than a more ‘regular’
 time series, whereas, a longer random time series will have a higher
 ‘approximate entropy’."
+
+Extensive documents on Sample Entropy are available at
+
+* <https://pythonmana.com/2022/130/202205101057060253.html>
+
+* <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+
+* <https://sampen.readthedocs.io/en/stable/>
 
 to use the library you will install using `pip`
 

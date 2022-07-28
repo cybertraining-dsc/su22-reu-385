@@ -1,14 +1,14 @@
 # Smoothen
 
+Smoothing is a technique used to remove fine-grained variation
+between time steps in time series. So, how do you smooth out a 
+series? Let us now look at the following method.
+
 Extensive documents on Smoothen are available at
 
 * <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
 * <https://machinelearningmastery.com/moving-average-smoothing-for-time-series-forecasting-python/#:~:text=Smoothing%20is%20a%20technique%20applied,of%20the%20underlying%20causal%20processes.>
-
-Smoothing is a technique used to remove fine-grained variation
-between time steps in time series. So, how do you smooth out a 
-series? Let us now look at the following method.
 
 * Take a Moving Average
 

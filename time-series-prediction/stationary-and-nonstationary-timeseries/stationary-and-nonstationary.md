@@ -1,5 +1,15 @@
 # Stationary and Non-Stationary Time Series
 
+## Stationary Time series
+
+A stationary time series has statistical properties or moments 
+that do not change over time (for example, mean and variance).
+
+The series' statistical properties, such as mean, variance, and 
+auto correlation, remain constant over time. The auto correlation
+of a series is simply the correlation of the series with its 
+previous values.
+
 Extensive documents on stationary and Non-Stationary Time Series are available at
 
 * <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
@@ -11,18 +21,6 @@ Extensive documents on stationary and Non-Stationary Time Series are available a
 * <https://www.geeksforgeeks.org/how-to-check-if-time-series-data-is-stationary-with-python/>
 
 * <https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html>
-
-
-## Stationary Time series
-
-A stationary time series has statistical properties or moments 
-that do not change over time (for example, mean and variance).
-
-The series' statistical properties, such as mean, variance, and 
-auto correlation, remain constant over time. The auto correlation
-of a series is simply the correlation of the series with its 
-previous values.
-
 
 ### How to make a time series stationary?
 

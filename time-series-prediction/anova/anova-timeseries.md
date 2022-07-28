@@ -1,5 +1,11 @@
 # ANOVA Time Series Prediction
 
+An ANOVA test is used to determine whether survey or 
+experiment results are significant. In other words, they 
+assist you in determining whether you should reject the 
+null hypothesis or accept the alternative hypothesis. it's 
+categories into two namely
+
 An extensive documentation on ANOVA Time series prediction are available at
 
 * <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
@@ -11,11 +17,7 @@ An extensive documentation on ANOVA Time series prediction are available at
 * <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>
 
 
-An ANOVA test is used to determine whether survey or 
-experiment results are significant. In other words, they 
-assist you in determining whether you should reject the 
-null hypothesis or accept the alternative hypothesis. it's 
-categories into two namely: 
+: 
 
 Note: A null hypothesis test predicts that there is 
 no relationship between variables, whereas the alternative 

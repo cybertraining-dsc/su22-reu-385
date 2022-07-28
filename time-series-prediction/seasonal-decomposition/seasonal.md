@@ -1,18 +1,17 @@
 # Seasonal decomposition from stats model
 
+Decomposing a time series entails viewing it as a collection of
+level, trend, seasonality, and noise components. it uses
+a function called `seasonal_decompose()`, the statsmodels library 
+implements the naive, or classical, decomposition method. You must 
+specify whether the model is additive or multiplicative.
+
 An extensive documentation on seasonal decomposition and deseasonalising of stat model is
 available at
 
 * <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
 * <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
-
-
-Decomposing a time series entails viewing it as a collection of
-level, trend, seasonality, and noise components. it uses
-a function called `seasonal_decompose()`, the statsmodels library 
-implements the naive, or classical, decomposition method. You must 
-specify whether the model is additive or multiplicative.
 
 ## Additive Decomposition
 
