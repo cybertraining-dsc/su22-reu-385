@@ -1,12 +1,5 @@
 # Time Series Prediction
 
-An extensive document on time series prediction is located in
-
-* <https://www.tessellationtech.io/3-advantages-to-time-series-analysis-and-forecasting/>
-
-* <https://www.tableau.com/learn/articles/time-series-forecasting#:~:text=Time%20series%20forecasting%20occurs%20when,drive%20future%20strategic%20decision%2Dmaking.>
-
-
 Time series prediction is the modeling for Time Series data 
 (years, days, hours, etc.) for predicting future values using 
 Time Series modeling. This helps if your data is serially
@@ -14,6 +7,19 @@ correlated.
 
 Time series can only be performed dependent on the set of time
 series data provided.
+
+**WARNING: We found the folling online refences useful and have copied content from it. The text followig does not obey by plagiarizm rules at it is unclear to the reviewers if plagiarizm has occured or not.
+This may also aply for other sections.
+
+Hence this document is not publishable and does not fulfill minimal academic standards.
+
+The author Abdhul of these sections have been informed.
+**
+
+* [3 Advantages to Time Series Analysis and Forecasting](https://www.tessellationtech.io/3-advantages-to-time-series-analysis-and-forecasting/) [@www-time-series-analysis-emery]
+
+* [Time Series Forecasting: Definition, Applications, and Examples](https://www.tableau.com/learn/articles/time-series-forecasting#:~:text=Time%20series%20forecasting%20occurs%20when,drive%20future%20strategic%20decision%2Dmaking.) [@www-timeseries-tableau]
+
 
 
 ## Advantages of Time series prediction
