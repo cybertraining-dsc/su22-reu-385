@@ -103,16 +103,16 @@ The following is a mathematical explanation:
 
 Suppose we have a time series
 
-$$y_t = a*y_{t-1} + \epsilon_t$$
+$y_t = a*y_{t-1} + \epsilon_t$
 
-where yt is the value at the time instant $$t$$ and $$\epsilon_t$$ is the error term. In order to
-calculate yt we need the value of $$y_{t-1}$$, which is
+where yt is the value at the time instant $t$ and $\epsilon_t$ is the error term. In order to
+calculate yt we need the value of $y_{t-1}$, which is
 
-$$y_{t-1} = a*y_{t-2} + \epsilon_{t-1}$$
+$y_{t-1} = a*y_{t-2} + \epsilon_{t-1}$
 
 If we do that for all observations, the value of y_t will come out to be:
 
-$$y_t = a^n \times y_{t-n} + \sum \epsilon_t-i \times a^i$$
+$y_t = a^n \times y_{t-n} + \sum \epsilon_t-i \times a^i$
 
 ### Augmented Dickey Fuller test (ADH Test)
 

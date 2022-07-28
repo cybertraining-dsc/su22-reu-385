@@ -13,9 +13,9 @@ lagged, and it is represented by the symbol k.
 The following axes are included in the lag plot:
 
 
-Vertical axis: $$y_i$$  for all i
+Vertical axis: $y_i$  for all i
 
-Horizontal axis: $$y_{i-k}$$  for all i where k represents the lag value.
+Horizontal axis: $y_{i-k}$  for all i where k represents the lag value.
 
 The lag plot can be used in answering the following questions:
 
@@ -88,7 +88,7 @@ plt.show()
 
 
 
-Figure @fig:lag-plot shows two graphs with tath visualize the lag plot
+Figure @fig:lag-plot shows two graphs with that visualize the lag plot
 
 
 To test the following code:

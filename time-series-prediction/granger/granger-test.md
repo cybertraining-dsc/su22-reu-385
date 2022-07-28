@@ -11,10 +11,10 @@ The Granger causality test is used to determine whether
 one time series can be used to predict another."Granger 
 causality is a statistical concept of causality that is 
 based on prediction. According to Granger causality, if a 
-signal $$X_1$$ "Granger-causes" (or "G-causes") a signal 
-$$X_2$$, then past values of $$X_1$$ should contain 
-information that helps predict $$X_2$$ above and beyond 
-the information contained in past values of $$X_2$$ alone."
+signal $X_1$ "Granger-causes" (or "G-causes") a signal 
+$X_2$, then past values of $X_1$ should contain 
+information that helps predict $X_2$ above and beyond 
+the information contained in past values of $X_2$ alone."
 
 Example formatted From [1]
 
