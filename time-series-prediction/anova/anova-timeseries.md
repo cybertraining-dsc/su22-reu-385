@@ -66,10 +66,10 @@ performance of the students are similar
 ## Two Way ANOVA
 
 A Two Way ANOVA is an extension of the One Way ANOVA. With a 
-One Way ANOVA, you have one independent variable affecting a dependent 
+One Way ANOVA, you have one independent variable affecting a dquantitative outcomeependent 
 variable. With a Two Way ANOVA, there are two independents. Use a 
 Two way ANOVA when you have one dependent variable and two independent 
-variables. In other words, if your experiment has a quantitative outcome, 
+variables. In other words, if your experiment has a , 
 and you have two independent variables, a two-way ANOVA is appropriate.
 To manage a Two Way ANOVA data set two python libraries are helpful which 
 are NumPy and panda. to perform the Two Way ANOVA the

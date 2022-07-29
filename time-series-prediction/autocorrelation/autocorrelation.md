@@ -1,6 +1,6 @@
 # Autocorrelation in images/Time Series
 
-The degree of similarity between a given time series and a lagged version of 
+This is the degree of similarity between a given time series and a lagged version of 
 itself over successive time intervals is referred to as autocorrelation. In 
 other words, autocorrelation is used to assess the relationship between a 
 variable's current value and any previous values to which you have access.

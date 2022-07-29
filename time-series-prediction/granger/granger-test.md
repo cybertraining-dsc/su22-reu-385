@@ -26,11 +26,11 @@ df['month'] = df.date.dt.month
 grangercausalitytests(df[['temperature', 'month']], maxlag=2)
 ```
 
-The Max lag value give the granger causality test for the time 
+"The Max lag value give the granger causality test for the time 
 period apart which in these case its (2). so the code above check 
 if the previous time period which is (1)then use it to predict the 
 next time period which is (2) it keeps going like that depending on 
-the  max lag value
+the  max lag value"
 
 ## Output
 ```

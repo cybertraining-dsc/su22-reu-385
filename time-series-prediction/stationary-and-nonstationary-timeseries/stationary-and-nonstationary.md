@@ -33,8 +33,8 @@ The most common and convenient method is Differencing the series
 
 #### Differencing the Series (once or more)
 
-If $$y_t$$ is the value at time '$$t$$,' the first difference of $$y$$ equals
-$$y_t - y_{t-1}$$. To put it simply, differencing the series is simply subtracting
+If $y_t$ is the value at time '$t$,' the first difference of $y$ equals
+$y_t - y_{t-1}$. To put it simply, differencing the series is simply subtracting
 the next value from the current value.
 
 If the first difference does not make a series stationary, the second 
@@ -53,7 +53,6 @@ While forecasting, it is recommended to convert a non-stationary series to a
 stationary series because autoregressive forecasting models are essentially linear
 regression models that use the lag(s) of the series itself as predictors.
 
-
 ## How to test for stationary?
 
 A method for determining whether a given series is stationary. This 
@@ -67,14 +66,11 @@ Unit Root tests are implemented in a variety of ways, which includes:
 * Statistical test
 * Kwiatkowski-Phillips-Schmidt-Shin – KPSS test (trend stationary)
 
-
 ### Visual Test
 
 simply by looking at each plot, being able to identify the series in which 
 the mean and variance changed over time Similarly, we can plot the data to 
 see if the properties of the series change over time.
-
-
 
 ``` python
 from pandas import read_csv

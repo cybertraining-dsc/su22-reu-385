@@ -9,7 +9,6 @@ model is defined by three Values namely: p, d, and q.
 
 * [ARIMA Model – Complete Guide to Time Series Forecasting in Python](https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.) [@arima]
 
-
 where:
 
 The order of the AR term is denoted by p.
@@ -17,7 +16,6 @@ The order of the AR term is denoted by p.
 The order of the MA term is denoted by q.
 
 The differencing required to make the time series stationary is denoted by d.
-
 
 ## So, how do you make a series stationary?
 
@@ -99,9 +97,9 @@ Figure @fig:Arima Model shows two graphs that give a visual explanation of the A
 
 ## Rolling Forecast ARIMA Model
 
-Given the reliance on observations in previous time steps for 
+Given the observations in previous time steps for 
 differencing and the AR model, a rolling forecast is required.
-The ARIMA model is re-created after each new observation, which 
+The ARIMA model is created after each new observation, which 
 is a crude way to perform this rolling forecast.
 
 Each iteration, we manually keep track of all observations in a 

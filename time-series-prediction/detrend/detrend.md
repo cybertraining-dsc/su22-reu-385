@@ -32,6 +32,7 @@ detrend_dataset = [6, 2, 3, 7, 6]
 
 The detrend by model Fitting is Fitting a regression model to the data and then 
 calculating the difference between the observed and predicted values from the model.
+
 Example:
 
 observation = [10, 16, 18, 21, 28, 34]
@@ -43,9 +44,6 @@ Detrend_dataset = observation - predicted_observation
 detrend_dataset = [10-9, 16-17, 18-20, 21-26, 28-32, 34-38]
 
 detrend_dataset = [1, -1, -2, -5, -4, -4]
-
-
-
 
 ## Reference
 

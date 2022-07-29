@@ -1,6 +1,6 @@
 # Seasonal decomposition from stats model
 
-Decomposing a time series entails viewing it as a collection of
+Decomposing a time series deals with viewing a time series as a collection of
 level, trend, seasonality, and noise components. it uses
 a function called `seasonal_decompose()`, the statsmodels library 
 implements the naive, or classical, decomposition method. You must 
@@ -95,7 +95,7 @@ plt.title('Data Deseasonalized', fontsize=15)
 plt.show()
 ```
 
-![De seasonalizing a time series](images/deseasonalize.png){#fig:deseasonalizing}
+![Deseasonalizing a time series](images/deseasonalize.png){#fig:deseasonalizing}
 
 Test the following codes below:
 

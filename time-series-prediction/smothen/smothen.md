@@ -1,8 +1,8 @@
 # Smoothen
 
 Smoothing is a technique used to remove fine-grained variation
-between time steps in time series. So, how do you smooth out a 
-series? Let us now look at the following method.
+between time steps in time series. Let us now look at the following method
+of smoothen a time series .
 
 * [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@time-series-analysis-guide]
 
