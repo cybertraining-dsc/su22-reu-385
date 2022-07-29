@@ -53,6 +53,7 @@ There are already open source TFT implementations
 in Tensorflow and Python
 
 ## References
+
 [1]  <https://arxiv.org/abs/1912.09363>
 
 [2] <https://towardsdatascience.com/temporal-fusion-transformer-googles-model-for-interpretable-time-series-forecasting-5aa17beb621>
