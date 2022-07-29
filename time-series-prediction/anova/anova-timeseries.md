@@ -30,7 +30,7 @@ of multiple groups. For example, you might be studying the
 amount of task for all the individual and given them a score
 per how efficient they performed the task as shown.
 
-Example from [4] @one-way-anova
+The following example showcase the One way ANOVA. It is copied from [@one-way-anova]
 
 ``` python
 
@@ -88,7 +88,7 @@ Statistical models Library
 pip install statsmodels
 ```
 
-Example from [3]  @two-way-anova
+The following example showcase the Two way ANOVA. It is copied from [@two-way-anova]
 
 ``` python
 import numpy as np
@@ -137,11 +137,11 @@ SocialMedia_growth. The p-value for the interaction effect
 (0.962168) is greater than 0.05 which shows the interaction 
 effect between shared_post frequency and comments_likes frequency.
 
-Test the following codes below:
+Example programs to showcase specific features are listed next::
 
-* One Way ANOVA <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/anova/anova-test.py>
+* [One Way ANOVA, anova-test.py](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/anova/anova-test.py)
 
-* Two Way ANOVA <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/anova/anovatest2.py>
+* [Two Way ANOVA, anovatest2.py](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/anova/anovatest2.py)
 
 ## ANOVA Time series prediction
 
@@ -150,13 +150,3 @@ mean of the occurrence of past to predict the output of what
 the probable output will be in the future. the example in the TWO Way ANOVA
 section that predicts a user social media growth is a perfect example of 
 the predicting time series with ANOVA.
-
-## Reference
-
-* [1] <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
-
-* [2] <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
-
-* [3] <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
-
-* [4] <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>

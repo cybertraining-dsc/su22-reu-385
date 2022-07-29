@@ -45,6 +45,3 @@ detrend_dataset = [10-9, 16-17, 18-20, 21-26, 28-32, 34-38]
 
 detrend_dataset = [1, -1, -2, -5, -4, -4]
 
-## Reference
-
-* [1] <https://www.statology.org/detrend-data/>

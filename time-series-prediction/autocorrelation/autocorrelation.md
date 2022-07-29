@@ -9,7 +9,7 @@ variable's current value and any previous values to which you have access.
 
 * [A Gentle Introduction to Autocorrelation and Partial Autocorrelation](https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/)[@autocorrelation-partial]
 
-Example from [2] @autocorrelation-partial
+The following example showcase the Autocorrelation of time series. It is copied from [@autocorrelation-partial]
 
 ```python
 from pandas import read_csv
@@ -33,7 +33,7 @@ observation not taking into consideration the middle observation. the middle
 observation depends on the lag value it the value tell us the amount of time period 
 to be delayed.
 
-Example from [2] @autocorrelation-partial
+The following example showcase the Partial AutoCorrelation of Time series. It is copied from [@autocorrelation-partial]
 
 ```python
 from pandas import read_csv
@@ -49,14 +49,8 @@ pyplot.show()
 Figure @fig:partial shows a graphs that give a visual explanation of 
 the partial auto correlation with a lag value of 10
 
-Test the following codes below:
+Example programs to showcase specific features are listed next:
 
-* AutoCorrelation <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/autocorrelation/autocorrelation.py>
+* [AutoCorrelation](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/autocorrelation/autocorrelation.py)
 
-* Partial AutoCorrelation <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/autocorrelation/partialautocorrelation.py>
-
-## Reference
-
-* [1] <https://www.influxdata.com/blog/autocorrelation-in-time-series-data/#:~:text=The%20term%20autocorrelation%20refers%20to,you%20may%20have%20access%20to.>
-
-* [2] <https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/>
+* [Partial AutoCorrelation](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/autocorrelation/partialautocorrelation.py)

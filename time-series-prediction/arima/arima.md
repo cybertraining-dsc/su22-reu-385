@@ -55,7 +55,7 @@ Linear Combination of Lagged forecast errors (upto q lags)$$
 
 ### ARIMA Python Implementation
 
-Example from [1] @time-series-analysis-guide
+The following example showcase the ARIMA Model. It is copied from [@time-series-analysis-guide]
 
 ```python
 from datetime import datetime
@@ -94,7 +94,6 @@ print(residuals.describe())
 
 Figure @fig:Arima Model shows two graphs that give a visual explanation of the ARIMA models.
 
-
 ## Rolling Forecast ARIMA Model
 
 Given the observations in previous time steps for 
@@ -109,7 +108,7 @@ and to which new observations are appended.
 Putting it all together, here's an example of a rolling forecast
 in Python using the ARIMA model.
 
-Example  from [1] @time-series-analysis-guide
+The following example showcase the Rolling Forecasting ARIMA model. It is copied from [@time-series-analysis-guide]
 
 ```python
 from pandas import read_csv
@@ -156,21 +155,11 @@ compared to the rolling forecast predictions (purple)
 
 ![Rolling Forcasting Models](images/rolling.png){fig:Rolling Forecasting}
 
-Figure @fig:Rolling Forecasting shows two graphs that give a visual explanation of the rolling forecasting ARIMA models.
+Figure @fig:Rolling Forecasting shows a graph that give a visual explanation of the rolling forecasting ARIMA models.
 it shows the relationship between the expected value and the prediction.
 
-Test the following codes:
+Example programs to showcase specific features are listed next::
 
-* <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/arima/arima-prediction.py>
+* [ARIMA Time Series prediction, arima-prediction.py](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/arima/arima-prediction.py)
 
-* <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/arima/rolling-forecast-arima.py>
-
-## Dataset
-
-* <https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv>
-
-## References
-
-* [1] <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
-
-* [2] <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
+* [Rolling ForeCasting Model, rolling-forecast-arima.py](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/arima/rolling-forecast-arima.py)

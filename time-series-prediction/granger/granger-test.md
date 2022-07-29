@@ -13,7 +13,7 @@ the information contained in past values of $X_2$ alone."
 
 * [Granger causality](http://www.scholarpedia.org/article/Granger_causality#:~:text=Granger%20causality%20is%20a%20statistical,values%20of%20X2%20alone.) [@granger-casualty]
 
-Example From [1] @time-series-analysis-guide
+The following example showcase the Granger causality test . It is copied from [@time-series-analysis-guide]
 
 ``` python
 # Import Libaries 
@@ -49,12 +49,7 @@ likelihood ratio test: chi2=3.8265  , p=0.1476  , df=2
 parameter F test:         F=1.4529  , p=0.2793  , df_denom=10, df_num=2
 ```
 
-Test the following codes below:
+Example programs to showcase specific features are listed next:
 
-* <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/granger/granger.py>
+* [Granger Causality test, granger.py](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/granger/granger.py)
 
-## Reference
-
-* [1] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
-
-* [2] <http://www.scholarpedia.org/article/Granger_causality#:~:text=Granger%20causality%20is%20a%20statistical,values%20of%20X2%20alone.>
