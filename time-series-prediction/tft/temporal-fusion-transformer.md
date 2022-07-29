@@ -28,16 +28,19 @@ temporal data known only up to the present, and the time-invariant
 features
 
 ### Heterogeneous time series
+
 The TFT architecture split processing into two part: Local
 processing focuses on specific event characteristics, whereas
 global processing captures the collective characteristics of 
 all time series.
 
 ### Multi-horizon forecasting
+
 TFT produces prediction intervals in addition to the actual
 prediction by utilizing the quantile loss function.
 
 ### Interpretability
+
 The TFT a transformers based architecture. This model presents 
 a novel Muti Head attention mechanism that, when analyzed, provides
 additional insight on feature importance by utilizing self-attention.
