@@ -33,6 +33,9 @@ Github id: Diyaolu04
 ### During reu2022
 
 - [ ] Had some personal training on python concept
+
+    <https://courses.codepath.org/courses/intro_software_eng/unit/9#!overview>
+
 - [ ] understand how functions, loops, and list works.
 
 ## AbdulBaqiy G4GC poster
