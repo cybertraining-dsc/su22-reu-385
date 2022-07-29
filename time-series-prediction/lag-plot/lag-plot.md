@@ -3,9 +3,14 @@
 A lag plot is a type of scatter plot in which the X-axis 
 represents the dataset behind or ahead of the Y-axis by some
 time units. The difference in time units is known as lag or
-lagged, and it is represented by the symbol k.
+lagged, and it is represented by the symbol k. lag plot 
+is commonly used in detecting auto correlation, if they 
+are patterns in the series is considered to be auto correlated. 
+if no pattern the series is considered as random white noise.
 
 * [Lag Plots](https://www.geeksforgeeks.org/lag-plots) [@lag-geeksforgeeks]
+
+* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [time-series-analysis-guide]
 
 The following axes are included in the lag plot:
 
@@ -83,10 +88,8 @@ plt.show()
 
 ![Two Graphs showing lag plot](images/lag-plot.png){fig:lag-plot}
 
-
-
-Figure @fig:lag-plot shows two graphs with that visualize the lag plot
-
+Figure @fig:lag-plot shows two graphs with that visualize the lag plot, where the graph 
+show a pattern, which leaves us with the result that the series is correlated.
 
 To test the following code:
 
@@ -95,3 +98,5 @@ To test the following code:
 ## Reference
 
 * [1] <https://www.geeksforgeeks.org/lag-plots>
+
+* [2] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
