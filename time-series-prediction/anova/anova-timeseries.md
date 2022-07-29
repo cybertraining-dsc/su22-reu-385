@@ -6,13 +6,13 @@ assist you in determining whether you should reject the
 null hypothesis or accept the alternative hypothesis. it's 
 categories into two namely
 
-* [ANOVA Test: Definition, Types, Examples, SPSS](https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/) [@anova-test]
+* [ANOVA Test: Definition, Types, Examples, SPSS](https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/) [@www-anova-test]
 
-* [Time Series Forecast : A basic introduction using Python.](https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000) [@time-series]
+* [Time Series Forecast : A basic introduction using Python.](https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000) [@www-time-series]
 
-* [How to Perform a Two-Way ANOVA in Python](https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/) [@two-way-anova]
+* [How to Perform a Two-Way ANOVA in Python](https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/) [@www-two-way-anova]
 
-* [How to Perform a One-Way ANOVA in Python](https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/) [@one-way-anova]
+* [How to Perform a One-Way ANOVA in Python](https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/) [@www-one-way-anova]
 
 Note: A null hypothesis test predicts that there is 
 no relationship between variables, whereas the alternative 
@@ -30,7 +30,7 @@ of multiple groups. For example, you might be studying the
 amount of task for all the individual and given them a score
 per how efficient they performed the task as shown.
 
-The following example showcase the One way ANOVA. It is copied from [@one-way-anova]
+The following example showcase the One way ANOVA. It is copied from [@www-one-way-anova]
 
 ``` python
 
@@ -88,7 +88,7 @@ Statistical models Library
 pip install statsmodels
 ```
 
-The following example showcase the Two way ANOVA. It is copied from [@two-way-anova]
+The following example showcase the Two way ANOVA. It is copied from [@www-two-way-anova]
 
 ``` python
 import numpy as np

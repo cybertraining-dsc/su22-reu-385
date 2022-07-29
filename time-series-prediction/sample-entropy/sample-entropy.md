@@ -9,11 +9,11 @@ points can have a lower ‘approximate entropy’ than a more ‘regular’
 time series, whereas, a longer random time series will have a higher
 ‘approximate entropy’."
 
-* [Sample entropy (Python Implementation)](https://pythonmana.com/2022/130/202205101057060253.html) [@sample-entropy]
+* [Sample entropy (Python Implementation)](https://pythonmana.com/2022/130/202205101057060253.html) [@www-sample-entropy]
 
-* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@time-series-analysis-guide]
+* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@www-time-series-analysis-guide]
 
-* [SampEn](https://sampen.readthedocs.io/en/stable/) [@sampen]
+* [SampEn](https://sampen.readthedocs.io/en/stable/) [@www-sampen]
 
 to use the library you will install using `pip`
 

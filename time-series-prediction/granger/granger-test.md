@@ -9,11 +9,11 @@ $X_2$, then past values of $X_1$ should contain
 information that helps predict $X_2$ above and beyond 
 the information contained in past values of $X_2$ alone."
 
-* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@time-series-analysis-guide]
+* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@www-time-series-analysis-guide]
 
-* [Granger causality](http://www.scholarpedia.org/article/Granger_causality#:~:text=Granger%20causality%20is%20a%20statistical,values%20of%20X2%20alone.) [@granger-casualty]
+* [Granger causality](http://www.scholarpedia.org/article/Granger_causality#:~:text=Granger%20causality%20is%20a%20statistical,values%20of%20X2%20alone.) [@www-granger-casualty]
 
-The following example showcase the Granger causality test . It is copied from [@time-series-analysis-guide]
+The following example showcase the Granger causality test . It is copied from [@www-time-series-analysis-guide]
 
 ``` python
 # Import Libaries 

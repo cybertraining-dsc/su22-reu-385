@@ -7,9 +7,9 @@ recurrent layers for local processing and interpretable self-attention
 layers. relationships at different scales TFT also employs specialized
 components.
 
-* [Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting](https://arxiv.org/abs/1912.09363)[@arxiv-tft-19]
+* [Temporal Fusion Transformers for Interpretable Multi-horizon Time Series Forecasting](https://arxiv.org/abs/1912.09363)[@www-arxiv-tft-19]
 
-* [Temporal Fusion Transformer: Time Series Forecasting with Interpretability](https://towardsdatascience.com/temporal-fusion-transformer-googles-model-for-interpretable-time-series-forecasting-5aa17beb621)[@tft]
+* [Temporal Fusion Transformer: Time Series Forecasting with Interpretability](https://towardsdatascience.com/temporal-fusion-transformer-googles-model-for-interpretable-time-series-forecasting-5aa17beb621)[@www-tft]
 
 ## How TFT works
 

@@ -10,15 +10,15 @@ auto correlation, remain constant over time. The auto correlation
 of a series is simply the correlation of the series with its 
 previous values.
 
-* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@time-series-analysis-guide]
+* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@www-time-series-analysis-guide]
 
-* [Intro to Stationary and Non-Stationary Processes](https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.) [@nonstationary-process]
+* [Intro to Stationary and Non-Stationary Processes](https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.) [@www-nonstationary-process]
 
-* [A Gentle Introduction to Handling a Non-Stationary Time Series in Python](https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/) [@nonstationary]
+* [A Gentle Introduction to Handling a Non-Stationary Time Series in Python](https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/) [@www-nonstationary]
 
-* [How to Check if Time Series Data is Stationary with Python?](https://www.geeksforgeeks.org/how-to-check-if-time-series-data-is-stationary-with-python/.) [@stationary-with-python]
+* [How to Check if Time Series Data is Stationary with Python?](https://www.geeksforgeeks.org/how-to-check-if-time-series-data-is-stationary-with-python/.) [@www-stationary-with-python]
 
-* [Stationarity and detrending (ADF/KPSS)](https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html) [@stationary]
+* [Stationarity and detrending (ADF/KPSS)](https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html) [@www-stationary]
 
 ### How to make a time series stationary?
 
@@ -110,7 +110,7 @@ The Dickey-Fuller test is a well-known statistical test. It can be used to deter
 whether a series contains a unit root, and thus whether the series is stationary.
 This test's null and alternate hypotheses are as follows:
 
-The following example showcase the ADH test. It is copied from [@stationary-with-python].
+The following example showcase the ADH test. It is copied from [@www-stationary-with-python].
 
 ```python
 # import python pandas package
@@ -154,7 +154,7 @@ test are the inverse of those for the ADF test, which frequently leads to confus
 The KPSS test's authors defined the null hypothesis as the process being trend stationary,
 as opposed to an alternate hypothesis of a unit root series.
 
- The following example showcase the KPSS test. It is copied from [@stationary].
+ The following example showcase the KPSS test. It is copied from [@www-stationary].
 
 ```python
 import pandas as pd

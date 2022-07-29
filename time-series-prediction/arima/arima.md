@@ -5,9 +5,9 @@ Integrated Moving Average'. it is a class of statistical models for
 analyzing and forecasting time series data. The ARIMA
 model is defined by three Values namely: p, d, and q.
 
-* [How to Create an ARIMA Model for Time Series Forecasting in Python](https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/) [@time-series-analysis-guide]
+* [How to Create an ARIMA Model for Time Series Forecasting in Python](https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/) [@www-time-series-analysis-guide]
 
-* [ARIMA Model – Complete Guide to Time Series Forecasting in Python](https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.) [@arima]
+* [ARIMA Model – Complete Guide to Time Series Forecasting in Python](https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.) [@www-arima]
 
 where:
 
@@ -55,7 +55,7 @@ Linear Combination of Lagged forecast errors (upto q lags)$$
 
 ### ARIMA Python Implementation
 
-The following example showcase the ARIMA Model. It is copied from [@time-series-analysis-guide]
+The following example showcase the ARIMA Model. It is copied from [@www-time-series-analysis-guide]
 
 ```python
 from datetime import datetime
@@ -108,7 +108,7 @@ and to which new observations are appended.
 Putting it all together, here's an example of a rolling forecast
 in Python using the ARIMA model.
 
-The following example showcase the Rolling Forecasting ARIMA model. It is copied from [@time-series-analysis-guide]
+The following example showcase the Rolling Forecasting ARIMA model. It is copied from [@www-time-series-analysis-guide]
 
 ```python
 from pandas import read_csv

@@ -8,9 +8,9 @@ is commonly used in detecting auto correlation, if they
 are patterns in the series is considered to be auto correlated. 
 if no pattern the series is considered as random white noise.
 
-* [Lag Plots](https://www.geeksforgeeks.org/lag-plots) [@lag-geeksforgeeks]
+* [Lag Plots](https://www.geeksforgeeks.org/lag-plots) [@www-lag-geeksforgeeks]
 
-* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [time-series-analysis-guide]
+* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [www-time-series-analysis-guide]
 
 The following axes are included in the lag plot:
 
@@ -46,7 +46,7 @@ When the lag plot produces a linear plot, it indicates that autocorrelation exis
 in the data; whether it is positive or negative depends on the slope of the dataset's
 line.
 
-The following example showcase the lag plot. It is copied from [@lag-geeksforgeeks]
+The following example showcase the lag plot. It is copied from [@www-lag-geeksforgeeks]
 
 ``` python
 # Import Libraries

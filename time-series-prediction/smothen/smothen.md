@@ -4,9 +4,9 @@ Smoothing is a technique used to remove fine-grained variation
 between time steps in time series. Let us now look at the following method
 of smoothen a time series .
 
-* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@time-series-analysis-guide]
+* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@www-time-series-analysis-guide]
 
-* [Moving Average Smoothing for Data Preparation and Time Series Forecasting in Python](https://machinelearningmastery.com/moving-average-smoothing-for-time-series-forecasting-python/#:~:text=Smoothing%20is%20a%20technique%20applied,of%20the%20underlying%20causal%20processes.) [@smoothing]
+* [Moving Average Smoothing for Data Preparation and Time Series Forecasting in Python](https://machinelearningmastery.com/moving-average-smoothing-for-time-series-forecasting-python/#:~:text=Smoothing%20is%20a%20technique%20applied,of%20the%20underlying%20causal%20processes.) [@www-smoothing]
 
 * Take a Moving Average
 
@@ -26,7 +26,7 @@ LOESS, which stands for 'LOcalized regrESSion,' fits multiple regressions
 in each point's local neighborhood. It is implemented in the `statsmodels`
 package, and the degree of smoothing can be controlled using the `frac` argument.
  
-The following example showcase the smoothing of time series. It is copied from [@smoothing].
+The following example showcase the smoothing of time series. It is copied from [@www-smoothing].
 
 ```python
 import numpy as np
