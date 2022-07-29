@@ -157,10 +157,9 @@ compared to the rolling forecast predictions (purple)
 ![Rolling Forcasting Models](images/rolling.png){fig:Rolling Forecasting}
 
 Figure @fig:Rolling Forecasting shows two graphs that give a visual explanation of the rolling forecasting ARIMA models.
+it shows the relationship between the expected value and the prediction.
 
-
-
-Test the following codes below:
+Test the following codes:
 
 * <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/arima/arima-prediction.py>
 

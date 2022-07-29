@@ -23,6 +23,7 @@ pyplot.show()
 ![Auto Correlation](images/autocorellation.png){fig:autocorrelation}
 
 Figure @fig:Arima Model shows a graphs that give a visual explanation of the autocorellation of a time series
+these output show the correllation between the dataset provided above.
 
 ## Partial Autocorrelation Function
 
@@ -45,7 +46,8 @@ pyplot.show()
 
 ![partial Auto Correlation](images/partial.png){fig:partial}
 
-Figure @fig:partial shows a graphs that give a visual explanation of the partial auto correlation.
+Figure @fig:partial shows a graphs that give a visual explanation of 
+the partial auto correlation with a lag value of 10
 
 Test the following codes below:
 
@@ -54,6 +56,7 @@ Test the following codes below:
 * Partial AutoCorrelation <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/autocorrelation/partialautocorrelation.py>
 
 ## Reference
+
 * [1] <https://www.influxdata.com/blog/autocorrelation-in-time-series-data/#:~:text=The%20term%20autocorrelation%20refers%20to,you%20may%20have%20access%20to.>
 
 * [2] <https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/>
