@@ -5,6 +5,7 @@ Firstname: AbdulBaqiy
 Lastname: Diyaolu
 Github id: Diyaolu04
 ```
+
 ## Have Achieved
 
 - [ ] updated install.md
@@ -21,20 +22,20 @@ Github id: Diyaolu04
 
 - [ ] Research on how linear Regression, TFT, and Arima. in predicting time series
  
- # Programming Knowledge
+## Programming Knowledge
  
- ### Before reu2022
+### Before reu2022
 
 - [ ] C++ : I have the knowledge of the syntax and how it works e.g promput, output manipulation, Funstion, Loop, If & else statement.
 
 - [ ] Python: Have knowledge on how python syntax such as userprompt, if & else statement
 
- #### During reu2022
+### During reu2022
 
 - [ ] Had some personal training on python concept
 - [ ] understand how functions, loops, and list works.
 
-#### AbdulBaqiy G4GC poster
+## AbdulBaqiy G4GC poster
 
-* https://docs.google.com/presentation/d/1uPKkhHJ-0ML40AyN7NvFR6LuW901E62u/edit#slide=id.p1
+* <https://docs.google.com/presentation/d/1uPKkhHJ-0ML40AyN7NvFR6LuW901E62u/edit#slide=id.p1>
 
