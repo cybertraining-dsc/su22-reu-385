@@ -14,7 +14,6 @@ if no pattern the series is considered as random white noise.
 
 The following axes are included in the lag plot:
 
-
 Vertical axis: $y_i$  for all i
 
 Horizontal axis: $y_{i-k}$  for all i where k represents the lag value.
@@ -48,7 +47,6 @@ in the data; whether it is positive or negative depends on the slope of the data
 line.
 
 Example from [1] @lag-geeksforgeeks
-
 
 ``` python
 # Import Libraries
