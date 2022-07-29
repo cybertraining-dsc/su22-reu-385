@@ -5,9 +5,7 @@ represents the dataset behind or ahead of the Y-axis by some
 time units. The difference in time units is known as lag or
 lagged, and it is represented by the symbol k.
 
-Extensive Documents on lag plot can be found 
-
-* <https://www.geeksforgeeks.org/lag-plots>
+* [Lag Plots](https://www.geeksforgeeks.org/lag-plots) [@lag-geeksforgeeks]
 
 The following axes are included in the lag plot:
 
@@ -96,4 +94,4 @@ To test the following code:
 
 ## Reference
 
-* [1] @lag-geeksforgeeks <https://www.geeksforgeeks.org/lag-plots>
+* [1] <https://www.geeksforgeeks.org/lag-plots>

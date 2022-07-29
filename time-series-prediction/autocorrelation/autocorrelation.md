@@ -5,12 +5,9 @@ itself over successive time intervals is referred to as autocorrelation. In
 other words, autocorrelation is used to assess the relationship between a 
 variable's current value and any previous values to which you have access.
 
+* [Autocorrelation in Time Series Data](https://www.influxdata.com/blog/autocorrelation-in-time-series-data/#:~:text=The%20term%20autocorrelation%20refers%20to,you%20may%20have%20access%20to.)[@autocorrelation]
 
-Extensive documents on autocorrelation of Time Series are available at
-
-* <https://www.influxdata.com/blog/autocorrelation-in-time-series-data/#:~:text=The%20term%20autocorrelation%20refers%20to,you%20may%20have%20access%20to.>
-
-* <https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/>
+* [A Gentle Introduction to Autocorrelation and Partial Autocorrelation](https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/)[@autocorrelation-partial]
 
 Example from [2] @autocorrelation-partial
 
@@ -22,6 +19,7 @@ series = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-
 plot_acf(series)
 pyplot.show()
 ```
+
 ![Auto Correlation](images/autocorellation.png){fig:autocorrelation}
 
 Figure @fig:Arima Model shows a graphs that give a visual explanation of the autocorellation of a time series
@@ -44,6 +42,7 @@ temp = read_csv('https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-38
 plot_pacf(temp, lags=10)
 pyplot.show()
 ```
+
 ![partial Auto Correlation](images/partial.png){fig:partial}
 
 Figure @fig:partial shows a graphs that give a visual explanation of the partial auto correlation.
@@ -55,6 +54,6 @@ Test the following codes below:
 * Partial AutoCorrelation <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/autocorrelation/partialautocorrelation.py>
 
 ## Reference
-* [1] @autocorrelation <https://www.influxdata.com/blog/autocorrelation-in-time-series-data/#:~:text=The%20term%20autocorrelation%20refers%20to,you%20may%20have%20access%20to.>
+* [1] <https://www.influxdata.com/blog/autocorrelation-in-time-series-data/#:~:text=The%20term%20autocorrelation%20refers%20to,you%20may%20have%20access%20to.>
 
-* [2] @autocorrelation-partial <https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/>
+* [2] <https://machinelearningmastery.com/gentle-introduction-autocorrelation-partial-autocorrelation/>

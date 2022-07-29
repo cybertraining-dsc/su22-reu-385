@@ -13,7 +13,6 @@ series data provided.
 * [Time Series Forecasting: Definition, Applications, and Examples](https://www.tableau.com/learn/articles/time-series-forecasting#:~:text=Time%20series%20forecasting%20occurs%20when,drive%20future%20strategic%20decision%2Dmaking.) [@www-timeseries-tableau]
 
 
-
 ## Advantages of Time series prediction
 
 * Time Series Analysis Helps You Identify Patterns. Memories are fragile and prone to error

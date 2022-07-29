@@ -6,18 +6,13 @@ assist you in determining whether you should reject the
 null hypothesis or accept the alternative hypothesis. it's 
 categories into two namely
 
-An extensive documentation on ANOVA Time series prediction are available at
+* [ANOVA Test: Definition, Types, Examples, SPSS](https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/) [@anova-test]
 
-* <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
+* [Time Series Forecast : A basic introduction using Python.](https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000) [@time-series]
 
-* <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
+* [How to Perform a Two-Way ANOVA in Python](https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/) [@two-way-anova]
 
-* <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
-
-* <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>
-
-
-: 
+* [How to Perform a One-Way ANOVA in Python](https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/) [@one-way-anova]
 
 Note: A null hypothesis test predicts that there is 
 no relationship between variables, whereas the alternative 
@@ -55,10 +50,9 @@ print(scores_ave)
 ### Output
 
 ```
-
 F_onewayResult(statistic=0.5410224469358347, pvalue=0.6610639388335927)
-
 ```
+
 Note: With a P value less than 0.05, you reject the null hypothesis,
       With a P value greater than 0.05, you accept the null hypothesis 
 
@@ -159,10 +153,10 @@ the predicting time series with ANOVA.
 
 ## Reference
 
-* [1] anova-test <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
+* [1] <https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/>
 
-* [2] @time-series <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
+* [2] <https://medium.com/@stallonejacob/time-series-forecast-a-basic-introduction-using-python-414fcb963000>
 
-* [3] @two-way-anova <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
+* [3] <https://www.geeksforgeeks.org/how-to-perform-a-two-way-anova-in-python/>
 
-* [4] @one-way-anova <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>
+* [4] <https://www.geeksforgeeks.org/how-to-perform-a-one-way-anova-in-python/>

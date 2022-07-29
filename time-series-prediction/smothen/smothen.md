@@ -4,11 +4,9 @@ Smoothing is a technique used to remove fine-grained variation
 between time steps in time series. So, how do you smooth out a 
 series? Let us now look at the following method.
 
-Extensive documents on Smoothen are available at
+* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@time-series-analysis-guide]
 
-* <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
-
-* <https://machinelearningmastery.com/moving-average-smoothing-for-time-series-forecasting-python/#:~:text=Smoothing%20is%20a%20technique%20applied,of%20the%20underlying%20causal%20processes.>
+* [Moving Average Smoothing for Data Preparation and Time Series Forecasting in Python](https://machinelearningmastery.com/moving-average-smoothing-for-time-series-forecasting-python/#:~:text=Smoothing%20is%20a%20technique%20applied,of%20the%20underlying%20causal%20processes.) [@smoothing]
 
 * Take a Moving Average
 
@@ -70,6 +68,6 @@ Test the following code below:
 
 ## Reference
 
-* [1] @time-series-analysis-guide <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+* [1] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
-* [2] @smoothing <https://machinelearningmastery.com/moving-average-smoothing-for-time-series-forecasting-python/#:~:text=Smoothing%20is%20a%20technique%20applied,of%20the%20underlying%20causal%20processes.>
+* [2] <https://machinelearningmastery.com/moving-average-smoothing-for-time-series-forecasting-python/#:~:text=Smoothing%20is%20a%20technique%20applied,of%20the%20underlying%20causal%20processes.>

@@ -9,11 +9,9 @@ $X_2$, then past values of $X_1$ should contain
 information that helps predict $X_2$ above and beyond 
 the information contained in past values of $X_2$ alone."
 
-Extensive documents on granger casualty test are available at
+* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@time-series-analysis-guide]
 
-* <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
-
-* <http://www.scholarpedia.org/article/Granger_causality#:~:text=Granger%20causality%20is%20a%20statistical,values%20of%20X2%20alone.>
+* [Granger causality](http://www.scholarpedia.org/article/Granger_causality#:~:text=Granger%20causality%20is%20a%20statistical,values%20of%20X2%20alone.) [@granger-casualty]
 
 Example From [1] @time-series-analysis-guide
 
@@ -57,6 +55,6 @@ Test the following codes below:
 
 ## Reference
 
-* [1] @time-series-analysis-guide <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+* [1] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
-* [2] @granger-casualty <http://www.scholarpedia.org/article/Granger_causality#:~:text=Granger%20causality%20is%20a%20statistical,values%20of%20X2%20alone.>
+* [2] <http://www.scholarpedia.org/article/Granger_causality#:~:text=Granger%20causality%20is%20a%20statistical,values%20of%20X2%20alone.>

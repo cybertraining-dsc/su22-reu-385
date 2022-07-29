@@ -5,11 +5,9 @@ Integrated Moving Average'. it is a class of statistical models for
 analyzing and forecasting time series data. The ARIMA
 model is defined by three Values namely: p, d, and q.
 
-Extensive documents on ARIMA Time series prediction are available at
+* [How to Create an ARIMA Model for Time Series Forecasting in Python](https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/) [@time-series-analysis-guide]
 
-* <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
-
-* <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
+* [ARIMA Model – Complete Guide to Time Series Forecasting in Python](https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.) [@arima]
 
 
 where:
@@ -176,6 +174,6 @@ Test the following codes below:
 
 ## References
 
-* [1] @time-series-analysis-guide Create an ARIMA Model for Time Series <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
+* [1] <https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/>
 
-* [2] @arima ARIMA Model – Complete Guide to Time Series Forecasting in Python <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>
+* [2] <https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/#:~:text=ARIMA%2C%20short%20for%20'AutoRegressive%20Integrated,to%20predict%20the%20future%20values.>

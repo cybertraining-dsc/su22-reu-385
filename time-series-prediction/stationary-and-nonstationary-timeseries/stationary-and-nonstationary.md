@@ -10,17 +10,15 @@ auto correlation, remain constant over time. The auto correlation
 of a series is simply the correlation of the series with its 
 previous values.
 
-Extensive documents on stationary and Non-Stationary Time Series are available at
+* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@time-series-analysis-guide]
 
-* <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+* [Intro to Stationary and Non-Stationary Processes](https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.) [@nonstationary-process]
 
-* <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
+* [A Gentle Introduction to Handling a Non-Stationary Time Series in Python](https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/) [@nonstationary]
 
-* <https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/>
+* [How to Check if Time Series Data is Stationary with Python?](https://www.geeksforgeeks.org/how-to-check-if-time-series-data-is-stationary-with-python/.) [@stationary-with-python]
 
-* <https://www.geeksforgeeks.org/how-to-check-if-time-series-data-is-stationary-with-python/>
-
-* <https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html>
+* [Stationarity and detrending (ADF/KPSS)](https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html) [@stationary]
 
 ### How to make a time series stationary?
 
@@ -217,12 +215,12 @@ Test the following code below:
 
 ## References
 
-* [1] @time-series-analysis-guide Time Series Analysis in Python <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+* [1] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
-* [2] @nonstationary-process Intro to Stationary and Non-Stationary Processes <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
+* [2] <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
 
-* [3] @nonstationary Methods to Check Stationary <https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/>
+* [3] <https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/>
 
-* [4] @stationary-with-python How to Check if Time Series Data is Stationary with Python? <https://www.geeksforgeeks.org/how-to-check-if-time-series-data-is-stationary-with-python/>
+* [4] <https://www.geeksforgeeks.org/how-to-check-if-time-series-data-is-stationary-with-python/>
 
-* [5] @stationary Stationarity and detrending (ADF/KPSS) <https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html>
+* [5] <https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html>

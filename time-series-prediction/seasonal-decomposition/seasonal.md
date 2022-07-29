@@ -6,12 +6,9 @@ a function called `seasonal_decompose()`, the statsmodels library
 implements the naive, or classical, decomposition method. You must 
 specify whether the model is additive or multiplicative.
 
-An extensive documentation on seasonal decomposition and deseasonalising of stat model is
-available at
+* [Time Series Analysis in Python – A Comprehensive Guide with Examples](https://www.machinelearningplus.com/time-series/time-series-analysis-python/) [@time-series-analysis-guide]
 
-* <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
-
-* <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
+* [How to Decompose Time Series Data into Trend and Seasonality](https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative) [@decompose]
 
 ## Additive Decomposition
 
@@ -110,8 +107,8 @@ Test the following codes below:
 
 ## References
 
-* [1] How to Decompose Time Series Data into Trend and Seasonality  @decompose <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
+* [1]  <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
 
-* [2] @time-series-analysis-guide <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+* [2]  <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
 
 
