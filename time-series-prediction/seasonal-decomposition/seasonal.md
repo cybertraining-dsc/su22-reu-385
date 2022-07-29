@@ -20,7 +20,7 @@ $$ y(t) = Level + Trend + Seasonality + Noise $$
 We can decompose a time series that are made up of a linearly increasing trend from
 1 to 99,and random noise as an additive model.
 
-Example from [1] @decompose
+The following example showcase the Additive Decomposition. It is copied from [@decompose]
 
 ```python
 from random import randrange
@@ -33,6 +33,8 @@ pyplot.show()
 ```
 
 ![Additive Decomposition](images/additive.png){#fig:additive}
+
+Figure @fig:additive shows a graphs that give a visual explanation of the Additive Decomposition of Time series.
 
 ## Multiplicative Decomposition
 
@@ -49,7 +51,7 @@ over time.
 We can create a quadratic time series by using the square of the time step from 
 1 to 99 and decomposing it using a multiplicative model.
 
-Example from [1] @decompose
+The following example showcase the Multiplicative Decomposition. It is copied from [@decompose]
 
 ```python
 from matplotlib import pyplot
@@ -59,11 +61,12 @@ data = [i ** 4.0 for i in range(10, 150)]
 result = seasonal_decompose(data, model='multiplicative', period=2)
 result.plot()
 pyplot.show()
-
 ```
 ![Multiplicative Decomposition](images/multiplicative.png){#fig:multiplicative}
 
-## Desasonalising of Time Series
+Figure @fig:multiplicative shows a graphs that give a visual explanation of the Multiplicative Decomposition of Time series.
+
+## Deseasonalising of Time Series
 
 This is process of removing seasonality from time series 
 
@@ -75,7 +78,7 @@ There are several methods for deseasonalising a time series. Here are a few :
 
 * Divide the series by the seasonal index obtained from STL decomposition
 
-Example from [1],[2] @decompose @time-series-analysis-guide
+ The following example showcase the deseasonalizing of time series . It is copied from [@decompose] 
 
 ```python
 from matplotlib import pyplot as plt
@@ -97,18 +100,14 @@ plt.show()
 
 ![Deseasonalizing a time series](images/deseasonalize.png){#fig:deseasonalizing}
 
-Test the following codes below:
+Figure @fig:deseasonalizing shows a graphs that give a visual explanation of the Deseasonalizing a Time series.
 
-* Additive Decomposition <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/seasonal-decomposition/additive-decomposition.py>
+Example programs to showcase specific features are listed next:
 
-* Multiplicative Decomposition <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/seasonal-decomposition/multiplicative-decomposition.py>
+* [Additive Decomposition](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/seasonal-decomposition/additive-decomposition.py)
 
-* Deseasonalize  <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/seasonal-decomposition/deseasonalize.py>
+* [Multiplicative Decomposition](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/seasonal-decomposition/multiplicative-decomposition.py)
 
-## References
-
-* [1]  <https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/#:~:text=The%20statsmodels%20library%20provides%20an,model%20is%20additive%20or%20multiplicative.>
-
-* [2]  <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
+* [Deseasonalize](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/seasonal-decomposition/deseasonalize.py)
 
 

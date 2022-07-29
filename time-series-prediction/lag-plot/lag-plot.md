@@ -46,7 +46,7 @@ When the lag plot produces a linear plot, it indicates that autocorrelation exis
 in the data; whether it is positive or negative depends on the slope of the dataset's
 line.
 
-Example from [1] @lag-geeksforgeeks
+The following example showcase the lag plot. It is copied from [@lag-geeksforgeeks]
 
 ``` python
 # Import Libraries
@@ -89,12 +89,7 @@ plt.show()
 Figure @fig:lag-plot shows two graphs with that visualize the lag plot, where the graph 
 show a pattern, which leaves us with the result that the series is correlated.
 
-To test the following code:
+Example programs to showcase specific features are listed next:
 
-* <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/lag-plot/lag-plot.py>
+* [Lag plot, lag-plot.py](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/lag-plot/lag-plot.py)
 
-## Reference
-
-* [1] <https://www.geeksforgeeks.org/lag-plots>
-
-* [2] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>

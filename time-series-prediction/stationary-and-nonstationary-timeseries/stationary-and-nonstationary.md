@@ -84,8 +84,6 @@ pyplot.show()
 
 Figure @fig:visual shows a graphs that give a visual explanation on the visual test for stationary.
 
-
-
 ### Statistical test
 
 Statistical tests such as the unit root stationary tests can be used. The 
@@ -112,7 +110,7 @@ The Dickey-Fuller test is a well-known statistical test. It can be used to deter
 whether a series contains a unit root, and thus whether the series is stationary.
 This test's null and alternate hypotheses are as follows:
 
-Example from [4] @stationary-with-python
+The following example showcase the ADH test. It is copied from [@stationary-with-python].
 
 ```python
 # import python pandas package
@@ -156,14 +154,14 @@ test are the inverse of those for the ADF test, which frequently leads to confus
 The KPSS test's authors defined the null hypothesis as the process being trend stationary,
 as opposed to an alternate hypothesis of a unit root series.
 
-Example from [5] @stationary
+ The following example showcase the KPSS test. It is copied from [@stationary].
 
 ```python
 import pandas as pd
 from statsmodels.tsa.stattools import kpss
 
 data = pd.read_csv(
-    "https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-series-prediction/temperature2.csv",
+    "https://raw.githubusercontent.com/cybertraining-dsc/su22-reu-385/main/time-serThe following example showcase the KPSS test. It is copied fromies-prediction/temperature2.csv",
     header=0, index_col=0)
 print("Results of KPSS Test:")
 kpsstest = kpss(data, regression="c", nlags="auto")
@@ -201,22 +199,12 @@ either strict stationary or trend stationary.
 A difference stationary time series is one that can be made strict stationary by differencing.
 ADF tests are also referred to as difference Stationary tests.
 
-Test the following code below:
+Example programs to showcase specific features are listed next:
 
-* Augmented Dickey Fuller test (ADH Test) <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/stationary-and-nonstationary-timeseries/adh-test.py>
+* [Augmented Dickey Fuller test (ADH Test), adh-test.py](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/stationary-and-nonstationary-timeseries/adh-test.py)
 
-* Visual Test <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/stationary-and-nonstationary-timeseries/visual.py>
+* [Visual Test, visual.py](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/stationary-and-nonstationary-timeseries/visual.py)
 
-* Kwiatkowski-Phillips-Schmidt-Shin – KPSS test <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/stationary-and-nonstationary-timeseries/kpss.py>
+* [Kwiatkowski-Phillips-Schmidt-Shin – KPSS test, kpss.py](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/stationary-and-nonstationary-timeseries/kpss.py)
 
-## References
 
-* [1] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
-
-* [2] <https://www.investopedia.com/articles/trading/07/stationary.asp#:~:text=Non%2DStationary%20Processes-,Non%2DStationary%20Time%20Series%20Data,cannot%20be%20modeled%20or%20forecasted.>
-
-* [3] <https://www.analyticsvidhya.com/blog/2018/09/non-stationary-time-series-python/>
-
-* [4] <https://www.geeksforgeeks.org/how-to-check-if-time-series-data-is-stationary-with-python/>
-
-* [5] <https://www.statsmodels.org/devel/examples/notebooks/generated/stationarity_detrending_adf_kpss.html>

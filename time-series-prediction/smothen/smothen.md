@@ -25,8 +25,8 @@ will over-smooth the series.
 LOESS, which stands for 'LOcalized regrESSion,' fits multiple regressions
 in each point's local neighborhood. It is implemented in the `statsmodels`
 package, and the degree of smoothing can be controlled using the `frac` argument.
-
-Example from [2] @smoothing
+ 
+The following example showcase the smoothing of time series. It is copied from [@smoothing].
 
 ```python
 import numpy as np
@@ -60,14 +60,12 @@ plt.show()
 
 ![Smothen a Time series](images/smoothen.png){fig:smoothen}
 
-Figure @fig:smoothen shows a graphs that give a visual explanation on smoothen a time series.
+Figure @fig:smoothen shows a graphs that give a visual explanation on smoothen a time series,
+its show the original time series it also show smoothing the time series using the moving average,
+and localize regression techniques.
 
-Test the following code below:
+Example programs to showcase specific features are listed next:
 
-* <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/smothen/smothen.py>
+* [Smoothen time series, smothen.py](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/smothen/smothen.py)
 
-## Reference
 
-* [1] <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
-
-* [2] <https://machinelearningmastery.com/moving-average-smoothing-for-time-series-forecasting-python/#:~:text=Smoothing%20is%20a%20technique%20applied,of%20the%20underlying%20causal%20processes.>

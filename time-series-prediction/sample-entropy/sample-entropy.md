@@ -21,9 +21,7 @@ to use the library you will install using `pip`
 $ pip install sampen
 ```
 
-## Python Example
-
-Example from [3] @sampen
+The following example showcase the Sample Entropy. It is copied from [@sampen]
 
 ``` python
 from sampen import sampen2, normalize_data
@@ -65,20 +63,11 @@ print(sampen_of_series)
   0.007540128072706757
 
 ```
-To test the following code:
+Example programs to showcase specific features are listed next:
 
-* <https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/sample-entropy/sample-entropy.py>
+* [Sample Entropy, sample-entropy.py](https://github.com/cybertraining-dsc/su22-reu-385/blob/main/time-series-prediction/sample-entropy/sample-entropy.py)
 
-## Reference
 
-* [1]  <https://pythonmana.com/2022/130/202205101057060253.html>
 
-* [2]  <https://www.machinelearningplus.com/time-series/time-series-analysis-python/>
-
-* [3]  <https://sampen.readthedocs.io/en/stable/>
-
-### Dataset:
-
-* <https://www.physionet.org/content/sampen/1.0.0/c/sampentest.txt>
 
 
