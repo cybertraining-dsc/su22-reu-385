@@ -3,8 +3,7 @@
 An ANOVA test is used to determine whether survey or 
 experiment results are significant. In other words, they 
 assist you in determining whether you should reject the 
-null hypothesis or accept the alternative hypothesis. it's 
-categories into two namely
+null hypothesis or accept the alternative hypothesis.
 
 * [ANOVA Test: Definition, Types, Examples, SPSS](https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/anova/) [@www-anova-test]
 
@@ -18,6 +17,8 @@ Note: A null hypothesis test predicts that there is
 no relationship between variables, whereas the alternative 
 hypothesis states that your research predictions are related.
 
+There are two main types of ANOVAs:
+
 * One Way ANOVA
 * Two Way ANOVA
 
@@ -30,7 +31,8 @@ of multiple groups. For example, you might be studying the
 amount of task for all the individual and given them a score
 per how efficient they performed the task as shown.
 
-The following example showcase the One way ANOVA. It is copied from [@www-one-way-anova]
+The following example showcases the One way ANOVA. It is copied from 
+[@www-one-way-anova]
 
 ``` python
 
@@ -66,17 +68,16 @@ performance of the students are similar
 ## Two Way ANOVA
 
 A Two Way ANOVA is an extension of the One Way ANOVA. With a 
-One Way ANOVA, you have one independent variable affecting a dquantitative outcomeependent 
-variable. With a Two Way ANOVA, there are two independents. Use a 
-Two way ANOVA when you have one dependent variable and two independent 
-variables. In other words, if your experiment has a , 
-and you have two independent variables, a two-way ANOVA is appropriate.
-To manage a Two Way ANOVA data set two python libraries are helpful which 
-are NumPy and panda. to perform the Two Way ANOVA the
-statistical model is needed, known as the stats model. stats models is a
-Python package that provides descriptive statistics and estimation and 
-inference for statistical models. to install the python
-libraries using `pip` 
+One Way ANOVA, you have one independent variable affecting a quantitative 
+outcome dependent variable. With a Two Way ANOVA, there are two independents. Use a 
+Two Way ANOVA when you have one dependent variable and two independent 
+variables. In other words, if your experiment has two independent variables, 
+a two-way ANOVA is appropriate. To manage a Two Way ANOVA data set, two 
+Python libraries are helpful which are NumPy and pandas. To perform the Two 
+Way ANOVA, the statistical model is needed, known as the stats model. 
+statsmodels is a Python package that provides descriptive statistics and 
+estimation and inference for statistical models. To install the Python
+libraries using `pip`, execute the following commands:
 
 Dataset Management Libraries
 ```
@@ -88,7 +89,8 @@ Statistical models Library
 pip install statsmodels
 ```
 
-The following example showcase the Two way ANOVA. It is copied from [@www-two-way-anova]
+The following example showcase the Two Way ANOVA. It is copied from 
+[@www-two-way-anova]
 
 ``` python
 import numpy as np
@@ -147,6 +149,6 @@ Example programs to showcase specific features are listed next::
 
 The ANOVA time series prediction deals with using the grand 
 mean of the occurrence of past to predict the output of what 
-the probable output will be in the future. the example in the TWO Way ANOVA
+the probable output will be in the future. The example in the Two Way ANOVA
 section that predicts a user social media growth is a perfect example of 
 the predicting time series with ANOVA.
